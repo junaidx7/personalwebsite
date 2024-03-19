@@ -1,0 +1,30 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "package-lock.json": true,
+        "package.json": true,
+        "README.md": true,
+        ".gitignore": true,
+        "public": true,
+        "node_modules": true,
+        ".vscode": true,
+        "src/setupTests.js": true,
+        "src/index.js": true
+    },
+    "hide-files.files": [
+        "package-lock.json",
+        "package.json",
+        "README.md",
+        ".gitignore",
+        "public",
+        "node_modules",
+        ".vscode",
+        "src/setupTests.js",
+        "src/index.js"
+    ]
+}

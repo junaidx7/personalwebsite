@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './color';
+
+//________________________________________________________________________________________________________________________
+
+
+//________________________________________________________________________________________________________________________
+
+
+$base: 16px;
+
+
+//Font Size
+$bigtext: 6.22rem;
+
+$h1: $base * 4;
+$h2: $base * 3;
+$h3: $base * 2.438;
+$h4: $base * 1.953;
+$h5: $base * 1.438;
+$h6: $base * 1.25;
+
+$p-xs: $base * 0.75;
+$p-sm: $base * 1;
+$p-md: $base * 1.12;
+$p-lg: $base * 1.438;
+$p-xl: $base * 1.7; //sub text on the home page
+$p-overline-sm: $base * 0.875;
+$p-overline-md: $base * 1;
+
+$button-font-size :$base *0.9;
+
+//Weight
+$bigtext-weight: 400;
+$h1-weight: 500;
+$h2-weight: 500;
+$h3-weight: 500;
+$h4-weight: 400;
+$h5-weight: 400;
+$h6-weight: 300;
+
+$p-xs-weight: 300;
+$p-sm-weight: 300;
+$p-md-weight: 300;
+$p-lg-weight: 300;
+$p-xl-weight: 300;
+$p-title-weight: 600;
+
+$p-overline-sm-weight: 400;
+$p-overline-md-weight: 400;
+
+$button-font-weight : 600;
+
+
+
+//Letterspacing
+$bigtext-letterspacing: -0.5rem;
+$h1-letterspacing :-0.05rem;
+$h2-letterspacing :-0.05rem;
+$h3-letterspacing :-0.05rem;
+$h4-letterspacing :-0.05rem;
+$h5-letterspacing :-0.05rem;
+$h6-letterspacing :-0.05rem;
+
+$p-xs-letterspacing :-0.01rem;
+$p-sm-letterspacing :-0.01rem;
+$p-md-letterspacing :-0.01rem;
+$p-lg-letterspacing :-0.01rem;
+$p-xl-letterspacing :-0.05rem;
+$p-overline-sm-letterspacing :-0.01rem;
+$p-overline-md-letterspacing :-0.01rem;
+
+$button-font-letterspacing : 2px;
+
+
+//Line height
+$bigtext-lineheight: 97%;
+$h1-lineheight :130%;
+$h2-lineheight :130%;
+$h3-lineheight :130%;
+$h4-lineheight :140%;
+$h5-lineheight :130%;
+$h6-lineheight :130%;
+
+$p-xs-lineheight :160%;
+$p-sm-lineheight :160%;
+$p-md-lineheight :160%;
+$p-lg-lineheight :160%;
+$p-xl-lineheight :150%;
+$p-overline-sm-lineheight :130%;
+$p-overline-md-lineheight :130%;
+
+
+//________________________________________________________________________________________________________________________
+
+
+html {
+    font-size: $base;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+
+    font-family: 'Inter', sans-serif;
+    color: white;
+
+
+
+}
+
+//p{
+//  font-family: 'montreal',sans-serif;
+//color: white;
+
+//}
+
+
+
+h1 {
+    font-size: $h1;
+    font-weight: $h1-weight;
+    letter-spacing: $h1-letterspacing;
+    line-height: $h1-lineheight;
+
+
+}
+
+h2 {
+    font-size: $h2;
+    font-weight: $h2-weight;
+    letter-spacing: $h2-letterspacing;
+    line-height: $h2-lineheight;
+}
+
+h3 {
+    font-size: $h3;
+    font-weight: $h3-weight;
+    letter-spacing: $h3-letterspacing;
+    line-height: $h3-lineheight;
+}
+
+h4 {
+    font-size: $h4;
+    font-weight: $h4-weight;
+    letter-spacing: $h4-letterspacing;
+    line-height: $h4-lineheight;
+
+}
+
+h5 {
+    font-size: $h5;
+    font-weight: $h5-weight;
+    letter-spacing: $h5-letterspacing;
+    line-height: $h5-lineheight;
+}
+
+h6 {
+    font-size: $h6;
+    font-weight: $h6-weight;
+    letter-spacing: $h6-letterspacing;
+    line-height: $h6-lineheight;
+}
+
+p.xs {
+    font-size: $p-xs;
+    font-weight: $p-xs-weight;
+    letter-spacing: $p-xs-letterspacing;
+    line-height: $p-xs-lineheight;
+}
+
+p.sm {
+    font-size: $p-sm;
+    font-weight: $p-sm-weight;
+    letter-spacing: $p-sm-letterspacing;
+    line-height: $p-sm-lineheight;
+}
+
+p.md {
+    font-size: $p-md;
+    font-weight: $p-md-weight;
+    letter-spacing: $p-md-letterspacing;
+    line-height: $p-md-lineheight;
+}
+
+p.lg {
+    font-size: $p-lg;
+    font-weight: $p-lg-weight;
+    letter-spacing: $p-lg-letterspacing;
+    line-height: $p-lg-lineheight;
+
+}
+
+p.xl {
+    font-size: $p-lg;
+    font-weight: $p-lg-weight;
+    letter-spacing: $p-lg-letterspacing;
+    line-height: $p-lg-lineheight;
+
+}
+
+.subtext-under-bigtext {
+    color: #e9e9e9 !important;
+    max-width: 70%;
+    font-size: 1.8rem;
+    line-height: 160% !important;
+    font-weight: $p-lg-weight;
+    line-height: $h4-lineheight;
+
+
+
+}
+
+p.xs-title {
+    @extend .xs;
+    font-weight: $p-title-weight;
+}
+
+
+p.sm-title {
+    @extend .sm;
+    font-weight: $p-title-weight;
+}
+
+p.md-title {
+    @extend .md;
+    font-weight: $p-title-weight;
+
+}
+
+p.lg-title {
+    @extend .lg;
+    font-weight: $p-title-weight;
+
+}
+
+
+
+p.overline-sm {
+    font-size: $p-overline-sm;
+    font-weight: $p-overline-sm-weight;
+    letter-spacing: $p-overline-sm-letterspacing;
+    line-height: $p-overline-sm-lineheight;
+}
+
+p.overline-md {
+    font-size: $p-overline-md;
+    font-weight: $p-overline-md-weight;
+    letter-spacing: $p-overline-md-letterspacing;
+    line-height: $p-overline-md-lineheight;
+}
+
+.bigtext {
+
+    font-family: 'Inter';
+    font-size: $bigtext;
+    font-weight: $bigtext-weight;
+    letter-spacing: $bigtext-letterspacing;
+    line-height: $bigtext-lineheight;
+    color: $text;
+
+}
+
+.junaid {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 7.6rem;
+    color: $primary;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: -0.3rem;
+}
+
+
+//Weight 
+
+//100

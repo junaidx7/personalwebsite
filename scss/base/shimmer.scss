@@ -1,0 +1,19 @@
+
+
+body {
+		background: #000;
+}
+
+
+.shimmer {
+    font-family: 'Times New Roman';
+    font-size: 7.6rem;
+    font-style: italic;
+    animation: shimmer 5s infinite linear;
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+

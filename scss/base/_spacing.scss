@@ -1,0 +1,12 @@
+$base-spacing: 0.25rem; //=4px when base font =16px
+
+$spacing-xs: $base-spacing * 0.5; //---2px
+$spacing-sm: $base-spacing * 1; //-----4px
+$spacing-md: $base-spacing * 2; //-----8px
+$spacing-lg: $base-spacing * 4; //-----16px
+$spacing-xl: $base-spacing * 8; //-----32px
+$spacing-2xl: $base-spacing * 16; //---64px
+$spacing-3xl: $base-spacing * 32; //---128px
+$spacing-4xl: $base-spacing * 64; //---256px
+$spacing-5xl: $base-spacing * 128; //--512px
+
