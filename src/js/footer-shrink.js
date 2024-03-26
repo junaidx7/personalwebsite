@@ -5,8 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", function () {
       // ADD .TIGHT
       if (
-        window.scrollY + window.innerHeight > wrapper.offsetHeight
-      ) {
+        window.scrollY + window.innerHeight > wrapper.offsetHeight) {
         document.body.classList.add("tight");
         arrow.style.display = "none";
       } else {

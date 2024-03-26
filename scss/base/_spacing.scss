@@ -1,3 +1,4 @@
+
 $base-spacing: 0.25rem; //=4px when base font =16px
 
 $spacing-xs: $base-spacing * 0.5; //---2px
@@ -10,3 +11,166 @@ $spacing-3xl: $base-spacing * 32; //---128px
 $spacing-4xl: $base-spacing * 64; //---256px
 $spacing-5xl: $base-spacing * 128; //--512px
 
+.bottom-xs {
+    margin-bottom: $spacing-xs;
+}
+
+.bottom-sm {
+    margin-bottom: $spacing-sm;
+}
+
+.bottom-md {
+    margin-bottom: $spacing-md;
+}
+
+.bottom-lg {
+    margin-bottom: $spacing-lg;
+}
+
+.bottom-xl {
+    margin-bottom: $spacing-xl;
+}
+
+.bottom-2xl {
+    margin-bottom: $spacing-2xl;
+}
+
+.bottom-3xl {
+    margin-bottom: $spacing-3xl;
+}
+
+.bottom-4xl {
+    margin-bottom: $spacing-4xl;
+}
+
+.bottom-5xl {
+    margin-bottom: $spacing-5xl;
+}
+
+
+
+//-------------------------------
+
+
+
+.top-xs {
+    margin-top: $spacing-xs;
+}
+
+.top-sm {
+    margin-top: $spacing-sm;
+}
+
+.top-md {
+    margin-top: $spacing-md;
+}
+
+.top-lg {
+    margin-top: $spacing-lg;
+}
+
+.top-xl {
+    margin-top: $spacing-xl;
+}
+
+.top-2xl {
+    margin-top: $spacing-2xl;
+}
+
+.top-3xl {
+    margin-top: $spacing-3xl;
+}
+
+.top-4xl {
+    margin-top: $spacing-4xl;
+}
+
+.top-5xl {
+    margin-top: $spacing-5xl;
+}
+
+
+
+//-------------------------------
+
+
+.left-xs {
+    margin-left: $spacing-xs;
+}
+
+.left-sm {
+    margin-left: $spacing-sm;
+}
+
+.left-md {
+    margin-left: $spacing-md;
+}
+
+.left-lg {
+    margin-left: $spacing-lg;
+}
+
+.left-xl {
+    margin-left: $spacing-xl;
+}
+
+.left-2xl {
+    margin-left: $spacing-2xl;
+}
+
+.left-3xl {
+    margin-left: $spacing-3xl;
+}
+
+.left-4xl {
+    margin-left: $spacing-4xl;
+}
+
+.left-5xl {
+    margin-left: $spacing-5xl;
+}
+
+//-------------------------------
+
+
+.right-xs {
+    margin-right: $spacing-xs;
+}
+
+.right-sm {
+    margin-right: $spacing-sm;
+}
+
+.right-md {
+    margin-right: $spacing-md;
+}
+
+.right-lg {
+    margin-right: $spacing-lg;
+}
+
+.right-xl {
+    margin-right: $spacing-xl;
+}
+
+.right-2xl {
+    margin-right: $spacing-2xl;
+}
+
+.right-3xl {
+    margin-right: $spacing-3xl;
+}
+
+.right-4xl {
+    margin-right: $spacing-4xl;
+}
+
+.right-5xl {
+    margin-right: $spacing-5xl;
+}
+
+//--- RADIUS ----------------------------
+
+.image-radius{
+   border-radius: 0.5rem;
+}

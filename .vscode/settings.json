@@ -14,7 +14,8 @@
         "node_modules": true,
         ".vscode": true,
         "src/setupTests.js": true,
-        "src/index.js": true
+        "src/index.js": true,
+        "gulpfile.js": true
     },
     "hide-files.files": [
         "package-lock.json",
@@ -25,6 +26,7 @@
         "node_modules",
         ".vscode",
         "src/setupTests.js",
-        "src/index.js"
+        "src/index.js",
+        "gulpfile.js"
     ]
 }

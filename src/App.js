@@ -1,71 +1,42 @@
 import './css/index.css';
-import Head from './components/Home/head';
-import Header from './components/Home/header';
-import Projects from './components/Home/projects';
-import Precision from './components/Home/precision';
-import Testament from './components/Home/testament';
-import See from './components/Home/see';
+
 import FooterModern from './components/footer-modern'
-import ProjectGrid from './components/Home/projectGrid'
-import Aboutme from './components/Home/aboutme'
+import Home from './components/Home/home'
 
-import { useEffect } from 'react';
-import Skills from './components/Home/skills';
-
+import Demotextscale from './components/demotextscale'
+import Accounting from './components/Projects/Accounting'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 function App() {
 
 
 
-
-  useEffect(() => {
-
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  function handleScroll() {
-    const wrapper = document.querySelector(".wrapper");
-    if (window.scrollY + window.innerHeight > wrapper.offsetHeight) {
-      document.body.classList.add("tight");
-    } else {
-      document.body.classList.remove("tight");
-    }
-  }
-
-
-
-
   return (
 
+    <Router>
 
-    <div className='master-wrapper'>
 
-      <div className='wrapper' >
+      <div className='master-wrapper'>
 
-        <div id="blob"></div>
-        <div id="blur"></div>
-
-        <Head></Head>
-      
-      
-        <ProjectGrid></ProjectGrid>
-        <Precision></Precision>
        
-        <Skills></Skills>
-        <Aboutme></Aboutme>
 
+        <div className='wrapper' >
+
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/textscale" element={<Demotextscale />} />
+            <Route path="/accounting" element={<Accounting />} />
+          </Routes>
+
+
+        </div>
+
+        <FooterModern></FooterModern>
 
       </div>
 
-      <FooterModern></FooterModern>
-
-    </div>
+    </Router>
 
 
   );

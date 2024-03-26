@@ -1,6 +1,7 @@
 
 import { useEffect } from 'react';
 import arr from '../Home/arrow-svg.svg'
+import { Link } from 'react-router-dom';
 
 // Use myFunction wherever needed
 
@@ -25,14 +26,17 @@ const Projects = () => {
             <div className="maxwidth-container-withflex" id="project3">
 
 
-                <h4>Selected Work</h4>
+                <h4>Selecteddd Work</h4>
+                
+                <Link to="/textscale"> <button>Text Scale</button> </Link>
 
 
                 <div className="inter-component-spacing">
 
                     <div className="projects_main_div">
 
-                        <div id="responsivelink-1" href="/html/accounting.html">
+
+                        <Link to="/accounting" id="responsivelink-1" > 
 
                             <div className="project" id='pro1' data-tilt data-tilt-glare data-tilt-max-glare="0.8">
 
@@ -43,7 +47,7 @@ const Projects = () => {
                                 <img className='arr' src={arr} alt="" />
                             </div>
 
-                        </div>
+                        </Link>
 
                         <div id="responsivelink-2" href="/html/digital-menu.html">
 

@@ -1,6 +1,8 @@
 import { annotate, annotationGroup } from 'rough-notation';
 import { useEffect } from 'react';
 import prizigner from '../Home/prizigner.mp4'
+import { Link } from 'react-router-dom';
+import opendot from '../Home/opendot.svg'
 
 
 const Head = () => {
@@ -23,6 +25,7 @@ const Head = () => {
     return (
 
         <section className="head-section section-gap" id="head2">
+
 
             <div className='maxwidth-container-withflex'>
 
@@ -49,11 +52,22 @@ const Head = () => {
 
 
                 <div className="button-div">
+                    <Link to="/textscale"> <button>Text Scale</button> </Link>
+
+
                     <a href="https://drive.google.com/file/d/19AODfKqacBF0SPcbvBt9XlzMNNoSCq-V/view?usp=sharing"
                         target="_blank"> <button>Resume</button> </a>
 
 
                     <a href="https://www.linkedin.com/in/uiuxdesignerjunaid/" target="_blank"> <button>Linkedin</button> </a>
+
+
+
+
+
+
+
+
                 </div>
 
 

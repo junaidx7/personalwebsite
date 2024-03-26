@@ -9,7 +9,8 @@
 .textandarrow{
     display: flex;
     flex-direction: row;
-    gap: 0.3rem;
+    gap: 0.5rem;
+    align-items: center;
    
    
 }
@@ -28,7 +29,7 @@
 
 .getintouch-title{
     font-weight: 400;
-    color:$subtext;
+    color:$w-subtext;
 }
 
 
@@ -52,13 +53,20 @@
     max-width: 1200px;
     margin: auto;
     padding-bottom: $spacing-2xl;
+    padding-top: $spacing-3xl;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 6rem;
  
   
   }
 
   .opentowork{
     max-width: 18%;
+  }
+
+  .details-text{
+ 
+    color: $w-text !important;
+    font-weight: 400 !important;
   }
