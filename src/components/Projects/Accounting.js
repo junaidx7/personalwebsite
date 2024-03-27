@@ -11,6 +11,7 @@ import { useEffect } from 'react';
 import HeaderBack from '../Home/header-back'
 import { Link } from 'react-router-dom';
 import HeaderProduct from '../Projects/header-product'
+import { accountingContent } from '../Projects/content';
 
 
 const Accounting = () => {
@@ -67,6 +68,8 @@ const Accounting = () => {
                        
                         <BlockText></BlockText>
 
+                        <BlockText title={accountingContent.intro_title} content={accountingContent.intro_paragraph} />
+
 
                         <Role></Role>
                         <TitlePara></TitlePara>
@@ -80,13 +83,6 @@ const Accounting = () => {
                     </div>
 
                 </div>
-
-
-
-
-
-
-
 
             </section>
 

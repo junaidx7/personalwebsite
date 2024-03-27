@@ -13,6 +13,7 @@ $base: 16px;
 //Font Size
 $bigtext: 6.22rem;
 
+
 $h1: $base * 4;
 $h2: $base * 3;
 $h3: $base * 2.438;
@@ -42,7 +43,7 @@ $h6-weight: 300;
 $p-xs-weight: 400;
 $p-sm-weight: 400;
 $p-md-weight: 400;
-$p-lg-weight: 400;
+$p-lg-weight: 300;
 $p-xl-weight: 400;
 $p-title-weight: 600;
 
@@ -213,8 +214,6 @@ p.xl {
     font-weight: $p-lg-weight;
     line-height: $h4-lineheight;
 
-
-
 }
 
 p.xs-title {
@@ -265,6 +264,21 @@ p.overline-md {
     line-height: $bigtext-lineheight;
     color: $text;
 
+}
+
+@media (max-width: 767px) {
+
+    .bigtext {
+
+        font-family: 'Inter Tight';
+        font-size: 3.22rem;
+        font-weight: $bigtext-weight;
+        letter-spacing: $bigtext-letterspacing;
+        line-height: $bigtext-lineheight;
+        color: $text;
+    
+    }
+    
 }
 
 .junaid {

@@ -7,7 +7,6 @@
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
         "package-lock.json": true,
-        "package.json": true,
         "README.md": true,
         ".gitignore": true,
         "public": true,
@@ -19,7 +18,6 @@
     },
     "hide-files.files": [
         "package-lock.json",
-        "package.json",
         "README.md",
         ".gitignore",
         "public",
