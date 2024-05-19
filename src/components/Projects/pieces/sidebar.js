@@ -86,7 +86,7 @@ const Sidebar = () => {
     return (
         <aside>
             <ul id='toc-container' className="tocc">
-                <p className="sm primary w400">Go to</p>
+                <p className="sm primary w400">Contents</p>
             </ul>
         </aside>
     );

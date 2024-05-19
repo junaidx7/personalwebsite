@@ -14,7 +14,13 @@
         ".vscode": true,
         "src/setupTests.js": true,
         "src/index.js": true,
-        "gulpfile.js": true
+        "gulpfile.js": true,
+        "src/App.js": true,
+        "package.json": true,
+        "src/test.js": true,
+        "scss/animations": true,
+        "src/css": true,
+        "src/css/index.css": true
     },
     "hide-files.files": [
         "package-lock.json",
@@ -25,6 +31,12 @@
         ".vscode",
         "src/setupTests.js",
         "src/index.js",
-        "gulpfile.js"
+        "gulpfile.js",
+        "src/App.js",
+        "package.json",
+        "src/test.js",
+        "scss/animations",
+        "src/css",
+        "src/css/index.css"
     ]
 }

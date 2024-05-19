@@ -17,6 +17,40 @@ export const accountingContent = {
 
 
 
+export const hourglassContent = {
+
+    title: 'Description',
+    content: 'Hourglass is a software designed to help freelancers keep track of their billable hours and easily generate invoices from the tracked hours. it isnt just a tool; its a trusted ally for freelancers, empowering them to focus on their craft while effortlessly managing the administrative aspects of their business. With Hourglass by their side, freelancers can reclaim their time and optimize their productivity.',
+
+    title: 'My Role',
+    content: 'Please add this text',
+
+    title: 'Target Audience',
+    content: 'Freelancers who mostly works alone, and have to do time keeping, billing and accounting all by themselves. ',
+
+    title: 'text',
+    content: 'This is a long content for Page 2. It can also span multiple lines and contain any text or markup.',
+
+    title: 'text',
+    content: 'This is a long content for Page 2. It can also span multiple lines and contain any text or markup.',
+
+    title: 'text',
+    content: 'This is a long content for Page 2. It can also span multiple lines and contain any text or markup.',
+
+    title: 'text',
+    content: 'This is a long content for Page 2. It can also span multiple lines and contain any text or markup.',
+
+    title: 'text',
+    content: 'This is a long content for Page 2. It can also span multiple lines and contain any text or markup.',
+
+    title: 'text',
+    content: 'This is a long content for Page 2. It can also span multiple lines and contain any text or markup.',
+
+
+    
+};
+
+
 export const page2Content = {
 
     title: 'Page 2 Title',

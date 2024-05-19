@@ -1,14 +1,39 @@
-const TitlePara = () => {
+const TitlePara = ({
+  heading,
+  body,
+  body1,
+  body2,
+  overline,
+  ImageC,
+  link,
+  linktext,
+  alttext,
+}) => {
+  return (
+    <section className="maxwidth-container-text sfc">
+      <div>
+        {overline && <p className="overline-heading">{overline}</p>}
 
-    return (
+        {heading && (
+          <h4 id="section1" className="below-title-spacing primarylight">
+            {heading}
+          </h4>
+        )}
 
-        <section className="maxwidth-container-text sfc">
-            <h4 id="section1" className="below-title-spacing primarylight">Debbie had taken George</h4>
-            <p className="md subtext">He knew what he was supposed to do. That had been apparent from the beginning. That was what made the choice so difficult. What he was supposed to do and what he would do were not the same. This would have been fine if he were willing to face the inevitable consequences, but he wasn't.He knew what he was supposed to do. That had been apparent from the beginning. That was what made the choice so difficult. What he was supposed to do and what he would do were not the same. This would have been fine if he were willing to face the inevitable consequences, but he wasn't.</p>
+        {body && <p className="md subtext">{body}</p>}
 
-        </section>
+        {link && <a className="md" href={link}>{linktext}</a>}
 
-    );
-}
+        <img className="img-fullwidth image-radius" src={ImageC} alt="" />
+        {alttext && <p className="alttext">{alttext}</p>}
+
+        {body1 && <p className="md subtext">{body1}</p>}
+
+        {body2 && <p className="md subtext top-md">{body2}</p>}
+
+      </div>
+    </section>
+  );
+};
 
 export default TitlePara;

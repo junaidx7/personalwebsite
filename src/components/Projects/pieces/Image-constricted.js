@@ -1,14 +1,16 @@
 
-const ImageC = () => {
+const ImageC = ({ImageC,alttext}) => {
 
     
     return ( 
         <section className="imageC ">
-            <img className="img-fullwidth image-radius" src="https://pic.pnnet.dev/1440x700" alt="" />
-        </section>
+        <img className="img-fullwidth image-radius" src={ImageC} alt="" />
+        {alttext && <p className="alttext">{alttext}</p>}
+    </section>
      );
 
 
 }
  
 export default ImageC;
+

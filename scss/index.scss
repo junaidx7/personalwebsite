@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+
+
+//----------base----------------
+
+@import'../scss/base/shimmer';
+@import '../scss/base/color';
+@import '../scss/base/typescale';
+@import '../scss/base/spacing';
+@import '../scss/base/footer_modern.scss';
+@import'../scss/base/header.scss';
+
+
+//----------Home---------------------
+
+@import './home/head.scss';
+@import'../scss/home/skills.scss';
+@import'../scss/home/aboutme.scss';
+
+
+//----------Projectss----------------
+
+@import'../scss/Projects/project';
+
+
+//----------Animations---------------
+
+@import '../scss/animations/reval-animation.scss';
+@import '../scss/animations/button-glowing.scss';
+
+
+//-----------------------------------
+
 
 * {
   margin: 0px;
@@ -7,81 +41,9 @@
 } 
 
 
-@import'../scss/base/shimmer';
-@import '../scss/base/color';
-@import '../scss/base/typescale';
-@import '../scss/base/spacing';
-@import '../scss/reval-animation.scss';
-@import '../scss/footer_modern.scss';
-@import '../scss/button-glowing.scss';
-@import'../scss/header.scss';
-@import'../scss/skills.scss';
-@import'../scss/aboutme.scss';
-@import'../scss/project';
-
-
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
-
-
-.stickynote {
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  border-radius: 3px;
-  width: 350px;
-
-  height: 20rem;
-
-
-
-  p.lg {
-    color: #2c2c2c;
-    font-family: 'Kalam', sans-serif;
-    font-weight: 700;
-
-  }
-
-
-  p.md {
-    color: #2c2c2c;
-    font-family: 'Kalam', sans-serif;
-    font-weight: 400;
-    line-height: 180%;
-    font-size: 1.2em;
-
-  }
-}
-
-.yellowSticky {
-  background-color: #ffc000;
+div{
 
 }
-
-.redSticky {
-  background-color: #F16C7F;
-  margin-top: 3rem;
-}
-
-.blueSticky {
-  background-color: #6CD9FA;
-}
-
-.rotateright {
-  transform: rotate(3deg);
-}
-
-.rotateleft {
-  transform: rotate(-3deg);
-}
-
-.stickyContainer {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-}
-
-
 
 
 
@@ -98,8 +60,7 @@ html {
 }
 
 .maxwidth-container-text {
-  max-width: 800px;
-  margin: auto;
+width: 100%;
 }
 
 
@@ -427,6 +388,8 @@ a{
 
 header{
   background-color: $background;
+  padding-top: 1.5rem;
+
 }
 
 .header-back{
@@ -454,4 +417,15 @@ header{
 .gone{
   visibility :hidden;
   font-size: 0.001rem;
+}
+
+.tobedelted{
+  height: 1000px;
+}
+
+.flexforsidebarandcontent{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
 }
