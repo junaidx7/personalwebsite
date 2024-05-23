@@ -23,6 +23,7 @@
 
 @import "../scss/animations/reval-animation.scss";
 @import "../scss/animations/button-glowing.scss";
+@import "../scss/animations/button-aboutme.scss";
 
 //-----------------------------------
 
@@ -376,6 +377,10 @@ header {
 
 .mystrengthtext{
   max-width: 50rem;
+}
+
+.aboutme-section{
+
 }
 
 //-----------------------------------------------------------

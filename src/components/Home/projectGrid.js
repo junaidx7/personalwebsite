@@ -46,22 +46,8 @@ const ProjectGrid = () => {
         <h4 className="mgb5">Selected Work</h4>
 
         <div className="grid-container">
-          <div class="project grow-rotate">
-            <Link className="curse" to="/accounting">
-              <img
-                class="project-imgbox"
-                src="https://cdn.sanity.io/images/s695h8ei/production/a6ff57ad3962a9fdb8ba4884b38e773e0adbfc78-1340x1550.jpg?w=3840&q=75&fit=clip&auto=format"
-                alt=""
-              />
 
-              <div className="infobox">
-                <p className="lg project_title">Nathan Digital Accounting</p>
-                <img className="arr" src={arr} alt="" />
-              </div>
-            </Link>
-          </div>
-
-          <div className="project project-margintop grow-rotate">
+        <div className="project grow-rotate">
             <Link className="curse" to="/Digitalmenu">
               <img
                 src="https://cdn.sanity.io/images/s695h8ei/production/055ddfc25472077275c59c6e1f97a910ef4225ed-868x1016.jpg?w=3840&q=75&fit=clip&auto=format"
@@ -69,8 +55,24 @@ const ProjectGrid = () => {
               ></img>
 
               <div className="infobox">
-                <p className="lg project_title">
+                <p className="lg project_title ">
                   Digital menu : Paperless menu during pandamic
+                </p>
+                <img className="arr" src={arr} alt="" />
+              </div>
+            </Link>
+          </div>
+
+          <div className="project grow-rotate project-margintop">
+            <Link className="curse" to="/hourglass">
+              <img
+                src="https://cdn.sanity.io/images/s695h8ei/production/919b72913b03716bb9f8b1977903183cd4e8e504-868x1016.jpg?w=3840&q=75&fit=clip&auto=format"
+                class="project-imgbox"
+              ></img>
+
+              <div className="infobox">
+                <p className="lg project_title white">
+                  Hourglass: Hourly Billing Made Easy
                 </p>
                 <img className="arr" src={arr} alt="" />
               </div>
@@ -85,7 +87,7 @@ const ProjectGrid = () => {
               ></img>
 
               <div className="infobox">
-                <p className="lg project_title">
+                <p className="lg project_title white">
                   N1 : Design System for Suite of ERPs
                 </p>
                 <img className="arr" src={arr} alt="" />
@@ -93,17 +95,16 @@ const ProjectGrid = () => {
             </Link>
           </div>
 
-          <div className="project project-margintop grow-rotate">
-            <Link className="curse" to="/hourglass">
+          <div class="project grow-rotate project-margintop">
+            <Link className="curse" to="/accounting">
               <img
-                src="https://cdn.sanity.io/images/s695h8ei/production/919b72913b03716bb9f8b1977903183cd4e8e504-868x1016.jpg?w=3840&q=75&fit=clip&auto=format"
                 class="project-imgbox"
-              ></img>
+                src="https://cdn.sanity.io/images/s695h8ei/production/a6ff57ad3962a9fdb8ba4884b38e773e0adbfc78-1340x1550.jpg?w=3840&q=75&fit=clip&auto=format"
+                alt=""
+              />
 
               <div className="infobox">
-                <p className="lg project_title">
-                  Hourglass: Hourly Billing Made Easy
-                </p>
+                <p className="lg project_title ">Nathan Digital Accounting</p>
                 <img className="arr" src={arr} alt="" />
               </div>
             </Link>

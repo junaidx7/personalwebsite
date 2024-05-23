@@ -6,17 +6,15 @@
     gap: $spacing-lg;
   }
   
-  button{
+.aboutmebtn {
   
     font-family: 'Inter Tight', sans-serif;
-    padding: 13px 25px 13px 25px;
-    font-size: $button-font-size;
-    font-weight: $button-font-weight;
-    letter-spacing: $button-font-letterspacing;
+    font-weight: 400;
+    padding: 10px 23px 10px 23px;
+    font-size: 1em;
     position: relative;
     border-radius: 8px;
-    border: 1.5px solid $primary;
-    text-transform: uppercase;
+    border: 1.5px solid grey;
     background: transparent;
     color: #fff;
     overflow: hidden;
@@ -24,6 +22,8 @@
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+    text-transform: none;
+    letter-spacing: 0px;
   
   
     &:hover {

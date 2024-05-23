@@ -29,7 +29,7 @@ body {
 }
 
 .subtext {
-  color: #989899;
+  color: #acacac;
 }
 
 .subsubtext {
@@ -37,7 +37,7 @@ body {
 }
 
 .white {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .notactive {
@@ -53,7 +53,7 @@ body {
 }
 
 .subtext {
-  color: #989899;
+  color: #acacac;
 }
 
 .subsubtext {
@@ -61,7 +61,7 @@ body {
 }
 
 .white {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .notactive {
@@ -86,7 +86,7 @@ p {
 }
 
 .project_title {
-  color: wheat;
+  color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -508,7 +508,7 @@ p.overline-md {
 }
 
 .headerlinks {
-  color: #989899;
+  color: #acacac;
 }
 
 .bigtext {
@@ -639,11 +639,11 @@ p.overline-md {
   }
 }
 .aboutme-section {
+  max-width: 1400px;
   padding-top: 10rem;
-  padding-bottom: 0rem;
-  background-color: rgb(0, 0, 0);
-  overflow: hidden;
+  padding-bottom: 10rem;
   border-radius: 0rem 0rem 2.5rem 2.5rem;
+  margin: auto;
 }
 
 .grid12px {
@@ -665,8 +665,8 @@ p.overline-md {
 
 .abtme-img1 {
   grid-column: 1/span 3;
-  width: 100%;
-  height: 27rem;
+  width: 90%;
+  height: 25rem;
   border-radius: 12px;
   object-fit: cover;
 }
@@ -675,7 +675,7 @@ p.overline-md {
   margin-top: 150px;
   grid-column: 1/span 2;
   width: 100%;
-  height: 20rem;
+  height: 17rem;
   border-radius: 12px;
   object-fit: cover;
   transform: translateX(-3rem);
@@ -684,7 +684,7 @@ p.overline-md {
 .abtme-img3 {
   grid-column: 5/span 4;
   width: 100%;
-  height: 15rem;
+  height: 13rem;
   border-radius: 12px;
   object-fit: cover;
 }
@@ -692,7 +692,7 @@ p.overline-md {
 .abtme-img4 {
   grid-column: 10/span 3;
   width: 100%;
-  height: 15rem;
+  height: 13rem;
   border-radius: 12px;
   object-fit: cover;
   margin-top: -150px;
@@ -992,6 +992,83 @@ button:active {
   transition: box-shadow 0.2s ease-in;
 }
 
+.button-div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.aboutmebtn {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 400;
+  padding: 10px 23px 10px 23px;
+  font-size: 1em;
+  position: relative;
+  border-radius: 8px;
+  border: 1.5px solid grey;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  text-transform: none;
+  letter-spacing: 0px;
+}
+.aboutmebtn:hover {
+  border: 1.5px solid #936BFF;
+  background: #936BFF;
+  /* Background color */
+  filter: drop-shadow(0px 0px 60px #936BFF);
+  box-shadow: 0 0 50px 10px #936BFF;
+  -webkit-transition: all 0.2s ease-out;
+  color: black;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.aboutmebtn:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+.aboutmebtn::before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+.aboutmebtn:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -1229,7 +1306,7 @@ a {
   color: wheat;
 }
 .demotextscale p {
-  color: #989899;
+  color: #acacac;
 }
 
 header {
