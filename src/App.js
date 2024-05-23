@@ -10,10 +10,11 @@ import Designsystem from './components/Projects/Designsystem'
 import Casestudy from './components/Projects/pieces/casestudy'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Hourglass from './components/Projects/Hourglass';
+import { useEffect } from 'react';
+import Whoisthisdude from './components/Projects/Whoisthisdude';
 
 
 function App() {
-
 
 
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/Digitalmenu" element={<Digitalmenu />} />
             <Route path="/Designsystem" element={<Designsystem />} />
             <Route path="/Casestudy" element={<Casestudy />} />
+            <Route path="/Whoisthisdude" element={<Whoisthisdude />} />
             
 
             

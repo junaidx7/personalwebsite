@@ -1,6 +1,6 @@
-import quoteimg from "../quote-icon.svg"
 
-const Quote = ({quote}) => {
+
+const Quote = ({quote,quoteimg}) => {
   return (
 
     <section className="maxwidth-container-text sfc quoteblocksfc">

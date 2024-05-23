@@ -10,7 +10,7 @@ const TitleBulletin = ({ heading,body, bulletin }) => {
 
         <ul>
           {bulletin.map((item, i) => (
-            <li className="md subtext" key={i}>{item}</li>
+            <li className="md subtext top-md" key={i}>{item}</li>
           ))}
         </ul>
       </div>
@@ -20,3 +20,4 @@ const TitleBulletin = ({ heading,body, bulletin }) => {
 
 export default TitleBulletin;
 
+ 

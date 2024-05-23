@@ -53,7 +53,7 @@ const Head = () => {
 
 
                 <div className="button-div">
-                    <Link to="/textscale"> <button>Text Scale</button> </Link>
+                  
 
 
                     <a href="https://drive.google.com/file/d/19AODfKqacBF0SPcbvBt9XlzMNNoSCq-V/view?usp=sharing"

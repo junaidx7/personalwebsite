@@ -1,58 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
 
 //----------base----------------
 
-@import'../scss/base/shimmer';
-@import '../scss/base/color';
-@import '../scss/base/typescale';
-@import '../scss/base/spacing';
-@import '../scss/base/footer_modern.scss';
-@import'../scss/base/header.scss';
-
+@import "../scss/base/shimmer";
+@import "../scss/base/color";
+@import "../scss/base/typescale";
+@import "../scss/base/spacing";
+@import "../scss/base/footer_modern.scss";
+@import "../scss/base/header.scss";
 
 //----------Home---------------------
 
-@import './home/head.scss';
-@import'../scss/home/skills.scss';
-@import'../scss/home/aboutme.scss';
-
+@import "./home/head.scss";
+@import "../scss/home/skills.scss";
+@import "../scss/home/aboutme.scss";
 
 //----------Projectss----------------
 
-@import'../scss/Projects/project';
-
+@import "../scss/Projects/project";
 
 //----------Animations---------------
 
-@import '../scss/animations/reval-animation.scss';
-@import '../scss/animations/button-glowing.scss';
-
+@import "../scss/animations/reval-animation.scss";
+@import "../scss/animations/button-glowing.scss";
 
 //-----------------------------------
-
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-
-} 
-
-
-div{
-
 }
 
-
-
+div {
+}
 
 html {
   background-color: $background;
 }
-
-
 
 .maxwidth-container {
   max-width: 1200px;
@@ -60,25 +45,19 @@ html {
 }
 
 .maxwidth-container-text {
-width: 100%;
+  width: 100%;
 }
-
-
 
 .maxwidth-container-withflex {
   @extend .maxwidth-container;
   display: flex;
   flex-direction: column;
   gap: 5rem;
-
 }
 
-
-.section-gap{
+.section-gap {
   margin-bottom: 5rem;
 }
-
-
 
 /* Pop */
 @keyframes pop {
@@ -94,25 +73,15 @@ width: 100%;
 .pop {
   display: inline-block;
 
-
-
   &:hover {
     animation-name: pop;
     animation-duration: 0.3s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
-   
   }
-  }
-
-
-
-
-
-
+}
 
 //_______PROJECTS___________________________________________________
-
 
 .arr {
   max-width: 1.5rem;
@@ -127,11 +96,7 @@ width: 100%;
   margin-left: 1rem;
 }
 
-
-
 //__________________________________________________________
-
-
 
 a {
   color: green;
@@ -139,30 +104,21 @@ a {
 
 //____NEW PROJECT______________________________________________________
 
-.project-sections{
-
+.project-sections {
   background-color: #000000;
-
-} 
-
-
+}
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 40px;
   //padding: 3rem;
-  
 }
 
 .project {
   aspect-ratio: 1/1;
-  grid-column: span 6/span 6;
-  
-
+  grid-column: span 6 / span 6;
 }
-
-
 
 .project-margintop {
   margin-top: 6rem;
@@ -175,46 +131,32 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .grow-rotate {
-
   transition-duration: 0.1s;
   transition-property: transform;
-
 
   &:hover {
     transform: scale(1.04) rotate(2deg);
   }
 }
 
-
 @media screen and (max-width: 600px) {
-
-
   .grid-container {
-
     grid-template-columns: repeat(12, minmax(0, 1fr));
-
-
   }
 
   .project {
-
-    grid-column: span 12/span 12;
-
+    grid-column: span 12 / span 12;
   }
 
   .project-margintop {
     margin-top: 0rem;
   }
-
 }
 
-
 //_______Footer animation___________________________________________________
-
 
 .wrapper {
   background-color: $background-home;
@@ -222,7 +164,6 @@ a {
   transition: all 0.2s ease 0s;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
   border-radius: 0rem 0rem 2.5rem 2.5rem;
- 
 }
 
 body.tight .wrapper {
@@ -230,9 +171,7 @@ body.tight .wrapper {
   cursor: pointer;
 }
 
-
 @keyframes bounce {
-
   0%,
   20%,
   50%,
@@ -259,10 +198,7 @@ body.tight .wrapper {
   }
 }
 
-
-
 //___GRIDD___________________________________________________________________________
-
 
 .grid12 {
   display: grid;
@@ -271,26 +207,17 @@ body.tight .wrapper {
   border: 1px solid wheat;
 }
 
-
 .project1 {
-
   grid-column: span 6;
   height: 30px;
   background-color: #5c5c5c;
-
 }
-
-
-
 
 .project2 {
-
   grid-column: span 6;
   height: 30px;
   background-color: #5c5c5c;
-
 }
-
 
 .project3 {
   grid-column: span 6;
@@ -298,13 +225,11 @@ body.tight .wrapper {
   background-color: #5c5c5c;
 }
 
-
 .project4 {
   grid-column: span 6;
   height: 30px;
   background-color: #5c5c5c;
 }
-
 
 .tiltedvid {
   width: 10rem;
@@ -317,9 +242,7 @@ body.tight .wrapper {
   overflow: hidden;
   justify-content: center;
   align-items: center;
-
 }
-
 
 .vidinside {
   width: 100%;
@@ -335,72 +258,65 @@ body.tight .wrapper {
   justify-content: space-between;
 }
 
-
 #see-section {
-  background: $primary ;
+  background: $primary;
   height: 300vh;
   width: 100%;
   border-radius: 0rem 0rem 0rem 0rem;
 }
 
-
-
 .mgb5 {
   margin-bottom: 5rem;
-
 }
 
-
-
-a{
+a {
   text-decoration: none;
 }
 
-
-
 //DEMO TEXT SCALE STUFF
 
-.demotextscale{
-
+.demotextscale {
   padding-top: 5rem;
   padding-bottom: 10rem;
   display: flex;
   flex-direction: column;
   gap: 4rem;
 
-  div{
-
+  div {
     display: flex;
     flex-direction: column;
     gap: 2rem;
   }
 
-  h1,h2,h3,h4,h5,h6{
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: wheat;
   }
 
-  p{
+  p {
     color: $subtext;
   }
 }
 
 //---HEADER---------------------------------------------------
 
-header{
+header {
   background-color: $background;
   padding-top: 1.5rem;
-
 }
 
-.header-back{
+.header-back {
   margin: 0rem 2rem 0rem 2rem;
   padding: 1rem 0rem 1rem 0rem;
-
 }
 
 //------Header Products---------------------------------------------------------
 
-.header-product{
+.header-product {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -408,24 +324,58 @@ header{
   margin: auto;
 }
 
-.header-product-links{
+.header-product-links {
   display: flex;
   flex-direction: row;
   gap: 1rem;
 }
 
-.gone{
-  visibility :hidden;
+.gone {
+  visibility: hidden;
   font-size: 0.001rem;
 }
 
-.tobedelted{
+.tobedelted {
   height: 1000px;
 }
 
-.flexforsidebarandcontent{
+.flexforsidebarandcontent {
   width: 100%;
   display: flex;
   flex-direction: row;
+}
+
+//------Who is this dude---------------------------------------------------------
+
+.mypic {
+  width: 20rem;
+  height: auto;
+}
+
+.aboutme-whoisthisdude {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.aboutme-div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  justify-content: center;
+  gap: 5rem;
 
 }
+
+.aboutme-text {
+  max-width: 25rem;
+}
+
+.mystrengthtext{
+  max-width: 50rem;
+}
+
+//-----------------------------------------------------------
