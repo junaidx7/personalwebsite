@@ -15,21 +15,18 @@ const Aboutme = () => {
           </p>
 
           <p className="md subtext">
-            We started out, just the two of us, in an East London basement
-            studio back in 2015. Fast forward to today, we're a twenty-person
-            team of designers, developers, project managers, copywriters and
-            founders. Working from home, long before WFH was even a thing, we
-            criss-cross timezones and collaborate across borders - mixing up
-            work and play, every day.
-
-
-       
-
+            I am a generalist at heart, i got into product design because it
+            allowed me to pursue my interest in creative, business and tech
+            field. I’ve since worked on a range of problem for various industries including -
+            finance, education, property, and social. i am looking
+            for impactful, purposeful work with a diverse team of talented
+            people.
           </p>
-          <Link className="curse" to="/whoisthisdude">
-              <button className="top-lg aboutmebtn">Get to know me and my interests</button>
-            </Link>
-
+          <Link className="curse" >
+            <button className="top-lg aboutmebtn">
+              Get to know me and my interests - coming soon.
+            </button>
+          </Link>
         </div>
       </div>
 

@@ -2,12 +2,12 @@ import { useEffect } from "react";
 import arr from "../Home/arrow-svg.svg";
 import arrowSvg from "../Home/arrowcursor.svg";
 import { Link } from "react-router-dom";
-import hourglassimg from "../Projects/cover/hourglasscover.jpg"
-import digitalmenucover from "../Projects/cover/digitalmenucover.jpg"
+import hourglassimg from "../Projects/cover/hourglasscover.jpg";
+import digitalmenucover from "../Projects/cover/digitalmenucover.jpg";
 
-import designsystemcover from "../Projects/cover/designsystemcover.jpg"
+import designsystemcover from "../Projects/cover/designsystemcover.jpg";
 
-import erpcover from "../Projects/cover/erpcover.jpg"
+import erpcover from "../Projects/cover/erpcover.jpg";
 
 const ProjectGrid = () => {
   useEffect(() => {
@@ -52,13 +52,9 @@ const ProjectGrid = () => {
         <h4 className="mgb5">Selected Work</h4>
 
         <div className="grid-container">
-
-        <div className="project grow-rotate">
+          <div className="project grow-rotate">
             <Link className="curse" to="/Digitalmenu">
-              <img
-                src={digitalmenucover}
-                class="project-imgbox"
-              ></img>
+              <img src={digitalmenucover} class="project-imgbox"></img>
 
               <div className="infobox">
                 <p className="lg project_title ">
@@ -71,10 +67,7 @@ const ProjectGrid = () => {
 
           <div className="project grow-rotate project-margintop">
             <Link className="curse" to="/hourglass">
-              <img
-                src={hourglassimg}
-                class="project-imgbox"
-              ></img>
+              <img src={hourglassimg} class="project-imgbox"></img>
 
               <div className="infobox">
                 <p className="lg project_title white">
@@ -87,10 +80,7 @@ const ProjectGrid = () => {
 
           <div className="project grow-rotate">
             <Link className="curse" to="/Designsystem">
-              <img
-                src={designsystemcover}
-                class="project-imgbox"
-              ></img>
+              <img src={designsystemcover} class="project-imgbox"></img>
 
               <div className="infobox">
                 <p className="lg project_title white">
@@ -101,19 +91,15 @@ const ProjectGrid = () => {
             </Link>
           </div>
 
-          <div class="project grow-rotate project-margintop">
-            <Link className="curse" to="/accounting">
-              <img
-                class="project-imgbox"
-                src={erpcover}
-                alt=""
-              />
+          <div className="project grow-rotate project-margintop">
+            <a href="#" className="curse">
+              <img className="project-imgbox" src={erpcover} alt="" />
 
               <div className="infobox">
                 <p className="lg project_title ">Nathan Digital Accounting</p>
                 <img className="arr" src={arr} alt="" />
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
