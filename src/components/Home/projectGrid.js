@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import arr from "../Home/arrow-svg.svg";
 import arrowSvg from "../Home/arrowcursor.svg";
 import { Link } from "react-router-dom";
+import hourglassimg from "../Projects/cover/hourglass.jpg"
+import digitalmenucover from "../Projects/cover/digitalmenucover.jpg"
 
 const ProjectGrid = () => {
   useEffect(() => {
@@ -50,7 +52,7 @@ const ProjectGrid = () => {
         <div className="project grow-rotate">
             <Link className="curse" to="/Digitalmenu">
               <img
-                src="https://cdn.sanity.io/images/s695h8ei/production/055ddfc25472077275c59c6e1f97a910ef4225ed-868x1016.jpg?w=3840&q=75&fit=clip&auto=format"
+                src={digitalmenucover}
                 class="project-imgbox"
               ></img>
 
@@ -66,7 +68,7 @@ const ProjectGrid = () => {
           <div className="project grow-rotate project-margintop">
             <Link className="curse" to="/hourglass">
               <img
-                src="https://cdn.sanity.io/images/s695h8ei/production/919b72913b03716bb9f8b1977903183cd4e8e504-868x1016.jpg?w=3840&q=75&fit=clip&auto=format"
+                src={hourglassimg}
                 class="project-imgbox"
               ></img>
 
