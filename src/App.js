@@ -27,6 +27,7 @@ function App() {
         <div className='wrapper' >
 
           <Routes>
+            
             <Route path="/" element={<Home />} />
             <Route path="/textscale" element={<Demotextscale />} />
             <Route path="/hourglass" element={<Hourglass />} />
@@ -35,12 +36,7 @@ function App() {
             <Route path="/Designsystem" element={<Designsystem />} />
             <Route path="/Casestudy" element={<Casestudy />} />
             <Route path="/Whoisthisdude" element={<Whoisthisdude />} />
-            
 
-            
-
-
-          
           </Routes>
 
 

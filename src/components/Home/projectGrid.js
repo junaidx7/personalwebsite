@@ -96,7 +96,7 @@ const ProjectGrid = () => {
               <img className="project-imgbox" src={erpcover} alt="" />
 
               <div className="infobox">
-                <p className="lg project_title ">Nathan Digital Accounting</p>
+                <p className="lg project_title ">ERPs, Software for business.</p>
                 <img className="arr" src={arr} alt="" />
               </div>
             </a>
