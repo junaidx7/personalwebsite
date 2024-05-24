@@ -23,7 +23,7 @@ const FooterModern = () => {
 
                     <div className="getintouch-container">
                         <h6 className='getintouch-title' >Get to know me</h6>
-                        <a href="https://example.com"><div className="textandarrow"> <p className='lg  details-text'>Resume</p> <img className="arrow" src={arrow} /> </div></a>
+                        <a href="https://drive.google.com/file/d/19AODfKqacBF0SPcbvBt9XlzMNNoSCq-V/view?usp=sharing"><div className="textandarrow"> <p className='lg  details-text'>Resume</p> <img className="arrow" src={arrow} /> </div></a>
                         <a href="https://www.linkedin.com/in/uiuxdesignerjunaid/">  <div className="textandarrow"> <p className='lg  details-text'>Linkedin</p> <img className="arrow" src={arrow} />  </div></a>
 
                     </div>
