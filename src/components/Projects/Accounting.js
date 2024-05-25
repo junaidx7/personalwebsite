@@ -15,7 +15,7 @@ import { accountingContent } from "../Projects/content";
 import cover from "../Projects/imagesforprojects/ERP/accounting.jpg";
 
 import preview from "../Projects/imagesforprojects/ERP/accounting.jpg";
-import coverleft from "../Projects/imagesforprojects/hourglass/coverleft.jpg";
+import coverleft from "../Projects/imagesforprojects/ERP/coverleftjpg.jpg";
 import coverright from "../Projects/imagesforprojects/hourglass/coverright.jpg";
 import Casestudy from "./pieces/casestudy";
 import NDA from "./pieces/NDA";
