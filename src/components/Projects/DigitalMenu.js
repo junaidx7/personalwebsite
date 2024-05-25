@@ -73,7 +73,7 @@ const Digitalmenu = () => {
           ]}
         />
         <TitlePara
-          heading="Primay Goal"
+          heading="Primary Goal"
           body=" My primary objective was to comprehend the fundamental challenges posed by the pandemic and devise a ‘digital menu’ solution that minimised direct interactions of customers with the restaurant staff. my primary role were as follows."
         />
         <TitlePara
@@ -127,10 +127,8 @@ const Digitalmenu = () => {
 
         <ImageC ImageC={color} />
 
-        <ImageC
-          ImageC="https://pic.pnnet.dev/2000x3000"
-          alttext="High Fidelity design of the app."
-        />
+  
+
         <TitlePara
           overline="Fixing Issues"
           heading="Fixing User Experience Issues"

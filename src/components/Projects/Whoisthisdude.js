@@ -6,9 +6,11 @@ const Whoisthisdude = () => {
     <div> <HeaderProduct className></HeaderProduct>
 
     <section className="aboutme-whoisthisdude">
+
+      <h2 className="top-2xl white">We started out, just the two of us, in an East London basement</h2>
        
-      <div className="aboutme-div top-2xl">
-      <img className="mypic" src={mypic} alt="" />
+      <div className="aboutme-div">
+      <img className="mypic grow-rotate-reverse" src={mypic} alt="" />
 
 
         <div>

@@ -1,25 +1,16 @@
 import { useEffect } from "react";
-import Imagegrid4 from "./pieces/imagegrid4";
-import accover from "./acc.png";
-import HeaderProduct from "./header-product";
-import Sidebar from "./pieces/sidebar";
-
-import Title2col from "./pieces/Title-2col";
 import ImageC from "./pieces/Image-constricted";
 import TitlePara from "./pieces/Title-para";
 import Role from "./pieces/role";
 import BlockText from "./pieces/BlockText";
 import TitleBulletin from "./pieces/TitleBulletin";
 import Casestudy from "./pieces/casestudy";
-
 import cover1 from "../Projects/imagesforprojects/hourglass/cover1.jpg";
 import coverleft from "../Projects/imagesforprojects/hourglass/coverleft.jpg";
 import coverright from "../Projects/imagesforprojects/hourglass/coverright.jpg";
-
 import togglecompetitior from "../Projects/imagesforprojects/hourglass/togglecompetitior.jpg";
 import clockifycompetitior from "../Projects/imagesforprojects/hourglass/clockifycompetitior.jpg";
 import harvestcompetitior from "../Projects/imagesforprojects/hourglass/harvestcompetitior.jpg";
-
 import cow1 from "../Projects/imagesforprojects/hourglass/cow1.jpg";
 import cow2 from "../Projects/imagesforprojects/hourglass/cow2.jpg";
 import cow3 from "../Projects/imagesforprojects/hourglass/cow3.jpg";
@@ -29,6 +20,8 @@ import comptable from "../Projects/imagesforprojects/hourglass/competitiortable.
 import empathymap from "../Projects/imagesforprojects/hourglass/empathymap.jpg";
 import infoarc from "../Projects/imagesforprojects/hourglass/infoarc.jpg";
 import hourglasshighfidelity from "../Projects/imagesforprojects/hourglass/hourglasshighfidelity.jpg";
+
+
 const Hourglass = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -173,17 +166,8 @@ const Hourglass = () => {
 
         <ImageC ImageC="https://pic.pnnet.dev/2000x1000" />
 
-        <TitleBulletin
-          heading="Iteration 2"
-          body="After looking at the wireframes and analyzing page by page, I found several early design flaws. Iteration 2 was aimed at fixing them."
-          bulletin={[
-            "Optimized something 1",
-            "Optimized something 2",
-            "Optimized something 3",
-          ]}
-        />
-
         <ImageC ImageC="https://pic.pnnet.dev/2000x1000" />
+
 
         <TitlePara
           heading="High Fidelity Design"
@@ -202,6 +186,8 @@ const Hourglass = () => {
       </div>
     );
   };
+
+  
   Hourglass: return (
     <section className="hourglass-section">
       <Casestudy

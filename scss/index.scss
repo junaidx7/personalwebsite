@@ -8,6 +8,7 @@
 @import "../scss/base/spacing";
 @import "../scss/base/footer_modern.scss";
 @import "../scss/base/header.scss";
+@import "../scss/base/backtop.scss";
 
 //----------Home---------------------
 
@@ -140,6 +141,16 @@ a {
 
   &:hover {
     transform: scale(1.04) rotate(2deg);
+  }
+}
+
+.grow-rotate-reverse {
+  transition-duration: 0.1s;
+  transition-property: transform;
+  transform: scale(1.04) rotate(2deg);
+
+  &:hover {
+    transform: scale(1.3) rotate(0deg);
   }
 }
 
@@ -368,19 +379,73 @@ header {
 
   justify-content: center;
   gap: 5rem;
-
 }
 
 .aboutme-text {
   max-width: 25rem;
 }
 
-.mystrengthtext{
+.mystrengthtext {
   max-width: 50rem;
 }
 
-.aboutme-section{
-
+.aboutme-section {
 }
 
 //-----------------------------------------------------------
+
+.NDA-sections {
+  display: flex;
+  flex-direction: row;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  background-color: #32240b;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  p {
+    color: #c8902a;
+    font-weight: 400;
+  }
+
+  img {
+    padding-top: 0.2rem;
+  }
+}
+
+//------Other case study-----------------------------
+
+.othercasestudy-section {
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 10rem;
+}
+
+.othercasestudy-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.othercasestudy-img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.othercasestudy-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.infobox-othercasestudy {
+  max-width: 25rem;
+  padding-top: 0.5rem;
+}
+
+//-----------------------------------
+
+hr {
+  border: 0.3px solid rgb(39, 39, 39); /* Line color */
+  margin: 20px 0px 4rem 0px; /* Space around the line */
+}

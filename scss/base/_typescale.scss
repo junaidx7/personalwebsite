@@ -73,7 +73,7 @@ $h6-lineheight: 130%;
 
 $p-xs-lineheight: 160%;
 $p-sm-lineheight: 160%;
-$p-md-lineheight: 160%;
+$p-md-lineheight: 170%;
 $p-lg-lineheight: 160%;
 $p-xl-lineheight: 150%;
 $p-overline-sm-lineheight: 130%;
@@ -177,6 +177,7 @@ p.lg {
   font-weight: 300;
   letter-spacing: $p-lg-letterspacing;
   line-height: $p-lg-lineheight;
+ 
 }
 
 p.xl {
@@ -250,39 +251,39 @@ p.overline-md {
 //Weight
 
 .w100 {
-  font-weight: 100;
+  font-weight: 100 !important;
 }
 
 .w200 {
-  font-weight: 200;
+  font-weight: 200 !important;
 }
 
 .w300 {
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 
 .w400 {
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .w500 {
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 .w600 {
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 .w700 {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 .w800 {
-  font-weight: 800;
+  font-weight: 800 !important;
 }
 
 .w900 {
-  font-weight: 900;
+  font-weight: 900 !important;
 }
 
 .alttext {

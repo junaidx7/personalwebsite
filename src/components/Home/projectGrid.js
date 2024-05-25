@@ -7,7 +7,7 @@ import digitalmenucover from "../Projects/cover/digitalmenucover.jpg";
 
 import designsystemcover from "../Projects/cover/designsystemcover.jpg";
 
-import erpcover from "../Projects/cover/erpcover.jpg";
+import accountingcover from "../Projects/cover/accountingcover.jpg";
 
 const ProjectGrid = () => {
   useEffect(() => {
@@ -52,7 +52,9 @@ const ProjectGrid = () => {
         <h4 className="mgb5">Selected Work</h4>
 
         <div className="grid-container">
+
           <div className="project grow-rotate">
+
             <Link className="curse" to="/Digitalmenu">
               <img src={digitalmenucover} class="project-imgbox"></img>
 
@@ -63,6 +65,7 @@ const ProjectGrid = () => {
                 <img className="arr" src={arr} alt="" />
               </div>
             </Link>
+            
           </div>
 
           <div className="project grow-rotate project-margintop">
@@ -92,15 +95,19 @@ const ProjectGrid = () => {
           </div>
 
           <div className="project grow-rotate project-margintop">
-            <a href="#" className="curse">
-              <img className="project-imgbox" src={erpcover} alt="" />
+            <Link className="curse" to="/Accounting">
+              <img className="project-imgbox" src={accountingcover} alt="" />
 
               <div className="infobox">
-                <p className="lg project_title ">ERPs, Software for business.</p>
+                <p className="lg project_title ">Accounting for every business</p>
                 <img className="arr" src={arr} alt="" />
               </div>
-            </a>
+            </Link>
           </div>
+
+
+
+
         </div>
       </div>
     </section>

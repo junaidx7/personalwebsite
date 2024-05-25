@@ -12,9 +12,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Hourglass from './components/Projects/Hourglass';
 import { useEffect } from 'react';
 import Whoisthisdude from './components/Projects/Whoisthisdude';
-
+import OtherCasestudy from './components/Projects/pieces/OtherCasestudy'
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Junaid Portfolio";
+  }, []);
 
 
   return (
@@ -27,7 +31,7 @@ function App() {
         <div className='wrapper' >
 
           <Routes>
-            
+
             <Route path="/" element={<Home />} />
             <Route path="/textscale" element={<Demotextscale />} />
             <Route path="/hourglass" element={<Hourglass />} />
@@ -36,6 +40,9 @@ function App() {
             <Route path="/Designsystem" element={<Designsystem />} />
             <Route path="/Casestudy" element={<Casestudy />} />
             <Route path="/Whoisthisdude" element={<Whoisthisdude />} />
+            <Route path="/Accounting" element={<Accounting />} />
+            <Route path="/OtherCasestudy" element={<OtherCasestudy />} />
+        
 
           </Routes>
 

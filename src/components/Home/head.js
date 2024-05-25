@@ -4,6 +4,8 @@ import prizigner from '../Home/prizigner.mp4'
 import { Link } from 'react-router-dom';
 import opendot from '../Home/opendot.svg'
 
+import config from "../Projects/Config"
+
 
 const Head = () => {
 
@@ -14,7 +16,7 @@ const Head = () => {
             const a2 = annotate(document.querySelector('#e2'), { type: 'highlight', color: '#936BFF', iterations: 1, multiline: true });
             const ag = annotationGroup([a1, a2]);
             ag.show();
-        }, 2000); // 2000 milliseconds = 2 seconds
+        }, 500); // 2000 milliseconds = 2 seconds
 
         return () => clearTimeout(timer);
 
@@ -56,11 +58,11 @@ const Head = () => {
                   
 
 
-                    <a href="https://drive.google.com/file/d/19AODfKqacBF0SPcbvBt9XlzMNNoSCq-V/view?usp=sharing"
+                    <a href={config.resumeLink}
                         target="_blank"> <button>Resume</button> </a>
 
 
-                    <a href="https://www.linkedin.com/in/uiuxdesignerjunaid/" target="_blank"> <button>Linkedin</button> </a>
+                    <a href={config.linkedinLink} target="_blank"> <button>Linkedin</button> </a>
 
 
 

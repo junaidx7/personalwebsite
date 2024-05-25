@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Config from "./Config";
 
 const HeaderProduct = () => {
 
@@ -6,14 +7,15 @@ const HeaderProduct = () => {
 
     <header className="header-product">
 
-      <Link to='/'> <p className="md white w400 grow-rotate">Junaid</p> </Link>
+      <Link to='/'> <p className="lg primarylight w500 grow-rotate">Junaid.</p> </Link>
 
 
 
       <div className="header-product-links">
-        <a href="">  <p className="md white w400 grow-rotate">Resume</p> </a>
-        <a href="">  <p className="md white w400 grow-rotate">Linkedin</p> </a>
-
+      <Link to='/'> <p className="md white w400 grow-rotate">Home</p>  </Link>
+        <a href={Config.resumeLink}>  <p className="md white w400 grow-rotate">Resume</p> </a>
+        <a href={Config.linkedinLink}>  <p className="md white w400 grow-rotate">Linkedin</p> </a>
+      
 
       </div>
 

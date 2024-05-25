@@ -9,7 +9,7 @@ const BlockPara = ({ heading, largetext, body,body1 }) => {
         )}
 
         {largetext && (
-          <p className="lg text below-title-spacing">{largetext}</p>
+          <p className="lg text below-title-spacing primarylight">{largetext}</p>
         )}
 
         {body && <p className="md subtext">{body}</p>}

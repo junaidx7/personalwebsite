@@ -25,7 +25,7 @@ body {
 }
 
 .primarylight {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subtext {
@@ -49,7 +49,7 @@ body {
 }
 
 .primarylight {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subtext {
@@ -144,7 +144,7 @@ p.md, p.md-title {
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 0rem;
-  line-height: 160%;
+  line-height: 170%;
 }
 
 p.lg, p.lg-title {
@@ -166,7 +166,7 @@ li.md {
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 0rem;
-  line-height: 160%;
+  line-height: 170%;
 }
 
 .subtext-under-bigtext {
@@ -219,39 +219,39 @@ p.overline-md {
 }
 
 .w100 {
-  font-weight: 100;
+  font-weight: 100 !important;
 }
 
 .w200 {
-  font-weight: 200;
+  font-weight: 200 !important;
 }
 
 .w300 {
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 
 .w400 {
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .w500 {
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 .w600 {
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 .w700 {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 .w800 {
-  font-weight: 800;
+  font-weight: 800 !important;
 }
 
 .w900 {
-  font-weight: 900;
+  font-weight: 900 !important;
 }
 
 .alttext {
@@ -509,6 +509,86 @@ p.overline-md {
 
 .headerlinks {
   color: #acacac;
+}
+
+.primary {
+  color: #936BFF;
+}
+
+.primarylight {
+  color: #ffffff;
+}
+
+.subtext {
+  color: #acacac;
+}
+
+.subsubtext {
+  color: #D0D5DD;
+}
+
+.white {
+  color: rgb(255, 255, 255);
+}
+
+.notactive {
+  color: #5d5d5d;
+}
+
+.back-to-top {
+  background-color: #936BFF;
+  text-decoration: none;
+  cursor: pointer;
+  width: 56px;
+  height: 56px;
+  z-index: 999;
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 100%;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.4);
+}
+.back-to-top:hover {
+  background-color: #c0a8ff;
+}
+.back-to-top:active {
+  box-shadow: none;
+  background-color: #d60074;
+}
+.back-to-top svg.icon__arrow-up {
+  fill: white;
+  width: 32px;
+  height: 32px;
+}
+
+body {
+  background-color: #eee;
+  min-height: 100vh;
+}
+body .box {
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .box-2 {
+  background-color: #ddd;
+}
+body .box-3 {
+  background-color: #ccc;
+}
+body .box-4 {
+  background-color: #bbb;
+}
+body .box .title {
+  margin: 0;
+  text-align: center;
 }
 
 .bigtext {
@@ -825,7 +905,7 @@ aside {
 
 .active {
   font-weight: 500;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 
 .proj-title {
@@ -1170,6 +1250,15 @@ a {
   transform: scale(1.04) rotate(2deg);
 }
 
+.grow-rotate-reverse {
+  transition-duration: 0.1s;
+  transition-property: transform;
+  transform: scale(1.04) rotate(2deg);
+}
+.grow-rotate-reverse:hover {
+  transform: scale(1.3) rotate(0deg);
+}
+
 @media screen and (max-width: 600px) {
   .grid-container {
     grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -1375,4 +1464,54 @@ header {
 
 .mystrengthtext {
   max-width: 50rem;
+}
+
+.NDA-sections {
+  display: flex;
+  flex-direction: row;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  background-color: #32240b;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.NDA-sections p {
+  color: #c8902a;
+  font-weight: 400;
+}
+.NDA-sections img {
+  padding-top: 0.2rem;
+}
+
+.othercasestudy-section {
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 10rem;
+}
+
+.othercasestudy-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.othercasestudy-img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.othercasestudy-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.infobox-othercasestudy {
+  max-width: 25rem;
+  padding-top: 0.5rem;
+}
+
+hr {
+  border: 0.3px solid rgb(39, 39, 39); /* Line color */
+  margin: 20px 0px 4rem 0px; /* Space around the line */
 }
