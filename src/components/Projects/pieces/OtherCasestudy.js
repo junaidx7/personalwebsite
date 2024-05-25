@@ -26,7 +26,7 @@ const OtherCasestudy = () => {
           </div>
         </Link>
 
-        <Link to="/Digitalmenu">
+        <Link to="/Hourglass">
           <div className="othercasestudy-container">
             <img
               src={hourglassimg}
@@ -41,7 +41,7 @@ const OtherCasestudy = () => {
           </div>
         </Link>
 
-        <Link to="/Digitalmenu">
+        <Link to="/Designsystem">
           <div className="othercasestudy-container">
             <img
               src={designsystemcover}
@@ -56,7 +56,7 @@ const OtherCasestudy = () => {
           </div>
         </Link>
 
-        <Link to="/Digitalmenu">
+        <Link to="/Accounting">
           <div className="othercasestudy-container">
             <img
               src={accountingcover}
