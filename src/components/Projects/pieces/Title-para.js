@@ -3,6 +3,8 @@ const TitlePara = ({
   body,
   body1,
   body2,
+  body3,
+  body4,
   overline,
   ImageC,
   link,
@@ -30,6 +32,10 @@ const TitlePara = ({
         {body1 && <p className="md subtext">{body1}</p>}
 
         {body2 && <p className="md subtext top-md">{body2}</p>}
+        
+        {body3 && <p className="md subtext top-md">{body3}</p>}
+
+        {body4 && <p className="md subtext top-md">{body4}</p>}
 
       </div>
     </section>

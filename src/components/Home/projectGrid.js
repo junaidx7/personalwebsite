@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import arr from "../Home/arrow-svg.svg";
 import arrowSvg from "../Home/arrowcursor.svg";
 import { Link } from "react-router-dom";
+
 import hourglassimg from "../Projects/cover/hourglasscover.jpg";
 import digitalmenucover from "../Projects/cover/digitalmenucover.jpg";
 
