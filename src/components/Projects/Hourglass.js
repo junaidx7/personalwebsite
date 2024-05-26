@@ -22,6 +22,10 @@ import infoarc from "../Projects/imagesforprojects/hourglass/infoarc.jpg";
 import hourglasshighfidelity from "../Projects/imagesforprojects/hourglass/hourglasshighfidelity.jpg";
 import wireframe from "../Projects/imagesforprojects/hourglass/wireframes.jpg";
 
+import cow5 from "../Projects/imagesforprojects/hourglass/cow5.jpg";
+
+import invoiceblock from "../Projects/imagesforprojects/hourglass/invoiceblock.jpg";
+
 const Hourglass = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -114,12 +118,16 @@ const Hourglass = () => {
 
         <ImageCexplanation
           explanation="The main point of any timekeeping software is to have the ability to send the tracked hours and the invoice to the client so the user can get paid for his time. Most apps allows sending invoice but does not have a feature to send the timesheet(sheet with list of time tracked and what task was done. Hourglass has filled in this gap."
-          image={cow4}
+          image={cow2}
         />
+
+        <ImageC
+          ImageC={cow4}/>
+
 
         <ImageCexplanation
           explanation="One concern clients have when being billed hourly by freelancers is ensuring the freelancer stays within the allocated budget. Hourglass addresses this by allowing freelancers to send a dynamic link to the client, this link provides an updated list of tracked hours and task descriptions in real-time, this also helps the client know what work is being currently done rather than going through tedious meeting. This transparency builds trust and reassures clients that they are being charged accurately."
-          image={cow2}
+          image={cow5}
         />
 
         <ImageCexplanation
