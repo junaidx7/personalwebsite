@@ -360,12 +360,16 @@ header {
 //------Who is this dude---------------------------------------------------------
 
 .mypic {
-  width: 20rem;
-  height: auto;
+  
+  max-width: 23rem;
+  max-height: 100%; /* Set a maximum height */
+  height: auto; /* Allow the image to resize proportionally */
+  object-fit: contain;
+ 
 }
 
 .aboutme-whoisthisdude {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   display: flex;
   flex-direction: column;

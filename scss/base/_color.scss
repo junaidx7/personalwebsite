@@ -20,6 +20,7 @@ $grey900: #101828;
 
 $text: $grey100;
 $subtext: #acacac;
+$subtextlight: #e6e6e6;
 $subsubtext: $grey300;
 
 //On White Theme Text
@@ -66,6 +67,9 @@ $accent2 :#ff7d4a;
 
 .subtext{
     color: $subtext;
+}
+.subtextlight{
+    color: $subtextlight;
 }
 
 .subsubtext{

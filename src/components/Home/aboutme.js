@@ -22,8 +22,8 @@ const Aboutme = () => {
             for impactful, purposeful work with a diverse team of talented
             people.
           </p>
-          <Link className="curse" >
-            <button className="top-lg aboutmebtn">
+          <Link to="/Whoisthisdude" >
+            <button className="top-lg aboutmebtn" >
               Get to know me and my interests - coming soon.
             </button>
           </Link>

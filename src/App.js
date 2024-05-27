@@ -13,13 +13,22 @@ import Hourglass from './components/Projects/Hourglass';
 import { useEffect } from 'react';
 import Whoisthisdude from './components/Projects/Whoisthisdude';
 import OtherCasestudy from './components/Projects/pieces/OtherCasestudy'
+import ScrollToTop from './Scrolltotop';
 
 function App() {
 
   useEffect(() => {
     document.title = "Junaid Portfolio";
+   
   }, []);
 
+ 
+  
+
+  useEffect(() => {
+    document.title = "Junaid Portfolio";
+   
+  }, []);
 
   return (
 
@@ -27,10 +36,12 @@ function App() {
 
 
       <div className='master-wrapper'>
+      <ScrollToTop />
 
         <div className='wrapper' >
 
           <Routes>
+            
 
             <Route path="/" element={<Home />} />
             <Route path="/textscale" element={<Demotextscale />} />

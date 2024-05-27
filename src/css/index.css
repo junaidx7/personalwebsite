@@ -36,6 +36,10 @@ body {
   color: #acacac;
 }
 
+.subtextlight {
+  color: #e6e6e6;
+}
+
 .subsubtext {
   color: #D0D5DD;
 }
@@ -66,6 +70,10 @@ body {
 
 .subtext {
   color: #acacac;
+}
+
+.subtextlight {
+  color: #e6e6e6;
 }
 
 .subsubtext {
@@ -545,6 +553,10 @@ p.overline-md {
 
 .subtext {
   color: #acacac;
+}
+
+.subtextlight {
+  color: #e6e6e6;
 }
 
 .subsubtext {
@@ -1472,12 +1484,14 @@ header {
 }
 
 .mypic {
-  width: 20rem;
-  height: auto;
+  max-width: 23rem;
+  max-height: 100%; /* Set a maximum height */
+  height: auto; /* Allow the image to resize proportionally */
+  object-fit: contain;
 }
 
 .aboutme-whoisthisdude {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   display: flex;
   flex-direction: column;
