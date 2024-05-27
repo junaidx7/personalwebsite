@@ -303,7 +303,7 @@ p.overline-md {
 
 .overline-heading {
     color: grey;
-  font-size: $p-sm;
+  font-size: $p-xs;
   padding-bottom: 0.5rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -313,4 +313,8 @@ p.overline-md {
 .max800{
   max-width: 800px;
   margin: auto;
+}
+
+.junaidheadersize{
+  font-size: 1.313rem;
 }

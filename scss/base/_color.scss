@@ -39,7 +39,8 @@ $border-bold: $grey50;
 
 //Colors
 $primary :#936BFF;
-$primary-light :#ffffff;
+$primary-light :#ececf1;
+$realprimarylight :#ded1ff;
 $hover :#6BDCFF;
 $active :#00ffe5;
 $not-active :#5d5d5d;
@@ -57,6 +58,10 @@ $accent2 :#ff7d4a;
 }
 .primarylight{
     color: $primary-light;
+}
+
+.realprimarylight{
+    color: $realprimarylight;
 }
 
 .subtext{

@@ -7,7 +7,7 @@ const HeaderProduct = () => {
 
     <header className="header-product">
 
-      <Link to='/'> <p className="lg primarylight w500 grow-rotate">Junaid.</p> </Link>
+      <Link to='/'> <p className="junaidheadersize wheat w500 grow-rotate">Junaid.</p> </Link>
 
 
 

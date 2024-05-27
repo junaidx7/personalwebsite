@@ -85,7 +85,7 @@ const Casestudy = ({
         </a>
       </div>
 
-      <OtherCasestudy />
+
     </section>
   );
 };

@@ -25,6 +25,7 @@ import quoteimg from "../Projects/imagesforprojects/Quote.svg";
 import atomicsystem from "../Projects/imagesforprojects/designsystem/atomicsystem.jpg";
 
 import designpreview from "../Projects/imagesforprojects/designsystem/designpreview.jpg";
+import OtherCasestudy from "./pieces/OtherCasestudy";
 
 const Designsystem = () => {
   useEffect(() => {
@@ -136,6 +137,8 @@ const Designsystem = () => {
           body="The design system brought about a remarkable improvement in the consistency of our ERP products. By establishing a unified visual language and design principles, it ensured that every component and interface adhered to a cohesive style, reinforcing our brand identity."
           body1="The Reduction in design time not only highlighted the system's impact on efficiency but also underscored its practical value in streamlining our workflows. The design system not only fostered time savings but also translated into consistency and scalability, ultimately enhancing our overall project delivery process."
         />
+
+        <OtherCasestudy />
 
         <div className="bottom-3xl"></div>
       </div>

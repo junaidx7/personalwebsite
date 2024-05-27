@@ -25,7 +25,11 @@ body {
 }
 
 .primarylight {
-  color: #ffffff;
+  color: #ececf1;
+}
+
+.realprimarylight {
+  color: #ded1ff;
 }
 
 .subtext {
@@ -49,7 +53,11 @@ body {
 }
 
 .primarylight {
-  color: #ffffff;
+  color: #ececf1;
+}
+
+.realprimarylight {
+  color: #ded1ff;
 }
 
 .subtext {
@@ -271,7 +279,7 @@ p.overline-md {
 
 .overline-heading {
   color: grey;
-  font-size: 16px;
+  font-size: 12px;
   padding-bottom: 0.5rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -280,6 +288,10 @@ p.overline-md {
 .max800 {
   max-width: 800px;
   margin: auto;
+}
+
+.junaidheadersize {
+  font-size: 1.313rem;
 }
 
 .bottom-xs {
@@ -516,7 +528,11 @@ p.overline-md {
 }
 
 .primarylight {
-  color: #ffffff;
+  color: #ececf1;
+}
+
+.realprimarylight {
+  color: #ded1ff;
 }
 
 .subtext {
@@ -843,7 +859,7 @@ body .box .title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5rem;
+  gap: 7rem;
 }
 
 .project-content-section {
@@ -905,7 +921,7 @@ aside {
 
 .active {
   font-weight: 500;
-  color: #ffffff !important;
+  color: #ececf1 !important;
 }
 
 .proj-title {
@@ -948,6 +964,12 @@ aside {
 .quote-icon {
   height: auto;
   width: 2rem;
+}
+
+.crumbs {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 #precision-section {
@@ -1514,4 +1536,9 @@ header {
 hr {
   border: 0.3px solid rgb(39, 39, 39); /* Line color */
   margin: 20px 0px 4rem 0px; /* Space around the line */
+}
+
+.showborder {
+  border: 1px solid red;
+  padding: 4px;
 }

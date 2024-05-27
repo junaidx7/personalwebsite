@@ -21,6 +21,7 @@ import Casestudy from "./pieces/casestudy";
 import NDA from "./pieces/NDA";
 import TitleBulletin from "./pieces/TitleBulletin";
 import designhf from "../Projects/imagesforprojects/ERP/designhf.jpg";
+import OtherCasestudy from "./pieces/OtherCasestudy";
 
 const Accounting = () => {
   const Content = () => {
@@ -67,11 +68,13 @@ const Accounting = () => {
           heading="Preview of few screens"
           body="As the sole designer for the N1 Accounting software , I worked closely with stakeholders, and in-house accountants to understand the core requirement of the software and develop a design that was both user-friendly, intuitive, & efficient. I also collaborated closely with developers to ensure that my designs were feasible and implementable and also performed the visual QA for the front end to make sure everything developed was as per the design."
         />
-        
-        <ImageC
-        ImageC={designhf}/>
+
+        <ImageC ImageC={designhf} />
+
+        <OtherCasestudy />
+
+        <div className="bottom-3xl"></div>
       </div>
-      
     );
   };
 
