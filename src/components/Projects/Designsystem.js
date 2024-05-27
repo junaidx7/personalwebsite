@@ -81,48 +81,61 @@ const Designsystem = () => {
           heading="How to build a design system the right way?"
           body="I felt a bit lost at first not knowing where to start building a design system. i wanted to understand the core concepts first. I browsed through many articles and watched YouTube videos, but all of them only showed how to design the button, input fields and so on , but this was something i already knew. what i wanted to know was - what is the right way to build a design system and the big picture structure involved. "
         />
-        <TitlePara
-          overline="Research"
-          heading=" the concept of Atomic design, discovery of a gold mine. "
-          body="Discovery of a Gold Mine: After hours of scrolling i found a website called atomicdesign. This website, authored by Brad Frost, a design system consultant, turned out to be exactly what I needed. It wasn't just about designing components; it was about building a whole design system and understanding the core concepts. out of all the core concepts the atom-molecule and organism concept helped me have a bigger picture on how to build a scalable design system."
-          link="https://www.google.com/search?q=atomic+design+by+brad+frost&oq=Atomic+Design+by+Brad+Frost&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBwgCEAAYgAQyCAgDEAAYFhgeMggIBBAAGBYYHjIKCAUQABiABBiiBDIGCAYQRRg80gEHMTk5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"
-          linktext="atomicdesign.bradfrost"
-        />
 
-        <ImageC ImageC={atomicsystem} alttext="atomic concept by bradfrost" />
+        <div className="crumbs ">
+          <TitlePara
+            overline="Research"
+            heading=" the concept of Atomic design, "
+            body="Discovery of a Gold Mine: After hours of scrolling i found a website called atomicdesign. This website, authored by Brad Frost, a design system consultant, turned out to be exactly what I needed. It wasn't just about designing components; it was about building a whole design system and understanding the core concepts. out of all the core concepts the atom-molecule and organism concept helped me have a bigger picture on how to build a scalable design system."
+            link="https://www.google.com/search?q=atomic+design+by+brad+frost&oq=Atomic+Design+by+Brad+Frost&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBwgCEAAYgAQyCAgDEAAYFhgeMggIBBAAGBYYHjIKCAUQABiABBiiBDIGCAYQRRg80gEHMTk5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"
+            linktext="atomicdesign.bradfrost"
+          />
 
-        <TitlePara
-          heading="Setting the principles"
-          body="Every design system is build upon principles, they define the why and purpose of building design system. These principles guide decision-making and explain how the design system’s creators want team members to use the system. After several hours, numerous rounds of coffee, and multiple meetings, I refined these principles to encapsulate the essence of our approach & brand."
-        />
+          <ImageC ImageC={atomicsystem} alttext="atomic concept by bradfrost" />
+        </div>
 
-        <ImageC
-          ImageC={principles}
-          alttext="Principles by which N1 was build"
-        />
+        <div className="crumbs ">
+          <TitlePara
+            heading="Setting the principles"
+            body="Every design system is build upon principles, they define the why and purpose of building design system. These principles guide decision-making and explain how the design system’s creators want team members to use the system. After several hours, numerous rounds of coffee, and multiple meetings, I refined these principles to encapsulate the essence of our approach & brand."
+          />
 
-        <TitlePara
-          heading="Foundation"
-          body="Every design system is build upon principles, they define the why and purpose of building design system. These principles guide decision-making and explain how the design system’s creators want team members to use the system. After several hours, numerous rounds of coffee, and multiple meetings, I refined these principles to encapsulate the essence of our approach & brand."
-        />
+          <ImageC
+            ImageC={principles}
+            alttext="Principles by which N1 was build"
+          />
+        </div>
 
-        <ImageC ImageC={colors} alttext="primary and accent colors" />
+        <div className="crumbs ">
+          <TitlePara
+            heading="Foundation"
+            body="Every design system is build upon principles, they define the why and purpose of building design system. These principles guide decision-making and explain how the design system’s creators want team members to use the system. After several hours, numerous rounds of coffee, and multiple meetings, I refined these principles to encapsulate the essence of our approach & brand."
+          />
 
-        <ImageC ImageC={grid} alttext="12col grid system with 4pt grid" />
+          <ImageC ImageC={colors} alttext="primary and accent colors" />
 
-        <ImageC ImageC={typography} alttext="typescale" />
+          <ImageC ImageC={grid} alttext="12col grid system with 4pt grid" />
 
-        <TitleBulletin
-          heading="Design Tokens"
-          body="a 2 tier-ed token architecture was setup for N1 consisting of primary variables and semantic variables this was important for us to achieve,"
-          bulletin={[
-            "Consistency: Design tokens provided a single source of truth for design properties such as colors, typography, spacing, and more. This ensured consistency.",
-            "Scalability: As N1 design systems grows and evolve, maintaining consistency would become increasingly challenging. Design tokens will provide a scalable solution by abstracting design properties into reusable, manageable tokens.",
-            "Efficiency: By centralising design properties in tokens, designers and developers can work more efficiently.",
-          ]}
-        />
+          <ImageC ImageC={typography} alttext="typescale" />
+        </div>
 
-        <ImageC ImageC={designtokens} />
+        <div className="crumbs ">
+          <TitleBulletin
+            heading="Design Tokens"
+            body="a 2 tier-ed token architecture was setup for N1 consisting of primary variables and semantic variables this was important for us to achieve,"
+            bulletin={[
+              "Consistency: Design tokens provided a single source of truth for design properties such as colors, typography, spacing, and more. This ensured consistency.",
+              "Scalability: As N1 design systems grows and evolve, maintaining consistency would become increasingly challenging. Design tokens will provide a scalable solution by abstracting design properties into reusable, manageable tokens.",
+              "Efficiency: By centralising design properties in tokens, designers and developers can work more efficiently.",
+            ]}
+          />
+
+          
+
+          <ImageC ImageC={designtokens} />
+        </div>
+
+        <div className="crumbs ">
 
         <TitlePara
           heading="Preview of Designs made from N1 design system"
@@ -130,6 +143,8 @@ const Designsystem = () => {
         />
 
         <ImageC ImageC={designpreview} />
+        </div>
+        
 
         <BlockPara
           heading="Impact on design."

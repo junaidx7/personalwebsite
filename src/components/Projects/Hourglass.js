@@ -81,7 +81,7 @@ const Hourglass = () => {
           heading="End goal"
           body="I find defining the end goal clearly very important when starting to research, this will help me narrow down the research. Here is the end goal of this project written down,"
           bulletin={[
-            "Research and design a effortlessly simple web app that tracks task time via stopwatch and manual duration entry and also generate invoice by this entered duration.",
+            "Research and design an effortlessly simple web app that tracks task time via stopwatch and manual duration entry and also generate invoice by this entered duration.",
             "The user must also be able to see reports of the income and tracked duration to get a overview of their productivity and income.",
             "The user must be able to categorise task by project, client etc.",
           ]}
@@ -142,7 +142,7 @@ const Hourglass = () => {
           <ImageC ImageC={cow4} />
 
           <ImageCexplanation
-            title="transparency with dynaimic link"
+            title="transparency and dynamic link"
             explanation="One concern clients have when being billed hourly by freelancers is ensuring the freelancer stays within the allocated budget. Hourglass addresses this by allowing freelancers to send a dynamic link to the client, this link provides an updated list of tracked hours and task descriptions in real-time, this also helps the client know what work is being currently done rather than going through tedious meeting. This transparency builds trust and reassures clients that they are being charged accurately."
             image={cow5}
           />
@@ -212,7 +212,7 @@ const Hourglass = () => {
         <div className="crumbs ">
           <TitlePara
             heading="High Fidelity Design of MVP"
-            body="Now that i had wireframes drawn out, and fixed some early design flaws. i started to do some clean design. since the project was a dashboard i used 12col grid, 4pt grid system to design. Initially i used 8 but i realized using 4 gives me more control and helps me be more consistent with smaller gaps."
+            body="Now that i had wireframes drawn out, and fixed some early design flaws. i started to do some clean design. since the project was a dashboard i used 12-column grid, 4pt grid system to design. Initially i used 8 but i realized using 4 gives me more control and helps me be more consistent with smaller gaps."
           />
 
           <ImageC ImageC={hourglasshighfidelity} />

@@ -48,6 +48,10 @@ body {
   color: #5d5d5d;
 }
 
+.accent1 {
+  color: #FFCA59;
+}
+
 .primary {
   color: #936BFF;
 }
@@ -74,6 +78,10 @@ body {
 
 .notactive {
   color: #5d5d5d;
+}
+
+.accent1 {
+  color: #FFCA59;
 }
 
 html {
@@ -549,6 +557,10 @@ p.overline-md {
 
 .notactive {
   color: #5d5d5d;
+}
+
+.accent1 {
+  color: #FFCA59;
 }
 
 .back-to-top {

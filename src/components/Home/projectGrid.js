@@ -50,65 +50,62 @@ const ProjectGrid = () => {
   return (
     <section className="project-sections section-gap" id="mamamia">
       <div className="maxwidth-container">
-        <h4 className="mgb5">Selected Work</h4>
+        <div>
+          <h4 className=" bottom-2xl">Selected work</h4>
 
-        <div className="grid-container">
+          <div className="grid-container">
+            <div className="project grow-rotate">
+              <Link className="curse" to="/Digitalmenu">
+                <img src={digitalmenucover} class="project-imgbox"></img>
 
-          <div className="project grow-rotate">
+                <div className="infobox">
+                  <p className="lg project_title ">
+                    Digital menu : Paperless menu during pandamic
+                  </p>
+                  <img className="arr" src={arr} alt="" />
+                </div>
+              </Link>
+            </div>
 
-            <Link className="curse" to="/Digitalmenu">
-              <img src={digitalmenucover} class="project-imgbox"></img>
+            <div className="project grow-rotate project-margintop">
+              <Link className="curse" to="/hourglass">
+                <img src={hourglassimg} class="project-imgbox"></img>
 
-              <div className="infobox">
-                <p className="lg project_title ">
-                  Digital menu : Paperless menu during pandamic
-                </p>
-                <img className="arr" src={arr} alt="" />
-              </div>
-            </Link>
-            
+                <div className="infobox">
+                  <p className="lg project_title white">
+                    Hourglass: Hourly Billing Made Easy
+                  </p>
+                  <img className="arr" src={arr} alt="" />
+                </div>
+              </Link>
+            </div>
+
+            <div className="project grow-rotate">
+              <Link className="curse" to="/Designsystem">
+                <img src={designsystemcover} class="project-imgbox"></img>
+
+                <div className="infobox">
+                  <p className="lg project_title white">
+                    N1 : Design System for Suite of ERPs
+                  </p>
+                  <img className="arr" src={arr} alt="" />
+                </div>
+              </Link>
+            </div>
+
+            <div className="project grow-rotate project-margintop">
+              <Link className="curse" to="/Accounting">
+                <img className="project-imgbox" src={accountingcover} alt="" />
+
+                <div className="infobox">
+                  <p className="lg project_title ">
+                    Accounting for every business
+                  </p>
+                  <img className="arr" src={arr} alt="" />
+                </div>
+              </Link>
+            </div>
           </div>
-
-          <div className="project grow-rotate project-margintop">
-            <Link className="curse" to="/hourglass">
-              <img src={hourglassimg} class="project-imgbox"></img>
-
-              <div className="infobox">
-                <p className="lg project_title white">
-                  Hourglass: Hourly Billing Made Easy
-                </p>
-                <img className="arr" src={arr} alt="" />
-              </div>
-            </Link>
-          </div>
-
-          <div className="project grow-rotate">
-            <Link className="curse" to="/Designsystem">
-              <img src={designsystemcover} class="project-imgbox"></img>
-
-              <div className="infobox">
-                <p className="lg project_title white">
-                  N1 : Design System for Suite of ERPs
-                </p>
-                <img className="arr" src={arr} alt="" />
-              </div>
-            </Link>
-          </div>
-
-          <div className="project grow-rotate project-margintop">
-            <Link className="curse" to="/Accounting">
-              <img className="project-imgbox" src={accountingcover} alt="" />
-
-              <div className="infobox">
-                <p className="lg project_title ">Accounting for every business</p>
-                <img className="arr" src={arr} alt="" />
-              </div>
-            </Link>
-          </div>
-
-
-
-
         </div>
       </div>
     </section>
