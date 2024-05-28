@@ -73,7 +73,7 @@ const Designsystem = () => {
           heading="Achievements"
           largetext="By comparing the time it took for team members to design a specific number of screens before and after the design system implementation, we witnessed a significant 23% reduction in design time. "
           body="The design system brought about a remarkable improvement in the consistency of our ERP products. By establishing a unified visual language and design principles, it ensured that every component and interface adhered to a cohesive style, reinforcing our brand identity."
-          body1="The Reduction in design time not only highlighted the system's impact on efficiency but also underscored its practical value in streamlining our workflows. The design system not only fostered time savings but also translated into consistency and scalability, ultimately enhancing our overall project delivery process."
+          
         />
 
         <TitlePara
@@ -109,7 +109,7 @@ const Designsystem = () => {
         <div className="crumbs ">
           <TitlePara
             heading="Foundation"
-            body="Every design system is build upon principles, they define the why and purpose of building design system. These principles guide decision-making and explain how the design system’s creators want team members to use the system. After several hours, numerous rounds of coffee, and multiple meetings, I refined these principles to encapsulate the essence of our approach & brand."
+            body="Since I initially designed without a design system, setting up the foundation was straightforward. I used a 12-column grid and a 4pt spacing system for more precise control and consistency. Figtree was used as font family and blue was the primary color to give the products more corporate feel. "
           />
 
           <ImageC ImageC={colors} alttext="primary and accent colors" />

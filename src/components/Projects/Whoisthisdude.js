@@ -32,8 +32,7 @@ const Whoisthisdude = () => {
             </p>
             <p className="md white aboutme-text top-md">
               when not working, you would find me watching thriller movies or
-              spending time with friends. Im part of the coffee-team although i
-              crave for tea sometimes.
+              spending time with friends.I am team coffee and my favourite show is 'the office'.
             </p>
 
             <p className="md white aboutme-text top-md">
@@ -47,7 +46,7 @@ const Whoisthisdude = () => {
 
         <div>
           <div>
-            <p className="md bottom-lg">
+            <p className="md bottom-md">
               Me as a Lead Designer, and my work history
             </p>
 
