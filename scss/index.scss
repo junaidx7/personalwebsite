@@ -344,12 +344,12 @@ body.tight .wrapper {
   width: 100%;
   height: auto;
   display: block;
+  pointer-events: none !important;
 }
 
 .bigbox {
   margin-top: 8rem;
   display: flex;
-
   flex-direction: row;
   justify-content: space-between;
 }

@@ -10,6 +10,8 @@ import config from "../Projects/Config"
 const Head = () => {
 
     useEffect(() => {
+
+        
         const timer = setTimeout(() => {
             const primaryColor = getComputedStyle(document.documentElement).getPropertyValue('--primary');
             const a1 = annotate(document.querySelector('#e1'), { type: 'circle', color: '#FFCA59', iterations: 5 });
@@ -36,7 +38,7 @@ const Head = () => {
                     <h1 className="bigtext "> <span id="e1" className='pop'>Junaid</span> designs<br />intuitive products.</h1>
 
                     <div className='tiltedvid'>
-                        <video className='vidinside' src={prizigner} autoPlay muted loop></video>
+                    <video className='vidinside' src={prizigner} playsInline autoPlay muted loop ></video>
                     </div>
 
                 </div>
