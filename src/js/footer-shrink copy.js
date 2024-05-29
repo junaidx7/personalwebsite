@@ -28,18 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       }
     });
-  
-    // DISABLE ANIMATIONS BELOW 700px
-    window.addEventListener("resize", function () {
-      if (window.innerWidth < 700) {
-        document.body.classList.add("disable-animation");
-      } else {
-        document.body.classList.remove("disable-animation");
-      }
-    });
-    if (window.innerWidth < 700) {
-      document.body.classList.add("disable-animation");
-    }
   });
   
 

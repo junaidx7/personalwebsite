@@ -490,7 +490,10 @@ p.overline-md {
 .contact-container {
   display: flex;
   flex-direction: row;
-  gap: 5rem;
+  column-gap: 5rem;
+  row-gap: 5rem;
+  flex-wrap: wrap;
+  margin: 1rem;
 }
 
 .arrow {
@@ -499,14 +502,14 @@ p.overline-md {
 }
 
 .letsmakeithappen {
-  max-width: 25rem;
+  max-width: 23rem;
 }
 
 .footer-maxwidth-container-withflex {
   max-width: 1200px;
   margin: auto;
   padding-bottom: 4rem;
-  padding-top: 8rem;
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   gap: 6rem;
@@ -640,13 +643,6 @@ body .box .title {
   color: #F2F4F7;
 }
 
-@media (max-width: 767px) {
-  .bigtext {
-    font-family: "Inter Tight";
-    font-size: 3.22rem;
-    color: #F2F4F7;
-  }
-}
 .skills-section {
   height: 100vh;
   display: flex;
@@ -996,6 +992,26 @@ aside {
   gap: 3rem;
 }
 
+@media screen and (max-width: 700px) {
+  aside {
+    display: none;
+  }
+  .product-title-container {
+    max-width: 100%;
+    margin: 0;
+  }
+  .imagegrid4-section {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .pieces-div-container {
+    width: 95%;
+  }
+  .product-title {
+    font-size: 3rem;
+    margin: 4rem 0rem !important;
+  }
+}
 #precision-section {
   height: 350vh;
 }
@@ -1074,12 +1090,12 @@ button:hover {
   -webkit-transition: all 0.2s ease-out;
   color: black;
   -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  transition: all 0.5s ease-out;
 }
 button:hover::before {
   -webkit-animation: sh02 0.5s 0s linear;
   -moz-animation: sh02 0.5s 0s linear;
-  animation: sh02 0.5s 0s linear;
+  animation: sh02 0.2s 0s linear;
 }
 button::before {
   content: "";
@@ -1118,6 +1134,23 @@ button:active {
   transition: box-shadow 0.2s ease-in;
 }
 
+@media screen and (max-width: 700px) {
+  button {
+    animation: none !important;
+    transition: none !important;
+  }
+  button:hover {
+    background: transparent;
+    color: #fff;
+    border: 1.5px solid #936BFF;
+    filter: none;
+    box-shadow: none;
+  }
+  button::before {
+    animation: none !important;
+    content: none;
+  }
+}
 .button-div {
   display: flex;
   flex-direction: row;
@@ -1203,6 +1236,7 @@ button:active {
 
 html {
   background-color: #000000;
+  overflow-x: hidden;
 }
 
 .maxwidth-container, .maxwidth-container-withflex, .header-container {
@@ -1305,15 +1339,70 @@ a {
   transform: scale(1.3) rotate(0deg);
 }
 
-@media screen and (max-width: 600px) {
-  .grid-container {
-    grid-template-columns: repeat(12, minmax(0, 1fr));
+.junaid-svg {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .tiltedvid {
+    transform: scale(0);
+    display: none !important;
   }
-  .project {
-    grid-column: span 12/span 12;
+  .bigbox {
+    margin-top: 4rem !important;
+  }
+  .letsmakeithappen {
+    max-width: 20rem;
+  }
+  .footer-maxwidth-container-withflex {
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 4rem;
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
+  .contact-container {
+    column-gap: 0.5rem;
+    row-gap: 4rem;
+    flex-wrap: wrap;
+    margin: 1rem;
+  }
+  .even-spacing-project {
+    margin-top: 2rem;
+  }
+  .grow-rotate-reverse {
+    transform: scale(1) rotate(0deg) !important;
+  }
+  .grow-rotate-reverse:hover {
+    transform: scale(1) rotate(0deg) !important;
+  }
+  .grow-rotate {
+    transform: scale(1) rotate(0deg) !important;
+  }
+  .grow-rotate:hover {
+    transform: scale(1) rotate(0deg) !important;
   }
   .project-margintop {
-    margin-top: 0rem;
+    margin-top: 3rem;
+  }
+  .grid-container {
+    display: block;
+  }
+  .skills-section,
+  .aboutme-section,
+  #precision-section {
+    display: none !important;
+  }
+  .wrapper {
+    padding: 2rem;
+  }
+  .bigbox {
+    display: block !important;
+  }
+  .subtext-under-bigtext {
+    min-width: 100% !important;
   }
 }
 .wrapper {
@@ -1383,6 +1472,7 @@ body.tight .wrapper {
 .tiltedvid {
   width: 10rem;
   display: flex;
+  pointer-events: none !important;
   aspect-ratio: 4/3;
   rotate: 3deg;
   border-radius: 12px;

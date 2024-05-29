@@ -20,11 +20,7 @@ const Projects = () => {
         <section className='project-sections'>
 
 
-
-
-
             <div className="maxwidth-container-withflex" id="project3">
-
 
                 <h4>Selecteddd Work</h4>
                 

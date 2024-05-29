@@ -38,13 +38,14 @@
       -webkit-transition: all 0.2s ease-out;
       color: black;
       -moz-transition: all 0.2s ease-out;
-      transition: all 0.2s ease-out;
+      transition: all 0.5s ease-out;
+      
     }
   
     &:hover::before {
       -webkit-animation: sh02 0.5s 0s linear;
       -moz-animation: sh02 0.5s 0s linear;
-      animation: sh02 0.5s 0s linear;
+      animation: sh02 0.2s 0s linear;
     }
   
     &::before {
@@ -88,4 +89,22 @@
       transition: box-shadow 0.2s ease-in;
     }
   
+  }
+
+  @media screen and (max-width: 700px) {
+    button {
+      animation: none !important;
+      transition: none !important;
+      &:hover {
+        background: transparent;
+        color: #fff;
+        border: 1.5px solid $primary;
+        filter: none;
+        box-shadow: none;
+      }
+      &::before {
+        animation: none !important;
+        content: none;
+      }
+    }
   }

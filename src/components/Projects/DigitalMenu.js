@@ -67,7 +67,7 @@ const Digitalmenu = () => {
         />
         
         <BlockPara
-          heading="The Truth About Paper Menus"
+          heading="The truth about paper menus"
           largetext="Menus are among the most unsanitary surfaces in a restaurant. The bacteria count on menus can be as high as 185,000 per square centimeter – far more than found on a toilet seat, according to a study published by Cleaning & Maintenance Management in 2014."
           body="Upwards of 95% of people fail to properly wash their hands after restroom use, according to statistics. That makes handling a restaurant menu before eating a health gamble. After COVID-19 broke out menus apart from being dirty could now have the covid virus. This is why digital menu was not a want but a need."
         />

@@ -31,7 +31,7 @@ const FooterModern = () => {
 
                 </div>
 
-                <Link className='letsmakeithappen' to="/">   <img src={letsmakeithappen} alt="" /></Link>
+                <Link className='letsmakeithappen' to="/">   <img className='junaid-svg' src={letsmakeithappen} alt="" /></Link>
 
              
 

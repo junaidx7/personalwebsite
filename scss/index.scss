@@ -34,11 +34,13 @@
   box-sizing: border-box;
 }
 
+
 div {
 }
 
 html {
   background-color: $background;
+  overflow-x: hidden;
 }
 
 .maxwidth-container {
@@ -154,18 +156,97 @@ a {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .grid-container {
-    grid-template-columns: repeat(12, minmax(0, 1fr));
+.junaid-svg {
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+  .tiltedvid {
+    transform: scale(0);
+    display: none !important;
   }
 
-  .project {
-    grid-column: span 12 / span 12;
+  .bigbox{
+    margin-top: 4rem !important;
+  }
+
+  .bigtext{}
+
+ 
+
+  .letsmakeithappen {
+    max-width: 20rem;
+  }
+
+  .footer-maxwidth-container-withflex {
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: $spacing-2xl;
+    padding-top: $spacing-md;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
+
+  .contact-container{
+
+    column-gap: $spacing-md;
+    row-gap: $spacing-2xl;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+  .even-spacing-project {
+    margin-top: 2rem;
+  }
+
+  .grow-rotate-reverse {
+    transform: scale(1) rotate(0deg) !important;
+  }
+
+  .grow-rotate-reverse:hover {
+    transform: scale(1) rotate(0deg) !important;
+  }
+
+  .grow-rotate {
+    transform: scale(1) rotate(0deg) !important;
+  }
+
+  .grow-rotate:hover {
+    transform: scale(1) rotate(0deg) !important;
   }
 
   .project-margintop {
-    margin-top: 0rem;
+    margin-top: 3rem;
   }
+
+  .grid-container {
+    display: block;
+  }
+
+  .skills-section,
+  .aboutme-section,
+  #precision-section {
+    display: none !important;
+  }
+
+  .wrapper {
+    padding: 2rem;
+  }
+
+  .bigbox {
+    display: block !important;
+  }
+
+  
+
+  .subtext-under-bigtext {
+    min-width: 100% !important;
+  }
+
 }
 
 //_______Footer animation___________________________________________________
@@ -212,6 +293,9 @@ body.tight .wrapper {
 
 //___GRIDD___________________________________________________________________________
 
+.even-spacing-project {
+}
+
 .grid12 {
   display: grid;
   grid-template-columns: repeat(12, minmax(3rem, 1fr));
@@ -246,7 +330,7 @@ body.tight .wrapper {
 .tiltedvid {
   width: 10rem;
   display: flex;
-  // border: 1px solid red;
+  pointer-events: none !important;
   aspect-ratio: 4/3;
   rotate: 3deg;
   border-radius: 12px;
@@ -360,12 +444,10 @@ header {
 //------Who is this dude---------------------------------------------------------
 
 .mypic {
-  
   max-width: 23rem;
   max-height: 100%; /* Set a maximum height */
   height: auto; /* Allow the image to resize proportionally */
   object-fit: contain;
- 
 }
 
 .aboutme-whoisthisdude {
@@ -454,7 +536,7 @@ hr {
   margin: 20px 0px 4rem 0px; /* Space around the line */
 }
 
-.showborder{
+.showborder {
   border: 1px solid red;
   padding: 4px;
 }

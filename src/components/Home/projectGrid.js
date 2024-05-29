@@ -54,7 +54,7 @@ const ProjectGrid = () => {
           <h4 className=" bottom-2xl">Selected work</h4>
 
           <div className="grid-container">
-            <div className="project grow-rotate">
+            <div className="project grow-rotate even-spacing-project">
               <Link className="curse" to="/Digitalmenu">
                 <img src={digitalmenucover} class="project-imgbox"></img>
 
@@ -67,7 +67,7 @@ const ProjectGrid = () => {
               </Link>
             </div>
 
-            <div className="project grow-rotate project-margintop">
+            <div className="project grow-rotate project-margintop even-spacing-project">
               <Link className="curse" to="/hourglass">
                 <img src={hourglassimg} class="project-imgbox"></img>
 
@@ -80,7 +80,7 @@ const ProjectGrid = () => {
               </Link>
             </div>
 
-            <div className="project grow-rotate">
+            <div className="project grow-rotate even-spacing-project">
               <Link className="curse" to="/Designsystem">
                 <img src={designsystemcover} class="project-imgbox"></img>
 
@@ -93,7 +93,7 @@ const ProjectGrid = () => {
               </Link>
             </div>
 
-            <div className="project grow-rotate project-margintop">
+            <div className="project grow-rotate even-spacing-project project-margintop">
               <Link className="curse" to="/Accounting">
                 <img className="project-imgbox" src={accountingcover} alt="" />
 
