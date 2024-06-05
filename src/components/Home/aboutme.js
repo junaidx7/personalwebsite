@@ -24,7 +24,7 @@ const Aboutme = () => {
           </p>
           <Link to="/Whoisthisdude" >
             <button className="top-lg aboutmebtn" >
-              Get to know me and my interests - coming soon.
+              Get to know me and my interests
             </button>
           </Link>
         </div>
