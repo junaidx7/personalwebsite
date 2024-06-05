@@ -17,7 +17,7 @@ const Head = () => {
             const a1 = annotate(document.querySelector('#e1'), { type: 'circle', color: '#FFCA59', iterations: 5 });
             const a2 = annotate(document.querySelector('#e2'), { type: 'highlight', color: '#936BFF', iterations: 1, multiline: true });
             const ag = annotationGroup([a1, a2]);
-            ag.show();q
+            ag.show();
         }, 500); // 2000 milliseconds = 2 seconds
 
         return () => clearTimeout(timer);
