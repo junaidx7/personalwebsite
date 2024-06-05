@@ -35,7 +35,7 @@ const Head = () => {
 
                 <div className='bigbox'>
                     
-                    <h1 className="bigtext "> <span id="e1" className='pop'>Junaid</span> designs<br />intuitive products.</h1>
+                    <h1 className="bigtext " style={{ fontFamily: '"Inter Tight", sans-serif' }}> <span id="e1" className='pop'>Junaid</span> designs<br />intuitive products.</h1>
 
                     <div className='tiltedvid'>
                     <video className='vidinside' src={prizigner} playsInline autoPlay muted loop ></video>
