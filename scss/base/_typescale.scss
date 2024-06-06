@@ -318,3 +318,7 @@ p.overline-md {
 .junaidheadersize{
   font-size: 1.313rem;
 }
+
+.chipstext{
+  @extend .w300, .xl;
+}

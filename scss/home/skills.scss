@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
 
+.hiringmanager-section{
+
+}
+
+.hiringmanager{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
 
 .skills-section {
     height: 100vh;
@@ -9,25 +19,26 @@
     align-items: center;
     flex-direction: column;
     gap: 4rem;
-}       
+}     
+
+.new-skills-section{
+    @extend .skills-section;
+}
 
 
 .stickynote {
-    aspect-ratio: 1/1;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     border-radius: 3px;
-    width: 350px;
-
+    max-width: 400px;
     margin: auto;
-
 
 
     p.lg {
         color: #2c2c2c;
-        font-family: 'Kalam', sans-serif;
+        font-family: 'Kalam', serif;
         font-weight: 700;
 
     }
@@ -35,9 +46,9 @@
 
     p.md {
         color: #2c2c2c;
-        font-family: 'Kalam', sans-serif;
+        font-family: 'Kalam', serif;
         font-weight: 400;
-        line-height: 180%;
+        line-height: 150%;
         font-size: 1.2em;
 
     }

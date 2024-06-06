@@ -34,17 +34,6 @@ const Accounting = () => {
 
         <NDA></NDA>
 
-        <Role
-          title1="Role"
-          sub1="UI UX Designer"
-          title2="Industry"
-          sub2="Finance & Accounting"
-          title3="Tools"
-          sub3="Figma, draw.io, Tseams"
-          title4="Designed at"
-          sub4="Nathan Digital"
-        />
-
         <TitlePara
           heading="My Role and responsibilities"
           body="As the sole designer for the N1 Accounting software , I worked closely with stakeholders, and in-house accountants to understand the core requirement of the software and develop a design that was both user-friendly, intuitive, & efficient. I also collaborated closely with developers to ensure that my designs were feasible and implementable and also performed the visual QA for the front end to make sure everything developed was as per the design."

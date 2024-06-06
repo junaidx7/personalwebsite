@@ -146,6 +146,16 @@ a {
   }
 }
 
+.grow-rotate-opposite {
+  transition-duration: 0.1s;
+  transition-property: transform;
+
+  &:hover {
+    transform: scale(1.04) rotate(-2deg);
+  }
+}
+
+
 .grow-rotate-reverse {
   transition-duration: 0.1s;
   transition-property: transform;
@@ -156,13 +166,10 @@ a {
   }
 }
 
-.junaid-svg {
-  width: 100%;
-}
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
 
   .tiltedvid {
     transform: scale(0);
@@ -227,9 +234,10 @@ a {
     display: block;
   }
 
-  .skills-section,
+  .new-skills-section,
   .aboutme-section,
-  #precision-section {
+  #precision-section,
+  .new-skills-section {
     display: none !important;
   }
 
@@ -246,6 +254,40 @@ a {
   .subtext-under-bigtext {
     min-width: 100% !important;
   }
+
+  .footer-maxwidth-container-withflex {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: flex-start;
+    padding: 4rem 0rem ;
+
+  }
+
+
+
+.letsmakeithappen{
+ display: none;
+}
+
+.stickynote{
+  display: none;
+}
+
+.inner-contact-container{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+  justify-content: center;
+
+  p{
+    text-align: center;
+  }
+}
+
+
 
 }
 
@@ -539,4 +581,45 @@ hr {
 .showborder {
   border: 1px solid red;
   padding: 4px;
+}
+
+
+.chipsskills{
+  @extend .grow-rotate;
+
+  border: 1px solid rgb(66, 66, 66);
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 30rem;
+  display: inline-block;
+  color: grey;
+  margin: 0.3rem;
+
+  
+  &:hover {
+    background-color: $primarydark;
+    color: $realprimarylight;
+    border: 0px;
+  }
+  
+  
+}
+
+.chipsskills-reverse{
+  @extend .grow-rotate-opposite;
+
+  border: 1px solid rgb(66, 66, 66);
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 30rem;
+  display: inline-block;
+  color: grey;
+  margin: 0.3rem;
+
+  
+  &:hover {
+    background-color: rgb(184, 150, 87);
+    color: rgb(105, 68, 0);
+    border: 0px;
+  }
+  
+  
 }

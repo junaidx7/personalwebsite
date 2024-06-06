@@ -6,6 +6,8 @@ import Aboutme from '../Home/aboutme'
 import { useEffect } from 'react';
 
 import Header from '../Home/header'
+import Skillsnew from "../Home/Skillnew"
+import Hiringmanager from "../Home/Hiringmanager"
 
 
 
@@ -41,8 +43,9 @@ const Home = () => {
             <Head></Head>
             <ProjectGrid></ProjectGrid>
             <Precision></Precision>
-            <Skills></Skills>
+            <Skillsnew></Skillsnew>
             <Aboutme></Aboutme>
+           
 
         </section>
     );

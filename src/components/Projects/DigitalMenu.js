@@ -3,7 +3,6 @@ import cover from "../Projects/imagesforprojects/menu/cover.jpg";
 import BlockPara from "./pieces/BlockPara";
 import ImageC from "./pieces/Image-constricted";
 import TitlePara from "./pieces/Title-para";
-import Role from "./pieces/role";
 import BlockText from "./pieces/BlockText";
 import TitleBulletin from "./pieces/TitleBulletin";
 import Casestudy from "./pieces/casestudy";
@@ -17,10 +16,8 @@ import userjourney from "../Projects/imagesforprojects/menu/userjourney.jpg";
 import ImageCexplanation from "../Projects/pieces/imageCexplanation";
 import earlydesignflaw1 from "../Projects/imagesforprojects/menu/earlyflaw1.jpg";
 import earlydesignflaw2 from "../Projects/imagesforprojects/menu/earlyflaw2.jpg";
-import earlydesignflaw3 from "../Projects/imagesforprojects/menu/earlyflaw3.jpg";
 import earlydesignflaw4 from "../Projects/imagesforprojects/menu/earlyflaw4.jpg";
 import earlydesignflaw5 from "../Projects/imagesforprojects/menu/earlyflaw5.jpg";
-import earlydesignflaw6 from "../Projects/imagesforprojects/menu/earlyflaw6.jpg";
 import font from "../Projects/imagesforprojects/menu/font.jpg";
 import color from "../Projects/imagesforprojects/menu/color.jpg";
 import OtherCasestudy from "./pieces/OtherCasestudy";
@@ -47,24 +44,14 @@ const Digitalmenu = () => {
   const Content = () => {
     return (
       <div className="pieces-div">
+        
         <BlockText
           title="What is Digital Menu"
           content="Digital menu is a web app designed to replace the conventional paper menu in a restaurants during the pandemic as they apart from being dirty could also be affected by the corona virus."
         />
  
-        <Role 
-        title1="Role"
-        sub1="UI UX Designer"
-
-        title2="Duration"
-        sub2="1 month"
-        
-        title3="Target Audience"
-        sub3="+10 years of age"
-
-        title4="Toolkit"
-        sub4="Figma, Google Meet"
-        />
+   
+  
         
         <BlockPara
           heading="The truth about paper menus"

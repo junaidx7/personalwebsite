@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import ImageC from "./pieces/Image-constricted";
 import TitlePara from "./pieces/Title-para";
-import Role from "./pieces/role";
 import BlockText from "./pieces/BlockText";
 import TitleBulletin from "./pieces/TitleBulletin";
 import Casestudy from "./pieces/casestudy";
@@ -52,20 +51,7 @@ const Hourglass = () => {
           content="Hourglass is a software designed to help freelancers keep track of their billable hours and easily generate invoices from the tracked hours. it isn't just a tool; it's a trusted ally for freelancers, empowering them to focus on their craft while effortlessly managing the administrative aspects of their business."
         />
 
-        <Role 
-        title1="Job Title"
-        sub1="Sr. UI UX Designer" 
 
-        title2="Project Duration"
-        sub2="1month"
-
-        title3="Created for"
-        sub3="Flexxited"
-
-        title4="Tools"
-        sub4="Figma, Draw.io, Zoom"
-        
-        />
 
         <TitlePara
           heading="My Role"
