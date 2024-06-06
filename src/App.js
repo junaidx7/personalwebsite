@@ -2,7 +2,6 @@ import './css/index.css';
 
 import FooterModern from './components/footer-modern'
 import Home from './components/Home/home'
-
 import Demotextscale from './components/demotextscale'
 import Accounting from './components/Projects/Accounting'
 import Digitalmenu from './components/Projects/DigitalMenu'
@@ -16,14 +15,6 @@ import OtherCasestudy from './components/Projects/pieces/OtherCasestudy'
 import ScrollToTop from './Scrolltotop';
 
 function App() {
-
-  useEffect(() => {
-    document.title = "Junaid Portfolio";
-   
-  }, []);
-
- 
-  
 
   useEffect(() => {
     document.title = "Junaid Portfolio";

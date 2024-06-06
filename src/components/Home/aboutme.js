@@ -1,11 +1,16 @@
 import { Link } from "react-router-dom";
+import bathselfie from "../Home/abtme-images/bathselfie.jpg"
+
+import office from "../Home/abtme-images/office.webp"
+
+import dubai from "../Home/abtme-images/dubai.jpg"
 const Aboutme = () => {
   return (
     <section className="aboutme-section">
       <div className="grid12px">
         <img
-          className="abtme-img1"
-          src="https://cdn.sanity.io/images/s695h8ei/production/3918b184d189c2384e4f1e8ac53b3e9c718e830d-630x932.jpg?w=640&q=75&fit=clip&auto=format"
+          className="abtme-img1 grow-rotate-small "
+          src={bathselfie}
           alt=""
         />
 
@@ -32,19 +37,19 @@ const Aboutme = () => {
 
       <div className="grid12px">
         <img
-          className="abtme-img2"
-          src="https://cdn.sanity.io/images/s695h8ei/production/8e4eb588d5d9d11477b88ec6bd1f2a2d3a220cd6-394x600.jpg?w=640&q=75&fit=clip&auto=format"
+          className="abtme-img2 nointeraction"
+          src={dubai}
           alt=""
         />
 
         <img
-          className="abtme-img3"
-          src="https://cdn.sanity.io/images/s695h8ei/production/6e24a7868e860eee72176251472fdb85621a3ee0-1200x800.gif?w=640&q=75&fit=clip&auto=format"
+          className="abtme-img3 nointeraction"
+          src={office}
           alt=""
         />
 
         <img
-          className="abtme-img4"
+          className="abtme-img4 grow-rotate-small nointeraction"
           src=" https://cdn.sanity.io/images/s695h8ei/production/c0c5040ca9d5e7274468bf3767be49bc58cf4dd2-866x534.jpg?w=640&q=75&fit=clip&auto=format"
           alt=""
         />

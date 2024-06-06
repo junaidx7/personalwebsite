@@ -2,6 +2,7 @@ import arrow from "../image/arrow-svg.svg";
 import letsmakeithappen from "../components/Home/Junaid.svg";
 import { Link } from "react-router-dom";
 import config from "./Projects/Config";
+import EmailCopyButton from "./Home/Copybutton"
 
 const FooterModern = () => {
   return (
@@ -15,12 +16,12 @@ const FooterModern = () => {
               <div className="textandarrow">
                 {" "}
                 <p className="lg details-text">Junaid79x@gmail.com</p>{" "}
-                <img className="arrow" src={arrow} />{" "}
+                <EmailCopyButton/>
               </div>
               <div className="textandarrow">
                 {" "}
                 <p className="lg details-text">00971 589-789-768</p>{" "}
-                <img className="arrow" src={arrow} />{" "}
+               
               </div>
             </div>
 
@@ -51,7 +52,7 @@ const FooterModern = () => {
           />
         </div>
 
-        <div className="stickynote yellowSticky grow-rotate-reverse">
+        <div className="stickynote yellowSticky grow-rotate-small">
           <p className="md">Note to hiring Manager,</p>
           <p className="md">
             Everything in this portfolio— designing projects, writing case

@@ -166,6 +166,17 @@ a {
   }
 }
 
+.grow-rotate-small {
+  transition-duration: 0.1s;
+  transition-property: transform;
+  transform: scale(1) rotate(2deg);
+
+  &:hover {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+
 
 
 
@@ -218,6 +229,10 @@ a {
     transform: scale(1) rotate(0deg) !important;
   }
 
+  
+
+
+
   .grow-rotate {
     transform: scale(1) rotate(0deg) !important;
   }
@@ -225,6 +240,8 @@ a {
   .grow-rotate:hover {
     transform: scale(1) rotate(0deg) !important;
   }
+
+
 
   .project-margintop {
     margin-top: 3rem;
@@ -504,7 +521,7 @@ header {
   display: flex;
   flex-direction: row;
   gap: 1rem;
-
+  flex-wrap: wrap;
   justify-content: center;
   gap: 5rem;
 }
@@ -623,3 +640,29 @@ hr {
   
   
 }
+
+
+    /* WebKit Browsers */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #1e1e1e;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #4a4a4a;
+      border-radius: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #5e5e5e;
+    }
+
+
+
+    .nointeraction{
+      pointer-events: none;
+    }
+    

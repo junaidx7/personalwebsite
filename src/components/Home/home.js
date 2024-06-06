@@ -1,15 +1,9 @@
 import Head from '../Home/head';
 import Precision from '../Home/precision';
-import Skills from '../Home/skills';
 import ProjectGrid from '../Home/projectGrid'
 import Aboutme from '../Home/aboutme'
 import { useEffect } from 'react';
-
-import Header from '../Home/header'
 import Skillsnew from "../Home/Skillnew"
-import Hiringmanager from "../Home/Hiringmanager"
-
-
 
 
 const Home = () => {
