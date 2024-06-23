@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import cover from "../Projects/imagesforprojects/menu/cover.jpg";
+
+import restcover from "../Projects/imagesforprojects/menu/restcover.jpg";
 import BlockPara from "./pieces/BlockPara";
 import ImageC from "./pieces/Image-constricted";
 import TitlePara from "./pieces/Title-para";
@@ -7,7 +9,7 @@ import BlockText from "./pieces/BlockText";
 import TitleBulletin from "./pieces/TitleBulletin";
 import Casestudy from "./pieces/casestudy";
 import coverright from "../Projects/imagesforprojects/menu/coverright.jpg";
-import coverleft from "../Projects/imagesforprojects/menu/coverleft.jpg";
+import coverleft from "../Projects/imagesforprojects/menu/cover2.jpg";
 import telegrampoll from "../Projects/imagesforprojects/menu/telegrampoll.png";
 import onlinemeet from "../Projects/imagesforprojects/menu/onlinemeet.jpg";
 import overalllinsight from "../Projects/imagesforprojects/menu/overalllinsight.jpg";
@@ -50,9 +52,6 @@ const Digitalmenu = () => {
           content="Digital menu is a web app designed to replace the conventional paper menu in a restaurants during the pandemic as they apart from being dirty could also be affected by the corona virus."
         />
  
-   
-  
-        
         <BlockPara
           heading="The truth about paper menus"
           largetext="Menus are among the most unsanitary surfaces in a restaurant. The bacteria count on menus can be as high as 185,000 per square centimeter – far more than found on a toilet seat, according to a study published by Cleaning & Maintenance Management in 2014."
@@ -218,7 +217,7 @@ const Digitalmenu = () => {
       <Casestudy
         casestudytitle="Digital Menu: Paperless menu to fight the pandemic."
         content={<Content />}
-        coverimg={cover}
+        coverimg={restcover}
         coverimgleft={coverleft}
         coverimgright={coverright}
       />

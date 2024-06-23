@@ -1,5 +1,5 @@
 const Config = {
-    resumeLink: 'https://drive.google.com/file/d/1_CGYJ9jvzhOK8SJBXpmykwjytK1Ol-6B/view?usp=sharing',
+    resumeLink: 'https://drive.google.com/file/d/1bPsfXtXgsZxgvIDedwtfSx6z99ANaa1Q/view?usp=sharing',
     twitterLink: 'https://www.x.com',
     linkedinLink:'https://www.linkedin.com/in/uiuxdesignerjunaid/'
   };
