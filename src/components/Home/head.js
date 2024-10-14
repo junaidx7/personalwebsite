@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import prizigner from '../Home/prizigner.mp4'
 import { Link } from 'react-router-dom';
 import opendot from '../Home/opendot.svg'
+import Themebutton from '../Home/Themebutton'
 
 import config from "../Projects/Config"
 
@@ -65,6 +66,8 @@ const Head = () => {
 
 
                     <a href={config.linkedinLink} target="_blank"> <button>Linkedin</button> </a>
+
+                    <Themebutton/>
 
 
 

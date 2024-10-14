@@ -20,40 +20,26 @@ body {
     transform: translateX(100%);
   }
 }
-.primary {
-  color: #936BFF;
+:root {
+  --bg:white;
+  --bg_opposite:rgb(0, 0, 0);
 }
 
-.primarylight {
-  color: #ececf1;
+[data-theme=dark] {
+  --bg: black;
+  --bg_opposite:white;
 }
 
-.realprimarylight {
-  color: #ded1ff;
+* {
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.subtext {
-  color: #acacac;
+.master-wrapper {
+  background-color: var(--bg_opposite);
 }
 
-.subtextlight {
-  color: #e6e6e6;
-}
-
-.subsubtext {
-  color: #D0D5DD;
-}
-
-.white {
-  color: rgb(255, 255, 255);
-}
-
-.notactive {
-  color: #5d5d5d;
-}
-
-.accent1 {
-  color: #FFCA59;
+.wrapper {
+  background-color: var(--bg);
 }
 
 .primary {
@@ -90,6 +76,74 @@ body {
 
 .accent1 {
   color: #FFCA59;
+}
+
+html {
+  background-color: var(--bg);
+  overflow-x: hidden;
+}
+
+:root {
+  --bg:white;
+  --bg_opposite:rgb(0, 0, 0);
+}
+
+[data-theme=dark] {
+  --bg: black;
+  --bg_opposite:white;
+}
+
+* {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.master-wrapper {
+  background-color: var(--bg_opposite);
+}
+
+.wrapper {
+  background-color: var(--bg);
+}
+
+.primary {
+  color: #936BFF;
+}
+
+.primarylight {
+  color: #ececf1;
+}
+
+.realprimarylight {
+  color: #ded1ff;
+}
+
+.subtext {
+  color: #acacac;
+}
+
+.subtextlight {
+  color: #e6e6e6;
+}
+
+.subsubtext {
+  color: #D0D5DD;
+}
+
+.white {
+  color: rgb(255, 255, 255);
+}
+
+.notactive {
+  color: #5d5d5d;
+}
+
+.accent1 {
+  color: #FFCA59;
+}
+
+html {
+  background-color: var(--bg);
+  overflow-x: hidden;
 }
 
 html {
@@ -461,7 +515,6 @@ p.overline-md {
 .master-wrapper {
   width: 100%;
   height: 100%;
-  background-color: #f2f2f2;
 }
 
 .textandarrow {
@@ -547,6 +600,28 @@ p.overline-md {
   color: #acacac;
 }
 
+:root {
+  --bg:white;
+  --bg_opposite:rgb(0, 0, 0);
+}
+
+[data-theme=dark] {
+  --bg: black;
+  --bg_opposite:white;
+}
+
+* {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.master-wrapper {
+  background-color: var(--bg_opposite);
+}
+
+.wrapper {
+  background-color: var(--bg);
+}
+
 .primary {
   color: #936BFF;
 }
@@ -583,6 +658,11 @@ p.overline-md {
   color: #FFCA59;
 }
 
+html {
+  background-color: var(--bg);
+  overflow-x: hidden;
+}
+
 .back-to-top {
   background-color: #936BFF;
   text-decoration: none;
@@ -614,7 +694,6 @@ p.overline-md {
 }
 
 body {
-  background-color: #eee;
   min-height: 100vh;
 }
 body .box {
@@ -1245,11 +1324,6 @@ button:active {
   box-sizing: border-box;
 }
 
-html {
-  background-color: #000000;
-  overflow-x: hidden;
-}
-
 .maxwidth-container, .maxwidth-container-withflex, .header-container {
   max-width: 1200px;
   margin: auto;
@@ -1303,10 +1377,6 @@ html {
 
 a {
   color: green;
-}
-
-.project-sections {
-  background-color: #000000;
 }
 
 .grid-container {
@@ -1455,7 +1525,6 @@ a {
   }
 }
 .wrapper {
-  background-color: #000000;
   transform-origin: center bottom 0px;
   transition: all 0.2s ease 0s;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
@@ -1585,7 +1654,7 @@ a {
 }
 
 header {
-  background-color: #000000;
+  background-color: var(--bg);
   padding-top: 1.5rem;
 }
 
