@@ -14,7 +14,6 @@ $grey800: #1D2939;
 $grey900: #101828;
 
 
-
 //Dark Theme Text-dark
 $text: $grey100;
 $subtext: #acacac;
@@ -51,22 +50,62 @@ $accent2 :#ff7d4a;
 
 
 
-:root{
+:root{  //LIGHT MODE COLORS - token not base
+
+    --primary:$accent1;
     --bg:white;
     --bg_opposite:rgb(0, 0, 0);
+
+    --h1:$accent1;
+    --h2:$accent1;
+    --h3:$accent1;
+    --h4:$accent1;
+    --h5:$accent1;
+    --h6:$accent1;
+
+    --para-lg:$accent1;
+    --para-md:$accent1;
+    --para-sm:$accent1;
+
+    --border-subtle: $grey300;
+    --border-moderate: $grey400;
+    --border-bold: $grey50;
+
 }
 
-$background:var(--bg);
-$background-dark:#c35151;
+
+
+
+
+
 
 
 [data-theme="dark"] {
-    --bg: black; 
+    
+    //DARK MODE COLORS - token not base
+    
+    --bg: black;
     --bg_opposite:white;
+
+    --h1:$accent1;
+    --h2:$accent1;
+    --h3:$accent1;
+    --h4:$accent1;
+    --h5:$accent1;
+    --h6:$accent1;
+
+    --para-lg:$accent1;
+    --para-md:$accent1;
+    --para-sm:$accent1;
+
+    --border-subtle: $grey300;
+    --border-moderate: $grey400;
+    --border-bold: $grey50;
 }
 
+
+
 * {
-   
     transition: background-color 0.3s, color 0.3s; // Smooth transition
 }
 

@@ -22,12 +22,10 @@ body {
 }
 :root {
   --bg:white;
-  --bg_opposite:rgb(0, 0, 0);
 }
 
 [data-theme=dark] {
   --bg: black;
-  --bg_opposite:white;
 }
 
 * {
@@ -85,12 +83,10 @@ html {
 
 :root {
   --bg:white;
-  --bg_opposite:rgb(0, 0, 0);
 }
 
 [data-theme=dark] {
   --bg: black;
-  --bg_opposite:white;
 }
 
 * {
@@ -602,12 +598,10 @@ p.overline-md {
 
 :root {
   --bg:white;
-  --bg_opposite:rgb(0, 0, 0);
 }
 
 [data-theme=dark] {
   --bg: black;
-  --bg_opposite:white;
 }
 
 * {
