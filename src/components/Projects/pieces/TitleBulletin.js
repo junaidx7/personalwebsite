@@ -3,15 +3,15 @@ const TitleBulletin = ({ heading,body, bulletin,overline}) => {
     <section className="maxwidth-container-text sfc">
       <div>
       {overline && <p className="overline-heading">{overline}</p>}
-        <h4 id="section1" className="below-title-spacing">
+        <h5 id="section1" className="below-title-spacing">
           {heading}
-        </h4>
+        </h5>
 
         <p className="md subtext">{body}</p>
 
-        <ul>
+        <ul className="top-md">
           {bulletin.map((item, i) => (
-            <li className="md subtext top-md" key={i}>{item}</li>
+            <li className="md" key={i}>{item}</li>
           ))}
         </ul>
       </div>

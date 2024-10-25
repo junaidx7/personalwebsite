@@ -9,7 +9,7 @@ const Sidebar = () => {
     useEffect(() => {
 
         
-        const headings = document.querySelectorAll('.sfc h4');
+        const headings = document.querySelectorAll('.sfc h5');
         const tocList = document.querySelector('.tocc');
 
         headings.forEach(function (heading, index) {

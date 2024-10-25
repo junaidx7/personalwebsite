@@ -54,8 +54,10 @@ const ProjectGrid = () => {
           <h4 className=" bottom-2xl">Selected work</h4>
 
           <div className="grid-container">
-            <div className="project grow-rotate even-spacing-project">
+
+            <div className=" glare project grow-rotate even-spacing-project">
               <Link className="curse" to="/Digitalmenu">
+              
                 <img src={digitalmenucover} class="project-imgbox"></img>
 
                 <div className="infobox">

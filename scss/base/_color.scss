@@ -15,13 +15,12 @@ $primary:purple;
 
 
 
-
 :root {
     //LIGHT MODE COLORS - token not base
 
     --primary: #{$primary};
-    --bg:#{$grey200};
-    --bg_opposite:#{$grey900};
+    --bg:#{$grey100};
+    --bg_opposite:#{black};
 
     --h1:#{$grey800};
     --h2:#{$grey700};
@@ -100,6 +99,10 @@ h6 {
 }
 
 p{
+    color:var(--text);
+}
+
+li{
     color:var(--text);
 }
 

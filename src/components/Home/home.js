@@ -37,15 +37,14 @@ const Home = () => {
            
             <Head></Head>
             <ProjectGrid></ProjectGrid>
-           
-          
             <Precision></Precision>
-            <Skillsnew></Skillsnew>
+           
             <Aboutme></Aboutme>
 
             
 
             {/* <Projectstack></Projectstack> */}
+               {/* <Skillsnew></Skillsnew> */}
 
           
           

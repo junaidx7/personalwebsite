@@ -7,7 +7,7 @@ const BlockText = ({ title, content }) => {
         <section className="maxwidth-container-text sfc">
 
             
-            <h4 className="gone">{title}</h4>
+            <h5 className="gone">{title}</h5>
 
             <p className="lg top-xl">{content}</p>
 

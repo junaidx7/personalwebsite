@@ -1,5 +1,4 @@
-import backarrow from '../back-arrow.svg'
-import { Link } from 'react-router-dom';
+
 
 const Title = () => {
 
@@ -13,8 +12,6 @@ const Title = () => {
 
             </div>
 
-
-          
 
         </section>
 

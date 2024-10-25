@@ -17,9 +17,9 @@ const TitlePara = ({
         {overline && <p className="overline-heading bottom-md">{overline}</p>}
 
         {heading && (
-          <h4 id="section1" className=" bottom-lg">
+          <h5 id="section1" className=" bottom-lg">
             {heading}
-          </h4>
+          </h5>
         )}
 
         {body && <p className="md subtext">{body}</p>}
