@@ -3,6 +3,8 @@ import { useEffect } from 'react';
 import prizigner from '../Home/prizigner.mp4'
 import { Link } from 'react-router-dom';
 import opendot from '../Home/opendot.svg'
+import duicon from "../Home/duicon.png"
+import openarrow from "../Home/openarrow.svg"
 import Themebutton from '../Home/Themebutton'
 
 import config from "../Projects/Config"
@@ -47,39 +49,19 @@ const Head = () => {
 
 
 
-                <h4 className="lg subtext-under-bigtext" style={{ fontFamily: '"Inter Tight", sans-serif' }} id="bio">
+                <h5 className="subtext-under-bigtext" style={{ fontFamily: '"Inter Tight", sans-serif' }} id="bio">
                     Hello, I am a <span id='e2'>  Lead UI UX designer based in dubai with 7yrs of experience</span> in crafting
                     user-centric web and mobile solutions across diverse industries.
-                </h4>
-
-        
-
-
-
-
-                <div className="button-div">
-                  
-
-
-                    <a href={config.resumeLink}
-                        target="_blank"> <button>Resume</button> </a>
-
-
-                    <a href={config.linkedinLink} target="_blank"> <button>Linkedin</button> </a>
-
-                    <Themebutton/>
-
-
-
-
-
-
-
-
+                </h5>
+                
+                <div className='designingfordiv'>
+                    <h5 className='subtext-under-bigtext'>Currently designing for</h5>
+                    <img src={duicon} alt="Description" />
+                    <h5 className='subtext-under-bigtext'>telecom</h5>
+                    <img src={openarrow} alt="Description" />
                 </div>
 
-
-
+        
 
 
 

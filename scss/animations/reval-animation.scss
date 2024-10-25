@@ -1,18 +1,19 @@
 #precision-section {
   height: 350vh;
+  background: linear-gradient(to bottom,var(--bg), var(--bg));
 }
 
 
 
 .animatedparagraph {
  
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 350;
-  line-height: 120%;
-  letter-spacing: -0.0rem;
-  color: rgb(255, 255, 255);
+  line-height: 130%;
+  letter-spacing: -0.08rem;
+  color: var(--text);
   position: sticky;
-  top: 25%;
+  top: 30%;
   padding-bottom: 5rem;
 
 }
@@ -21,7 +22,7 @@
 
 
 #precision-paragraph span {
-  transition: opacity .1s linear;
+  transition: opacity .2s linear;
 }
 
 

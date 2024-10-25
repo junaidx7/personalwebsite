@@ -2,7 +2,7 @@ const Title2col = ({heading,body}) => {
     return ( 
         <section className="maxwidth-container-text sfc">
      
-            <h4 className="below-title-spacing primarylight">{heading}</h4>
+            <h4 className="below-title-spacing">{heading}</h4>
             <p className="md twocol-para subtext">{body}</p>
         </section>
      );

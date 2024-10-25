@@ -54,7 +54,7 @@ const Casestudy = ({
       <HeaderProduct />
 
       <div className="product-title-container">
-        <h1 className="product-title white w500 top-3xl bottom-3xl left-2xl">
+        <h1 className="product-title w500 top-3xl bottom-3xl left-2xl">
           {casestudytitle}
         </h1>
       </div>

@@ -4,6 +4,7 @@ import ProjectGrid from '../Home/projectGrid'
 import Aboutme from '../Home/aboutme'
 import { useEffect } from 'react';
 import Skillsnew from "../Home/Skillnew"
+import Projectstack from "../Home/Projectstack"
 
 
 const Home = () => {
@@ -36,9 +37,18 @@ const Home = () => {
            
             <Head></Head>
             <ProjectGrid></ProjectGrid>
+           
+          
             <Precision></Precision>
             <Skillsnew></Skillsnew>
             <Aboutme></Aboutme>
+
+            
+
+            {/* <Projectstack></Projectstack> */}
+
+          
+          
            
 
         </section>

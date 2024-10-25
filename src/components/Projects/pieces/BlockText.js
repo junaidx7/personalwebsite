@@ -9,7 +9,7 @@ const BlockText = ({ title, content }) => {
             
             <h4 className="gone">{title}</h4>
 
-            <p className="lg white top-xl">{content}</p>
+            <p className="lg top-xl">{content}</p>
 
         </section>
 

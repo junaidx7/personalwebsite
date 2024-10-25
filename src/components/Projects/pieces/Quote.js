@@ -7,7 +7,7 @@ const Quote = ({quote,quoteimg}) => {
 
       <img className="quote-icon"  src={quoteimg} alt="" />
 
-      <p className="lg white top-xl">{quote}</p>
+      <p className="lg top-xl">{quote}</p>
       
     </section>
 

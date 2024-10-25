@@ -151,7 +151,7 @@ aside {
    
     font-weight: 400;
     text-decoration: none;
-    color: $not-active;
+    color: var(--links);
     padding-top: 1rem;
 }
 
@@ -163,7 +163,7 @@ aside {
 
 .active {
     font-weight: 500;
-    color: $primary-light !important;
+    color: var(--primary) ;
 
 }
 

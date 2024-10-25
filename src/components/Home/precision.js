@@ -3,7 +3,7 @@ import initReveal from '../../js/reveal'
 
 const Precision = () => {
   useEffect(() => {
-    const text = "Precision-Driven Designs for Maximum Impact. I go beyond aesthetics, delving deep into consumer behavior and market research to craft products that aren't just visually appealing but strategically engineered for usability & conversion.";
+    const text = "Precision-driven designs for maximum impact. I go beyond aesthetics, delving deep into consumer behavior and market research to craft products that aren't just visually appealing but strategically engineered for usability & conversion.";
     console.log('caled');
     const words = text.split(' ');
     const parentElement = document.getElementById('precision-paragraph');
@@ -43,7 +43,7 @@ const Precision = () => {
       window.removeEventListener('scroll', handleScroll);
     }
 
-    console.log('reveal compelete');
+
   }, []);
 
   return (

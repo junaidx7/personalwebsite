@@ -1,6 +1,4 @@
-
-
-//Greys
+//BASE COLORS
 $grey25: #FCFCFD;
 $grey50: #F9FAFB;
 $grey100: #F2F4F7;
@@ -13,95 +11,100 @@ $grey700: #344054;
 $grey800: #1D2939;
 $grey900: #101828;
 
-
-//Dark Theme Text-dark
-$text: $grey100;
-$subtext: #acacac;
-$subtextlight: #e6e6e6;
-$subsubtext: $grey300;
-
-
-//On White Theme Text-dark
-$w-text: black;
-$w-subtext: #8A8A8E;
-$w-subsubtext: #C4C4C6;
-
-
-//Border-dark
-$border-minimal: $grey200;
-$border-subtle: $grey300;
-$border-moderate: $grey400;
-$border-bold: $grey50;
-
-
-//Colors-dark
-$primary :#936BFF;
-$primary-light :#ececf1;
-$realprimarylight :#ded1ff;
-$primarydark :#220475;
-$hover :#6BDCFF;
-$active :#00ffe5;
-$not-active :#5d5d5d;
-
-$accent1 :#FFCA59;
-$accent2 :#ff7d4a;
+$primary:purple;
 
 
 
 
+:root {
+    //LIGHT MODE COLORS - token not base
 
-:root{  //LIGHT MODE COLORS - token not base
+    --primary: #{$primary};
+    --bg:#{$grey200};
+    --bg_opposite:#{$grey900};
 
-    --primary:$accent1;
-    --bg:white;
-    --bg_opposite:rgb(0, 0, 0);
+    --h1:#{$grey800};
+    --h2:#{$grey700};
+    --h3:#{$grey700};
+    --h4:#{$grey700};
+    --h5:#{$grey700};
+    --h6:#{$grey700};
 
-    --h1:$accent1;
-    --h2:$accent1;
-    --h3:$accent1;
-    --h4:$accent1;
-    --h5:$accent1;
-    --h6:$accent1;
+    --text_light:#{$grey500};
+    --text:#{$grey600};
+    --text_dark:#{$grey700};
 
-    --para-lg:$accent1;
-    --para-md:$accent1;
-    --para-sm:$accent1;
+    --border-subtle: #{$grey300};
+    --border-moderate: #{$grey400};
+    --border-bold: #{$grey50};
 
-    --border-subtle: $grey300;
-    --border-moderate: $grey400;
-    --border-bold: $grey50;
+    --pscard_bg:#{$grey25};
+
+    --links:blue;
 
 }
-
-
-
-
 
 
 
 
 [data-theme="dark"] {
-    
+
     //DARK MODE COLORS - token not base
-    
+
     --bg: black;
-    --bg_opposite:white;
+    --bg_opposite: white;
 
-    --h1:$accent1;
-    --h2:$accent1;
-    --h3:$accent1;
-    --h4:$accent1;
-    --h5:$accent1;
-    --h6:$accent1;
+    --pscard_bg:#{$grey700};
 
-    --para-lg:$accent1;
-    --para-md:$accent1;
-    --para-sm:$accent1;
+    --h1:#{$grey100};
+    --h2:#{$grey100};
+    --h3:#{$grey100};
+    --h4:#{$grey100};
+    --h5:#{$grey100};
+    --h6:#{$grey100};
 
-    --border-subtle: $grey300;
-    --border-moderate: $grey400;
-    --border-bold: $grey50;
+    --text_light:#{$grey400};
+    --text:#{$grey400};
+    --text_dark:#{$grey400};
+
+    --border-subtle: #{$grey300};
+    --border-moderate: #{$grey400};
+    --border-bold: #{$grey50};
+    
 }
+
+
+
+h1 {
+    color: var(--h1);
+}
+
+h2 {
+    color: var(--h2);
+}
+
+h3 {
+    color: var(--h3);
+}
+
+h4 {
+    color: var(--h4);
+}
+
+h5 {
+    color: var(--h5);
+}
+
+h6 {
+    color: var(--h6);
+}
+
+p{
+    color:var(--text);
+}
+
+
+
 
 
 
@@ -110,12 +113,12 @@ $accent2 :#ff7d4a;
 }
 
 .master-wrapper {
-    background-color: var(--bg_opposite); 
-  }
+    background-color: var(--bg_opposite);
+}
 
-  .wrapper {
-    background-color: var(--bg); 
-  }
+.wrapper {
+    background-color: var(--bg);
+}
 
 
 
@@ -123,46 +126,7 @@ $accent2 :#ff7d4a;
 //  -----------------------------------------------------------------------------
 
 
-//color for texts and others
-
-.primary{
-    color: $primary;
-}
-
-.primarylight{
-    color: $primary-light;
-}
-
-.realprimarylight{
-    color: $realprimarylight;
-}
-
-.subtext{
-    color: $subtext;
-}
-.subtextlight{
-    color: $subtextlight;
-}
-
-.subsubtext{
-    color: $subsubtext;
-}
-
-.white{
-    color: rgb(255, 255, 255);
-}
-
-.notactive{
-    color: $not-active;
-}
-
-.accent1{
-    color: $accent1;
-}
-
-
 html {
-    background-color: var(--bg); 
+    background-color: var(--bg);
     overflow-x: hidden;
-  }
-  
+}

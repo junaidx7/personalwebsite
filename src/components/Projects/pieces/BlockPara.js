@@ -3,13 +3,13 @@ const BlockPara = ({ heading, largetext, body,body1 }) => {
     <section className="maxwidth-container-text sfc">
       <div>
         {heading && (
-          <h4 id="section1" className="below-title-spacing primarylight">
+          <h4 id="section1" className="below-title-spacing ">
             {heading}
           </h4>
         )}
 
         {largetext && (
-          <p className="lg text below-title-spacing primarylight">{largetext}</p>
+          <p className="lg text below-title-spacing ">{largetext}</p>
         )}
 
         {body && <p className="md subtext">{body}</p>}

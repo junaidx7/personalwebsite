@@ -9,6 +9,7 @@
 @import "../scss/base/footer_modern.scss";
 @import "../scss/base/header.scss";
 @import "../scss/base/backtop.scss";
+@import "../scss/home/project-stack.scss";
 
 //----------Home---------------------
 
@@ -39,9 +40,8 @@ div {
 }
 
 
-
 .maxwidth-container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
 }
 
@@ -181,14 +181,6 @@ a {
     display: none !important;
   }
 
-  .bigbox{
-    margin-top: 4rem !important;
-  }
-
-  .bigtext{}
-
- 
-
   .letsmakeithappen {
     max-width: 20rem;
   }
@@ -256,9 +248,7 @@ a {
     padding: 2rem;
   }
 
-  .bigbox {
-    display: block !important;
-  }
+
 
   
 
@@ -275,7 +265,6 @@ a {
     padding: 4rem 0rem ;
 
   }
-
 
 
 .letsmakeithappen{
@@ -402,10 +391,11 @@ body.tight .wrapper {
 }
 
 .bigbox {
-  margin-top: 8rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
 }
 
 #see-section {
@@ -448,7 +438,7 @@ a {
   }
 
   p {
-    color: $subtext;
+    color: var(--text);
   }
 }
 
@@ -608,8 +598,8 @@ hr {
 
   
   &:hover {
-    background-color: $primarydark;
-    color: $realprimarylight;
+    background-color: var(--bg);
+    color: palegoldenrod;
     border: 0px;
   }
   
@@ -659,5 +649,12 @@ hr {
 
     .nointeraction{
       pointer-events: none;
+    }
+
+
+    .designingfordiv{
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
     }
     
