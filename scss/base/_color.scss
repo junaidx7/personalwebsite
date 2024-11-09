@@ -11,7 +11,9 @@ $grey700: #344054;
 $grey800: #1D2939;
 $grey900: #101828;
 
-$primary:purple;
+$primary:#936BFF;
+$primary-dark:#472f89;
+$primary-light:#bba3ff;
 
 
 
@@ -30,7 +32,7 @@ $primary:purple;
     --h6:#{$grey800};
 
     --text_light:#{$grey500};
-    --text:#{$grey700};
+    --text:#{$grey500};
     --text_dark:#{$grey700};
 
     --border-subtle: #{$grey300};

@@ -21,7 +21,7 @@ body {
   }
 }
 :root {
-  --primary: purple;
+  --primary: #936BFF;
   --bg:white;
   --bg_opposite:black;
   --h1:#1D2939;
@@ -31,7 +31,7 @@ body {
   --h5:#1D2939;
   --h6:#1D2939;
   --text_light:#667085;
-  --text:#344054;
+  --text:#667085;
   --text_dark:#344054;
   --border-subtle: #D0D5DD;
   --border-moderate: #98A2B3;
@@ -108,7 +108,7 @@ html {
 }
 
 :root {
-  --primary: purple;
+  --primary: #936BFF;
   --bg:white;
   --bg_opposite:black;
   --h1:#1D2939;
@@ -118,7 +118,7 @@ html {
   --h5:#1D2939;
   --h6:#1D2939;
   --text_light:#667085;
-  --text:#344054;
+  --text:#667085;
   --text_dark:#344054;
   --border-subtle: #D0D5DD;
   --border-moderate: #98A2B3;
@@ -347,6 +347,14 @@ li {
   letter-spacing: 0em;
   line-height: 1.55;
   padding-left: 0.5rem;
+}
+
+.subtext-under-bigtext {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 1.5rem;
+  max-width: 65% !important;
+  font-weight: 320 !important;
+  letter-spacing: 0rem !important;
 }
 
 .bottom-xs {
@@ -581,7 +589,7 @@ li {
 }
 
 :root {
-  --primary: purple;
+  --primary: #936BFF;
   --bg:white;
   --bg_opposite:black;
   --h1:#1D2939;
@@ -591,7 +599,7 @@ li {
   --h5:#1D2939;
   --h6:#1D2939;
   --text_light:#667085;
-  --text:#344054;
+  --text:#667085;
   --text_dark:#344054;
   --border-subtle: #D0D5DD;
   --border-moderate: #98A2B3;
@@ -668,7 +676,7 @@ html {
 }
 
 .back-to-top {
-  background-color: purple;
+  background-color: #936BFF;
   text-decoration: none;
   cursor: pointer;
   width: 56px;
@@ -685,7 +693,7 @@ html {
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.4);
 }
 .back-to-top:hover {
-  background-color: #bd00bd;
+  background-color: #c0a8ff;
 }
 .back-to-top:active {
   box-shadow: none;
@@ -723,7 +731,7 @@ body .box .title {
 }
 
 :root {
-  --primary: purple;
+  --primary: #936BFF;
   --bg:white;
   --bg_opposite:black;
   --h1:#1D2939;
@@ -733,7 +741,7 @@ body .box .title {
   --h5:#1D2939;
   --h6:#1D2939;
   --text_light:#667085;
-  --text:#344054;
+  --text:#667085;
   --text_dark:#344054;
   --border-subtle: #D0D5DD;
   --border-moderate: #98A2B3;
@@ -1117,7 +1125,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5rem;
+  gap: 6rem;
 }
 
 .project-content-section {
@@ -1312,7 +1320,7 @@ button {
   letter-spacing: 0em;
   position: relative;
   border-radius: 8px;
-  border: 1.5px solid purple;
+  border: 1.5px solid #936BFF;
   text-transform: uppercase;
   background: transparent;
   color: #fff;
@@ -1323,11 +1331,11 @@ button {
   transition: all 0.2s ease-in;
 }
 button:hover {
-  border: 1.5px solid purple;
-  background: purple;
+  border: 1.5px solid #936BFF;
+  background: #936BFF;
   /* Background color */
-  filter: drop-shadow(0px 0px 60px purple);
-  box-shadow: 0 0 50px 10px purple;
+  filter: drop-shadow(0px 0px 60px #936BFF);
+  box-shadow: 0 0 50px 10px #936BFF;
   -webkit-transition: all 0.2s ease-out;
   color: black;
   -moz-transition: all 0.2s ease-out;
@@ -1383,7 +1391,7 @@ button:active {
   button:hover {
     background: transparent;
     color: #fff;
-    border: 1.5px solid purple;
+    border: 1.5px solid #936BFF;
     filter: none;
     box-shadow: none;
   }
@@ -1417,11 +1425,11 @@ button:active {
   letter-spacing: 0px;
 }
 .aboutmebtn:hover {
-  border: 1.5px solid purple;
-  background: purple;
+  border: 1.5px solid #936BFF;
+  background: #936BFF;
   /* Background color */
-  filter: drop-shadow(0px 0px 60px purple);
-  box-shadow: 0 0 50px 10px purple;
+  filter: drop-shadow(0px 0px 60px #936BFF);
+  box-shadow: 0 0 50px 10px #936BFF;
   -webkit-transition: all 0.2s ease-out;
   color: black;
   -moz-transition: all 0.2s ease-out;
@@ -1518,7 +1526,7 @@ button:active {
 .maxwidth-container-withflex {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 3.5rem;
 }
 
 .section-gap {
@@ -1791,7 +1799,7 @@ body.tight .wrapper {
 }
 
 #see-section {
-  background: purple;
+  background: #936BFF;
   height: 300vh;
   width: 100%;
   border-radius: 0rem 0rem 0rem 0rem;
@@ -2006,10 +2014,4 @@ hr {
 
 .center {
   margin: auto;
-}
-
-.subtext-under-bigtext {
-  font-size: 1.5rem;
-  max-width: 60% !important;
-  font-weight: 100 !important;
 }
