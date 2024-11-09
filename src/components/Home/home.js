@@ -29,6 +29,7 @@ const Home = () => {
         } else {
             document.body.classList.remove("tight");
         }
+   
     }
 
 
@@ -38,17 +39,11 @@ const Home = () => {
             <Head></Head>
             <ProjectGrid></ProjectGrid>
             <Precision></Precision>
-           
             <Aboutme></Aboutme>
 
             
-
             {/* <Projectstack></Projectstack> */}
                {/* <Skillsnew></Skillsnew> */}
-
-          
-          
-           
 
         </section>
     );

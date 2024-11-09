@@ -51,7 +51,9 @@ function App() {
 
         </div>
 
-        <FooterModern></FooterModern>
+        
+
+           {/*  <FooterModern></FooterModern>   */}
 
       </div>
 
