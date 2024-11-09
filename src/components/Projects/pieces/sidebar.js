@@ -9,13 +9,14 @@ const Sidebar = () => {
     useEffect(() => {
 
         
-        const headings = document.querySelectorAll('.sfc h5');
+        const headings = document.querySelectorAll('.sfc h4');
         const tocList = document.querySelector('.tocc');
 
         headings.forEach(function (heading, index) {
             const link = document.createElement('a');
             link.textContent = heading.textContent;
             link.href = '#heading-' + index;
+            link.className = 'sidebarlink'; // Adding the classes
             heading.id = 'heading-' + index;
             const listItem = document.createElement('li');
             listItem.appendChild(link);

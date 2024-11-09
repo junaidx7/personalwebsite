@@ -64,16 +64,29 @@ const Casestudy = ({
       <div className="flexforsidebarandcontent">
 
         <div className="project-content-section">
+       
+
+
           <Imagegrid4
             imgcover={coverimg}
             halfleft={coverimgleft}
             halfright={coverimgright}
           />
+         
 
           <div className="pieces-div-container">{content}</div>
+
+
         </div>
 
        
+
+       
+        
+
+
+
+
 
         <a
           href="#"
@@ -86,9 +99,12 @@ const Casestudy = ({
             <path d="M18.71,11.71a1,1,0,0,1-1.42,0L13,7.41V19a1,1,0,0,1-2,0V7.41l-4.29,4.3a1,1,0,0,1-1.42-1.42l6-6a1,1,0,0,1,1.42,0l6,6A1,1,0,0,1,18.71,11.71Z" />
           </svg>
         </a>
-      </div>
 
       
+
+      </div>
+
+
 
 
     </section>

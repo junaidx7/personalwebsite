@@ -49,7 +49,7 @@ const Head = () => {
 
                 <div>
 
-                <h5 className="subtext-under-bigtext" style={{ fontFamily: '"Inter Tight", sans-serif' }} id="bio">
+                <h5 className="subtext-under-bigtext" id="bio">
                     Hello, I am a <span id='e2'>  Lead UI UX designer based in dubai with 7yrs of experience</span> in crafting
                     user-centric web and mobile solutions across diverse industries.
                 </h5>

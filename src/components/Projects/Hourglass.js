@@ -46,10 +46,7 @@ const Hourglass = () => {
   const Content = () => {
     return (
       <div className="pieces-div">
-        <BlockText
-          title="What is hourglass"
-          content="Hourglass is a software designed to help freelancers keep track of their billable hours and easily generate invoices from the tracked hours. it isn't just a tool; it's a trusted ally for freelancers, empowering them to focus on their craft while effortlessly managing the administrative aspects of their business."
-        />
+     
 
 
 

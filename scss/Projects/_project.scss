@@ -149,15 +149,24 @@ aside {
 
 .tocc a {
 
-    font-weight: 300;
     text-decoration: none;
     color: var(--text);
     padding-top: 1rem;
+    line-height: 1 !important;
+
+    font-size: $p-small-s !important;
+    font-weight: $p-small-w !important;
+
+    letter-spacing: $p-small-ls !important;
+
+    
 }
 
 .tocc li {
     list-style-type: none; /* Remove bullet points */
     padding-top: $spacing-md;
+    line-height: 1 !important;
+    padding-left: 0rem !important;
 }
 
 

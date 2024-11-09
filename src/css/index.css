@@ -22,7 +22,7 @@ body {
 }
 :root {
   --primary: purple;
-  --bg:#F2F4F7;
+  --bg:white;
   --bg_opposite:black;
   --h1:#1D2939;
   --h2:#1D2939;
@@ -109,7 +109,7 @@ html {
 
 :root {
   --primary: purple;
-  --bg:#F2F4F7;
+  --bg:white;
   --bg_opposite:black;
   --h1:#1D2939;
   --h2:#1D2939;
@@ -260,21 +260,14 @@ p {
   font-size: 18px;
   font-weight: 320;
   letter-spacing: 0em;
-  line-height: 1.6;
+  line-height: 1.55;
 }
 
 p.sm {
   font-size: 12.8px;
   font-weight: 350;
-  line-height: 1.3;
+  line-height: 1;
   letter-spacing: 0.02em;
-}
-
-li {
-  font-size: 18px;
-  font-weight: 320;
-  letter-spacing: 0em;
-  line-height: 1.6;
 }
 
 button {
@@ -348,9 +341,12 @@ button {
   color: var(--h4);
 }
 
-ul {
-  font-size: 1px !important;
-  color: aliceblue;
+li {
+  font-size: 18px;
+  font-weight: 320;
+  letter-spacing: 0em;
+  line-height: 1.55;
+  padding-left: 0.5rem;
 }
 
 .bottom-xs {
@@ -586,7 +582,7 @@ ul {
 
 :root {
   --primary: purple;
-  --bg:#F2F4F7;
+  --bg:white;
   --bg_opposite:black;
   --h1:#1D2939;
   --h2:#1D2939;
@@ -728,7 +724,7 @@ body .box .title {
 
 :root {
   --primary: purple;
-  --bg:#F2F4F7;
+  --bg:white;
   --bg_opposite:black;
   --h1:#1D2939;
   --h2:#1D2939;
@@ -1170,15 +1166,20 @@ aside {
 }
 
 .tocc a {
-  font-weight: 300;
   text-decoration: none;
   color: var(--text);
   padding-top: 1rem;
+  line-height: 1 !important;
+  font-size: 12.8px !important;
+  font-weight: 350 !important;
+  letter-spacing: 0.02em !important;
 }
 
 .tocc li {
   list-style-type: none; /* Remove bullet points */
   padding-top: 0.5rem;
+  line-height: 1 !important;
+  padding-left: 0rem !important;
 }
 
 .active {
@@ -1674,9 +1675,6 @@ a {
   .wrapper {
     padding: 2rem;
   }
-  .subtext-under-bigtext {
-    min-width: 100% !important;
-  }
   .footer-maxwidth-container-withflex {
     display: flex;
     flex-direction: column;
@@ -1861,8 +1859,10 @@ header {
 
 .mypic {
   max-width: 23rem;
-  max-height: 100%; /* Set a maximum height */
-  height: auto; /* Allow the image to resize proportionally */
+  max-height: 100%;
+  /* Set a maximum height */
+  height: auto;
+  /* Allow the image to resize proportionally */
   object-fit: contain;
 }
 
@@ -1937,8 +1937,10 @@ header {
 }
 
 hr {
-  border: 0.3px solid rgb(39, 39, 39); /* Line color */
-  margin: 20px 0px 4rem 0px; /* Space around the line */
+  border: 0.3px solid rgb(39, 39, 39);
+  /* Line color */
+  margin: 20px 0px 4rem 0px;
+  /* Space around the line */
 }
 
 .showborder {
@@ -2004,4 +2006,10 @@ hr {
 
 .center {
   margin: auto;
+}
+
+.subtext-under-bigtext {
+  font-size: 1.5rem;
+  max-width: 60% !important;
+  font-weight: 100 !important;
 }
