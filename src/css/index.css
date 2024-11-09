@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
 body {
   background: #000;
@@ -25,13 +25,13 @@ body {
   --bg:#F2F4F7;
   --bg_opposite:black;
   --h1:#1D2939;
-  --h2:#344054;
-  --h3:#344054;
-  --h4:#344054;
-  --h5:#344054;
-  --h6:#344054;
+  --h2:#1D2939;
+  --h3:#1D2939;
+  --h4:#1D2939;
+  --h5:#1D2939;
+  --h6:#1D2939;
   --text_light:#667085;
-  --text:#475467;
+  --text:#344054;
   --text_dark:#344054;
   --border-subtle: #D0D5DD;
   --border-moderate: #98A2B3;
@@ -112,13 +112,13 @@ html {
   --bg:#F2F4F7;
   --bg_opposite:black;
   --h1:#1D2939;
-  --h2:#344054;
-  --h3:#344054;
-  --h4:#344054;
-  --h5:#344054;
-  --h6:#344054;
+  --h2:#1D2939;
+  --h3:#1D2939;
+  --h4:#1D2939;
+  --h5:#1D2939;
+  --h6:#1D2939;
   --text_light:#667085;
-  --text:#475467;
+  --text:#344054;
   --text_dark:#344054;
   --border-subtle: #D0D5DD;
   --border-moderate: #98A2B3;
@@ -198,113 +198,89 @@ html {
   font-size: 16px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-li,
-p {
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Instrument Sans", serif; /* Set the font family */
+  font-optical-sizing: auto; /* Enable automatic optical sizing */
+  font-variation-settings: "wdth" 100; /* Adjust the width axis of the variable font */
+}
+
+p, li {
   font-family: "Inter Tight", sans-serif;
-  color: rgb(255, 0, 0);
 }
 
 h1 {
-  font-size: 64px;
-  letter-spacing: 0rem;
-  line-height: 100%;
+  font-size: 59.40688px;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  line-height: 1;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 45.6976px;
   font-weight: 500;
-  letter-spacing: -0.03em;
-  line-height: 120%;
+  letter-spacing: -0.022em;
+  line-height: 1.2;
 }
 
 h3 {
-  font-size: 39.008px;
+  font-size: 35.152px;
   font-weight: 500;
-  letter-spacing: 0rem;
-  line-height: 120%;
+  letter-spacing: -0.022em;
+  line-height: 1.2;
 }
 
 h4 {
-  font-size: 31.248px;
+  font-size: 27.04px;
   font-weight: 500;
-  letter-spacing: 0rem;
-  line-height: 120%;
+  letter-spacing: -0.022em;
+  line-height: 1.2;
 }
 
 h5 {
+  font-size: 20.8px;
   font-weight: 500;
-  font-size: 25.92px;
-  letter-spacing: 0rem;
-  line-height: 150%;
+  letter-spacing: -0.022em;
+  line-height: 1.5;
 }
 
 h6 {
-  font-size: 23.008px;
+  font-size: 16px;
   font-weight: 500;
-  letter-spacing: 0rem;
-  line-height: 130%;
+  letter-spacing: -0.022em;
+  line-height: 1.5;
 }
 
-p.xs, p.xs-title {
-  font-size: 12px;
-  letter-spacing: 0em;
-  line-height: 160%;
-}
-
-p.sm, p.sm-title {
-  font-size: 16px;
+p.lg {
+  font-size: 19.2px;
   font-weight: 300;
-  letter-spacing: 0em;
-  line-height: 160%;
+  line-height: 1.5;
 }
 
-p.md, p.md-title {
+p {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 320;
   letter-spacing: 0em;
-  line-height: 170%;
+  line-height: 1.6;
 }
 
-p.lg, p.lg-title {
-  font-size: 22.96px;
-  font-weight: 300 !important;
-  letter-spacing: 0em;
-  line-height: 160%;
+p.sm {
+  font-size: 12.8px;
+  font-weight: 350;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
 }
 
-p.xl, p.chipstext {
-  font-size: 22.96px;
-  font-weight: 300;
-  letter-spacing: 0em;
-  line-height: 160%;
-}
-
-li.md {
-  margin-left: 1.5rem;
+li {
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 320;
   letter-spacing: 0em;
-  line-height: 170%;
+  line-height: 1.6;
 }
 
-li.sm {
-  font-size: 16px;
-  font-weight: 300;
+button {
+  font-size: 14.4px;
+  font-weight: 600;
   letter-spacing: 0em;
-  line-height: 160%;
-}
-
-.subtext-under-bigtext {
-  color: var(--text_light);
-  max-width: 60%;
-  font-weight: 300;
 }
 
 .bigtext {
@@ -316,34 +292,9 @@ li.sm {
   color: var(--h1);
 }
 
-p.xs-title {
-  font-weight: 600;
-}
-
-p.sm-title {
-  font-weight: 600;
-}
-
-p.md-title {
-  font-weight: 600;
-}
-
-p.lg-title {
-  font-weight: 600;
-}
-
-p.overline-sm {
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 130%;
-}
-
-p.overline-md {
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0em;
-  line-height: 130%;
+.subtext-under-bigtext {
+  color: var(--text_light);
+  max-width: 60%;
 }
 
 .junaid {
@@ -356,65 +307,50 @@ p.overline-md {
 }
 
 .w100 {
-  font-weight: 100 !important;
+  font-weight: 100;
 }
 
 .w200 {
-  font-weight: 200 !important;
+  font-weight: 200;
 }
 
-.w300, .chipstext {
-  font-weight: 300 !important;
+.w300 {
+  font-weight: 300;
 }
 
 .w400 {
-  font-weight: 400 !important;
+  font-weight: 400;
 }
 
 .w500 {
-  font-weight: 500 !important;
+  font-weight: 500;
 }
 
 .w600 {
-  font-weight: 600 !important;
+  font-weight: 600;
 }
 
 .w700 {
-  font-weight: 700 !important;
+  font-weight: 700;
 }
 
 .w800 {
-  font-weight: 800 !important;
+  font-weight: 800;
 }
 
 .w900 {
-  font-weight: 900 !important;
+  font-weight: 900;
 }
 
-.alttext {
-  padding-top: 0.25rem;
-  font-size: 12px;
-  font-style: italic;
+.blockpara {
+  font-weight: 100 !important;
+  line-height: 1.35 !important;
+  color: var(--h4);
 }
 
-.wheat {
-  color: wheat;
-}
-
-.overline-heading {
-  font-size: 12px;
-  padding-bottom: 0.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-}
-
-.max800 {
-  max-width: 800px;
-  margin: auto;
-}
-
-.junaidheadersize {
-  font-size: 1.313rem;
+ul {
+  font-size: 1px !important;
+  color: aliceblue;
 }
 
 .bottom-xs {
@@ -653,13 +589,13 @@ p.overline-md {
   --bg:#F2F4F7;
   --bg_opposite:black;
   --h1:#1D2939;
-  --h2:#344054;
-  --h3:#344054;
-  --h4:#344054;
-  --h5:#344054;
-  --h6:#344054;
+  --h2:#1D2939;
+  --h3:#1D2939;
+  --h4:#1D2939;
+  --h5:#1D2939;
+  --h6:#1D2939;
   --text_light:#667085;
-  --text:#475467;
+  --text:#344054;
   --text_dark:#344054;
   --border-subtle: #D0D5DD;
   --border-moderate: #98A2B3;
@@ -795,13 +731,13 @@ body .box .title {
   --bg:#F2F4F7;
   --bg_opposite:black;
   --h1:#1D2939;
-  --h2:#344054;
-  --h3:#344054;
-  --h4:#344054;
-  --h5:#344054;
-  --h6:#344054;
+  --h2:#1D2939;
+  --h3:#1D2939;
+  --h4:#1D2939;
+  --h5:#1D2939;
+  --h6:#1D2939;
   --text_light:#667085;
-  --text:#475467;
+  --text:#344054;
   --text_dark:#344054;
   --border-subtle: #D0D5DD;
   --border-moderate: #98A2B3;
@@ -968,12 +904,12 @@ html {
   margin: auto;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.03), 0 6.7px 5.3px rgba(0, 0, 0, 0.05), 0 12.5px 10px rgba(0, 0, 0, 0.07), 0 22.3px 17.9px rgba(0, 0, 0, 0.09), 0 41.8px 33.4px rgba(0, 0, 0, 0.11), 0 100px 80px rgba(0, 0, 0, 0.15);
 }
-.stickynote p.lg, .stickynote p.lg-title {
+.stickynote p.lg {
   color: #2c2c2c;
   font-family: "Kalam", serif;
   font-weight: 700;
 }
-.stickynote p.md, .stickynote p.md-title {
+.stickynote p.md {
   color: #2c2c2c;
   font-family: "Kalam", serif;
   font-weight: 400;
@@ -1031,12 +967,12 @@ html {
     width: 350px;
     margin: auto;
   }
-  .stickynote p.lg, .stickynote p.lg-title {
+  .stickynote p.lg {
     color: #2c2c2c;
     font-family: "Kalam", sans-serif;
     font-weight: 700;
   }
-  .stickynote p.md, .stickynote p.md-title {
+  .stickynote p.md {
     color: #2c2c2c;
     font-family: "Kalam", sans-serif;
     font-weight: 400;
@@ -1197,7 +1133,7 @@ html {
 
 .pieces-div-container {
   margin: auto;
-  width: 800px;
+  width: 700px;
 }
 
 .aside-sub {
@@ -1234,7 +1170,6 @@ aside {
 }
 
 .tocc a {
-  font-size: 13.6px;
   font-weight: 300;
   text-decoration: none;
   color: var(--text);
@@ -1311,9 +1246,6 @@ aside {
     margin-left: 0px !important;
     margin-right: 0px !important;
   }
-  .pieces-div-container {
-    width: 95%;
-  }
   .product-title {
     font-size: 3rem;
     margin: 4rem 0rem !important;
@@ -1376,7 +1308,7 @@ button {
   padding: 13px 25px 13px 25px;
   font-size: 14.4px;
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: 0em;
   position: relative;
   border-radius: 8px;
   border: 1.5px solid purple;
@@ -1574,7 +1506,12 @@ button:active {
 }
 
 .maxwidth-container-text {
-  width: 100%;
+  width: 680px;
+}
+
+.text-container {
+  width: 750px;
+  margin: auto;
 }
 
 .maxwidth-container-withflex {
@@ -2063,4 +2000,8 @@ hr {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
+}
+
+.center {
+  margin: auto;
 }

@@ -1,20 +1,8 @@
-import Title from "../Projects/pieces/Title";
+
 import TitlePara from "../Projects/pieces/Title-para";
-import Imagegrid4 from "../Projects/pieces/imagegrid4";
-import Title2col from "../Projects/pieces/Title-2col";
-import Role from "../Projects/pieces/role";
-import Image from "../Projects/pieces/image";
 import BlockText from "../Projects/pieces/BlockText";
 import ImageC from "../Projects/pieces/Image-constricted";
-import Sidebar from "../Projects/pieces/sidebar";
-import { useEffect } from "react";
-import HeaderBack from "../Home/header-back";
-import { Link } from "react-router-dom";
-import HeaderProduct from "../Projects/header-product";
-import { accountingContent } from "../Projects/content";
 import cover from "../Projects/imagesforprojects/ERP/accounting.jpg";
-
-import preview from "../Projects/imagesforprojects/ERP/accounting.jpg";
 import coverleft from "../Projects/imagesforprojects/ERP/coverleftjpg.jpg";
 import coverright from "../Projects/imagesforprojects/hourglass/coverright.jpg";
 import Casestudy from "./pieces/casestudy";
@@ -32,7 +20,7 @@ const Accounting = () => {
           content="N1 Accounting is a cutting-edge accounting software that revolutionises accounting for businesses of all sizes.  its intuitive interface and powerful features, simplifies complex accounting tasks, allowing users to effortlessly track transactions, manage accounts receivable and accounts payable, generate comprehensive financial reports and more. "
         />
 
-        <NDA></NDA>
+  
 
         <TitlePara
           heading="My Role and responsibilities"

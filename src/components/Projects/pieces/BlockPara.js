@@ -1,4 +1,4 @@
-const BlockPara = ({ heading, largetext, body,body1 }) => {
+const BlockPara = ({ heading, largetext, body, body1 }) => {
   return (
     <section className="maxwidth-container-text sfc">
       <div>
@@ -9,12 +9,12 @@ const BlockPara = ({ heading, largetext, body,body1 }) => {
         )}
 
         {largetext && (
-          <p className="lg text below-title-spacing ">{largetext}</p>
+          <p className="lg below-title-spacing ">{largetext}</p>
         )}
 
-        {body && <p className="md subtext">{body}</p>}
+        {body && <p >{body}</p>}
 
-        {body1 && <p className="md subtext top-lg">{body1}</p>}
+        {body1 && <p className="top-lg">{body1}</p>}
       </div>
     </section>
   );

@@ -1,211 +1,190 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 @import "./color";
 
 //________________________________________________________________________________________________________________________
 
 //________________________________________________________________________________________________________________________
 
-$base: 16px;
+$base-font-size: 16px; // Base font size
+$base: 16px; // Base font size
+$scale-ratio: 1.3;    // Major third ratio
 
-$h1: $base * 4;
-$h2: $base * 3;
-$h3: $base * 2.438;
-$h4: $base * 1.953;
-$h5: $base * 1.62;
-$h6: $base * 1.438;
-$h6-old: $base * 1.2;
 
-$p-xs: $base * 0.75;
 
-$p-sm2: $base * 0.85;
-$p-sm: $base * 1;
-$p-md: $base * 1.125;
-$p-lg: $base * 1.435;
-$p-xl: $base * 1.7; //sub text on the home page
-$p-overline-sm: $base * 0.875;
-$p-overline-md: $base * 1;
+// FONT SIZEE
+$h1-s: $base-font-size * $scale-ratio * $scale-ratio * $scale-ratio * $scale-ratio * $scale-ratio; // H1 - 5 steps up
+$h2-s: $base-font-size * $scale-ratio * $scale-ratio * $scale-ratio * $scale-ratio;                // H2 - 4 steps up
+$h3-s: $base-font-size * $scale-ratio * $scale-ratio * $scale-ratio;                               // H3 - 3 steps up
+$h4-s: $base-font-size * $scale-ratio * $scale-ratio;                                              // H4 - 2 steps up
+$h5-s: $base-font-size * $scale-ratio;                                                             // H5 - 1 step up
+$h6-s: $base-font-size; 
 
-$button-font-size: $base * 0.9;
+$p-large-s: $base-font-size* 1.2;    //paragraph large
+$p-s: $base-font-size* 1.125;            //paragraph 
+$p-small-s:  $base-font-size * 0.8; //paragraph small - used as alttext,
+$button-s: $base-font-size * 0.9;
 
-//Weight
 
-$h1-weight: 500;
-$h2-weight: 500;
-$h3-weight: 500;
-$h4-weight: 400;
-$h5-weight: 300;
-$h6-weight: 500;
 
-$p-xs-weight: 400;
-$p-sm-weight: 400;
-$p-md-weight: 400;
-$p-lg-weight: 300;
-$p-xl-weight: 400;
-$p-title-weight: 600;
 
-$p-overline-sm-weight: 400;
-$p-overline-md-weight: 400;
+// FONT WEIGHT
+$h1-w: 600;
+$h2-w: 500;
+$h3-w: 500;
+$h4-w: 500;
+$h5-w: 500;
+$h6-w: 500;
 
-$button-font-weight: 600;
+$p-large-w:300;
+$p-w:320;
+$p-small-w: 350;
 
-//Letterspacing
-$h1-letterspacing: -0rem;
-$h2-letterspacing: -0.03em;
-$h3-letterspacing: -0rem;
-$h4-letterspacing: -0rem;
-$h5-letterspacing: -0rem;
-$h6-letterspacing: -0rem;
+$button-w: 600;
 
-$p-xs-letterspacing: -0em;
-$p-sm-letterspacing: -0em;
-$p-md-letterspacing: 0em;
-$p-lg-letterspacing: -0.0em;
-$p-xl-letterspacing: -0rem;
-$p-overline-sm-letterspacing: -0em;
-$p-overline-md-letterspacing: -0em;
 
-$button-font-letterspacing: 2px;
+// LETTER SPACING
+$h1-ls: -0.022em;
+$h2-ls: -0.022em;
+$h3-ls: -0.022em;
+$h4-ls: -0.022em;
+$h5-ls: -0.022em;
+$h6-ls: -0.022em;
 
-//Line height
-$h1-lineheight: 100%;
-$h2-lineheight: 120%;
-$h3-lineheight: 120%;
-$h4-lineheight: 120%;
-$h5-lineheight: 150%;
-$h6-lineheight: 130%;
+$p-large-ls:0em;
+$p-ls:0em;
+$p-small-ls: 0.02em;
 
-$p-xs-lineheight: 160%;
-$p-sm-lineheight: 160%;
-$p-md-lineheight: 170%;
-$p-lg-lineheight: 160%;
-$p-xl-lineheight: 150%;
-$p-overline-sm-lineheight: 130%;
-$p-overline-md-lineheight: 130%;
+$button-ls: 0em;
+
+
+
+
+// LINE HEIGHT
+$h1-lh: 1;
+$h2-lh: 1.2;
+$h3-lh: 1.2;
+$h4-lh: 1.2;
+$h5-lh: 1.5;
+$h6-lh: 1.5;
+
+$p-large-lh:1.5;
+$p-lh:1.6;
+$p-small-lh: 1.3;
+
+$button-lh: 100%;
+
 
 //________________________________________________________________________________________________________________________
+
 
 html {
   font-size: $base;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-li,
-p {
-  font-family: "Inter Tight", sans-serif;
-  color: rgb(255, 0, 0);
+h1,h2,h3,h4,h5,h6{
+
+  font-family: "Instrument Sans", serif; /* Set the font family */
+  font-optical-sizing: auto; /* Enable automatic optical sizing */
+  font-variation-settings: "wdth" 100; /* Adjust the width axis of the variable font */
+  
+
+}
+
+p,li{
+  font-family: 'Inter Tight',sans-serif,;
 }
 
 
 
-.project_title {
-
-}
-
-
+// Headings
 h1 {
-  font-size: $h1;
-  letter-spacing: $h1-letterspacing;
-  line-height: $h1-lineheight;
+  font-size: $h1-s;
+  font-weight: $h1-w;
+  letter-spacing: $h1-ls;
+  line-height: $h1-lh;
 }
 
 h2 {
-  font-size: $h2;
-  font-weight: 500;
-  letter-spacing: $h2-letterspacing;
-  line-height: $h2-lineheight;
+  font-size: $h2-s;
+  font-weight: $h2-w;
+  letter-spacing: $h2-ls;
+  line-height: $h2-lh;
 }
 
 h3 {
-  font-size: $h3;
-  font-weight: 500;
-  letter-spacing: $h3-letterspacing;
-  line-height: $h3-lineheight;
+  font-size: $h3-s;
+  font-weight: $h3-w;
+  letter-spacing: $h3-ls;
+  line-height: $h3-lh;
 }
 
 h4 {
-  font-size: $h4;
-  font-weight: 500;
-  letter-spacing: $h4-letterspacing;
-  line-height: $h4-lineheight;
+  font-size: $h4-s;
+  font-weight: $h4-w;
+  letter-spacing: $h4-ls;
+  line-height: $h4-lh;
 }
 
 h5 {
-  font-weight: 500;
-  font-size: $h5;
-  letter-spacing: $h5-letterspacing;
-  line-height: $h5-lineheight;
+  font-size: $h5-s;
+  font-weight: $h5-w;
+  letter-spacing: $h5-ls;
+  line-height: $h5-lh;
 }
 
 h6 {
-  font-size: $h6;
-  font-weight: $h6-weight;
-  letter-spacing: $h6-letterspacing;
-  line-height: $h6-lineheight;
+  font-size: $h6-s;
+  font-weight: $h6-w;
+  letter-spacing: $h6-ls;
+  line-height: $h6-lh;
 }
 
-p.xs {
-  font-size: $p-xs;
-  letter-spacing: $p-xs-letterspacing;
-  line-height: $p-xs-lineheight;
+// Paragraphs
+p.lg {
+  font-size: $p-large-s;
+  font-weight: $p-large-w;
+  line-height: $p-large-lh;
+}
+
+
+p {
+  font-size: $p-s;
+  font-weight: $p-w;
+  letter-spacing: $p-ls;
+  line-height: $p-lh;
 }
 
 p.sm {
-  font-size: $p-sm;
-  font-weight: 300;
-  letter-spacing: $p-sm-letterspacing;
-  line-height: $p-sm-lineheight;
+  font-size: $p-small-s;
+  font-weight: $p-small-w;
+  line-height: $p-small-lh;
+  letter-spacing: $p-small-ls;
 }
 
-p.md {
-  font-size: $p-md;
-  font-weight: 300;
-  letter-spacing: $p-md-letterspacing;
-  line-height: $p-md-lineheight;
+li {
+  font-size: $p-s;
+  font-weight: $p-w;
+  letter-spacing: $p-ls;
+  line-height: $p-lh;
 }
 
-p.lg {
-  font-size: $p-lg;
-  font-weight: 300 !important;
-  letter-spacing: $p-lg-letterspacing;
-  line-height: $p-lg-lineheight;
- 
+// Button
+button {
+  font-size: $button-s;
+  font-weight: $button-w;
+  letter-spacing: $button-ls;
+
 }
 
-p.xl {
-  font-size: $p-lg;
-  font-weight: $p-lg-weight;
-  letter-spacing: $p-lg-letterspacing;
-  line-height: $p-lg-lineheight;
-}
 
-li.md {
-  margin-left: 1.5rem;
-  font-size: $p-md;
-  font-weight: 300;
-  letter-spacing: $p-md-letterspacing;
-  line-height: $p-md-lineheight;
-}
 
-li.sm {
-  font-size: $p-sm;
-  font-weight: 300;
-  letter-spacing: $p-sm-letterspacing;
-  line-height: $p-sm-lineheight;
- 
-}
 
-.subtext-under-bigtext {
-  color: var(--text_light);
-  max-width: 60%;
-  font-weight: $p-lg-weight;
-}
 
+
+
+
+//________________________________________________________________________________________________________________________
 
 
 .bigtext {
@@ -220,40 +199,12 @@ li.sm {
 }
 
 
-
-p.xs-title {
-  @extend .xs;
-  font-weight: $p-title-weight;
+.subtext-under-bigtext {
+  color: var(--text_light);
+  max-width: 60%;
 }
 
-p.sm-title {
-  @extend .sm;
-  font-weight: $p-title-weight;
-}
 
-p.md-title {
-  @extend .md;
-  font-weight: $p-title-weight;
-}
-
-p.lg-title {
-  @extend .lg;
-  font-weight: $p-title-weight;
-}
-
-p.overline-sm {
-  font-size: $p-overline-sm;
-  font-weight: $p-overline-sm-weight;
-  letter-spacing: $p-overline-sm-letterspacing;
-  line-height: $p-overline-sm-lineheight;
-}
-
-p.overline-md {
-  font-size: $p-overline-md;
-  font-weight: $p-overline-md-weight;
-  letter-spacing: $p-overline-md-letterspacing;
-  line-height: $p-overline-md-lineheight;
-}
 
 .junaid {
   font-family: "Times New Roman", Times, serif;
@@ -265,74 +216,50 @@ p.overline-md {
   letter-spacing: -0.3rem;
 }
 
-//Weight
-
 .w100 {
-  font-weight: 100 !important;
+  font-weight: 100;
 }
 
 .w200 {
-  font-weight: 200 !important;
+  font-weight: 200;
 }
 
 .w300 {
-  font-weight: 300 !important;
+  font-weight: 300;
 }
 
 .w400 {
-  font-weight: 400 !important;
+  font-weight: 400;
 }
 
 .w500 {
-  font-weight: 500 !important;
+  font-weight: 500;
 }
 
 .w600 {
-  font-weight: 600 !important;
+  font-weight: 600;
 }
 
 .w700 {
-  font-weight: 700 !important;
+  font-weight: 700;
 }
 
 .w800 {
-  font-weight: 800 !important;
+  font-weight: 800;
 }
 
 .w900 {
-  font-weight: 900 !important;
+  font-weight: 900;
 }
 
-.alttext {
-  padding-top: 0.25rem;
-  font-size: $p-xs;
-  font-style: italic;
-
-}
-
-.wheat {
-  color: wheat;
+.blockpara{
+  font-weight: 100 !important; 
+  line-height: 1.35 !important;
+  color: var(--h4);
 }
 
 
-.overline-heading {
-
-  font-size: $p-xs;
-  padding-bottom: 0.5rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  
-}
-
-.max800{
-  max-width: 800px;
-  margin: auto;
-}
-
-.junaidheadersize{
-  font-size: 1.313rem;
-}
-
-.chipstext{
-  @extend .w300, .xl;
+ul {
+  font-size: 1px !important;
+  color: aliceblue;
 }

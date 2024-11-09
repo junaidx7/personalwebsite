@@ -75,8 +75,10 @@ const Hourglass = () => {
 
         <div className="crumbs ">
           <TitlePara
-            overline="Competitor Analysis"
-            heading="Finding where we stand in the market,"
+           
+            heading="Finding where we stand in the market"
+
+            
             body="To analyze Hourglass's position in the market, identify essential features to implement, and most importantly, understand the shortcomings of other software, I conducted a competitor analysis. This process highlighted the gaps in the market, allowing me to address the cons of other software and improve Hourglass's offerings."
           />
 

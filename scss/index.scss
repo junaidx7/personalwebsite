@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+
 
 
 //----------base----------------
@@ -50,7 +50,12 @@ div {
 
 
 .maxwidth-container-text {
-  width: 100%;
+  width: 680px;
+}
+
+.text-container {
+  width: 750px;
+  margin: auto;
 }
 
 
@@ -655,5 +660,10 @@ hr {
       display: flex;
       flex-direction: row;
       gap: 0.5rem;
+    }
+
+
+    .center{
+      margin: auto;
     }
     

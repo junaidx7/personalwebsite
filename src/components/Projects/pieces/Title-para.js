@@ -14,12 +14,12 @@ const TitlePara = ({
   return (
     <section className="maxwidth-container-text sfc">
       <div>
-        {overline && <p className="overline-heading bottom-md">{overline}</p>}
+        {overline && <p className="sm bottom-lg">{overline}</p>}
 
         {heading && (
-          <h5 id="section1" className=" bottom-lg">
+          <h4 id="section1" className=" bottom-lg">
             {heading}
-          </h5>
+          </h4>
         )}
 
         {body && <p className="md subtext">{body}</p>}

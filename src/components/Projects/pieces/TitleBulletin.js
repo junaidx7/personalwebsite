@@ -1,17 +1,17 @@
-const TitleBulletin = ({ heading,body, bulletin,overline}) => {
+const TitleBulletin = ({ heading, body, bulletin, overline }) => {
   return (
     <section className="maxwidth-container-text sfc">
       <div>
-      {overline && <p className="overline-heading">{overline}</p>}
-        <h5 id="section1" className="below-title-spacing">
+        {overline && <p className="sm">{overline}</p>}
+        <h4 id="section1" className="below-title-spacing">
           {heading}
-        </h5>
+        </h4>
 
-        <p className="md subtext">{body}</p>
+        <p className="">{body}</p>
 
-        <ul className="top-md">
+        <ul className="top-lg">
           {bulletin.map((item, i) => (
-            <li className="md" key={i}>{item}</li>
+            <li className="md left-lg" key={i}>{item}</li>
           ))}
         </ul>
       </div>
@@ -21,4 +21,3 @@ const TitleBulletin = ({ heading,body, bulletin,overline}) => {
 
 export default TitleBulletin;
 
- 

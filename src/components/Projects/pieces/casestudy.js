@@ -51,6 +51,8 @@ const Casestudy = ({
 
   return (
     <section className="hourglass-section">
+
+
       <HeaderProduct />
 
       <div className="product-title-container">
@@ -60,7 +62,6 @@ const Casestudy = ({
       </div>
 
       <div className="flexforsidebarandcontent">
-        <Sidebar />
 
         <div className="project-content-section">
           <Imagegrid4
@@ -71,6 +72,8 @@ const Casestudy = ({
 
           <div className="pieces-div-container">{content}</div>
         </div>
+
+       
 
         <a
           href="#"
@@ -84,6 +87,8 @@ const Casestudy = ({
           </svg>
         </a>
       </div>
+
+      
 
 
     </section>

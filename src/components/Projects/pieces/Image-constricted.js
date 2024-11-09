@@ -1,16 +1,16 @@
 
-const ImageC = ({ImageC,alttext}) => {
+const ImageC = ({ ImageC, alttext }) => {
 
-    
-    return ( 
+
+    return (
         <section className="imageC ">
-        <img className="img-fullwidth image-radius" src={ImageC} alt="" />
-        {alttext && <p className="alttext">{alttext}</p>}
-    </section>
-     );
+            <img className="img-fullwidth image-radius" src={ImageC} alt="" />
+            {alttext && <p className="sm top-md">{alttext}</p>}
+        </section>
+    );
 
 
 }
- 
+
 export default ImageC;
 
