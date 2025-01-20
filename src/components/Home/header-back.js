@@ -1,4 +1,13 @@
-import backarrow from '../Home/back-arrow.svg'
+import Head from '../Home/head';
+import Head2 from '../Home/Head2';
+import Precision from '../Home/precision';
+import ProjectGrid from '../Home/projectGrid'
+import Aboutme from '../Home/aboutme'
+import { useEffect } from 'react';
+import Skillsnew from "../Home/Skillnew"
+import Projectstack from "../Home/Projectstack"
+import Du from '../Projects/Du';
+
 import { Link } from 'react-router-dom';
 
 const HeaderBack = () => {
@@ -9,7 +18,7 @@ const HeaderBack = () => {
 
       <div className='backcontainer bottom-2xl top-2xl'>
 
-        <Link to='/' className='backarr'> <img src={backarrow} alt="" /></Link>
+        <Link to='/Home' className='backarr'>  </Link>
 
 
       </div>

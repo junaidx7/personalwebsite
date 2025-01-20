@@ -3,8 +3,8 @@ const ImageC = ({ ImageC, alttext }) => {
 
 
     return (
-        <section className="imageC ">
-            <img className="img-fullwidth image-radius" src={ImageC} alt="" />
+        <section className="">
+            <img className=" pieces-div-img  image-radius right-xl left-xl" src={ImageC} alt="" />
             {alttext && <p className="sm top-md">{alttext}</p>}
         </section>
     );

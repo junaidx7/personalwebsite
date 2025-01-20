@@ -1,6 +1,6 @@
 const TitleBulletin = ({ heading, body, bulletin, overline }) => {
   return (
-    <section className="maxwidth-container-text sfc">
+    <section className="pieces-div-text sfc">
       <div>
         {overline && <p className="sm">{overline}</p>}
         <h4 id="section1" className="below-title-spacing">

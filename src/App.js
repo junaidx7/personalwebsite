@@ -13,12 +13,14 @@ import { useEffect } from 'react';
 import Whoisthisdude from './components/Projects/Whoisthisdude';
 import OtherCasestudy from './components/Projects/pieces/OtherCasestudy'
 import ScrollToTop from './Scrolltotop';
+import Du from './components/Projects/Du';
+import Footer from './components/Home/Footer'
 
 function App() {
 
   useEffect(() => {
     document.title = "Junaid Portfolio";
-   
+
   }, []);
 
   return (
@@ -27,12 +29,11 @@ function App() {
 
 
       <div className='master-wrapper'>
-      <ScrollToTop />
+        <ScrollToTop />
 
         <div className='wrapper' >
 
           <Routes>
-            
 
             <Route path="/" element={<Home />} />
             <Route path="/textscale" element={<Demotextscale />} />
@@ -44,16 +45,19 @@ function App() {
             <Route path="/Whoisthisdude" element={<Whoisthisdude />} />
             <Route path="/Accounting" element={<Accounting />} />
             <Route path="/OtherCasestudy" element={<OtherCasestudy />} />
-        
+            <Route path="/Du" element={<Du />} />
+
 
           </Routes>
 
 
         </div>
 
-        
 
-           {/*  <FooterModern></FooterModern>   */}
+        <Footer></Footer>
+
+
+        {/*  <FooterModern></FooterModern>   */}
 
       </div>
 

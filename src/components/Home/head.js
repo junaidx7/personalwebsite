@@ -4,6 +4,7 @@ import prizigner from '../Home/prizigner.mp4'
 import { Link } from 'react-router-dom';
 import opendot from '../Home/opendot.svg'
 import duicon from "../Home/duicon.png"
+import polo1 from "../Home/polo1.svg"
 import openarrow from "../Home/openarrow.svg"
 import Themebutton from '../Home/Themebutton'
 
@@ -46,6 +47,8 @@ const Head = () => {
 
                 </div>
 
+                <Themebutton />
+
 
                 <h5 className="subtext-under-bigtext" id="bio">
                     Hello, I am a <span id='e2'>  Lead UI UX designer based in dubai with 7yrs of experience</span> in crafting
@@ -55,10 +58,16 @@ const Head = () => {
 
                 <div className='designingfordiv'>
                     <h5 className='subtext-under-bigtext'>Currently designing for</h5>
-                    <img src={duicon} alt="Description" />
+                    <img src={duicon} alt="Description" className='duiconbigbox' />
                     <h5 className='subtext-under-bigtext'>telecom</h5>
                     <img src={openarrow} alt="Description" />
                 </div>
+
+                <img
+                    className="polo1"
+                    src={polo1}
+                    alt="Decorative SVG"
+                />
 
 
 

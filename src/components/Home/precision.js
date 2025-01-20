@@ -9,7 +9,7 @@ const Precision = () => {
     const parentElement = document.getElementById('precision-paragraph');
     words.forEach(word => {
       const span = document.createElement('span');
-      span.style.opacity = 0.2;
+      span.style.opacity = 0.1;
       span.textContent = word + ' ';
       parentElement.appendChild(span);
     });
@@ -31,7 +31,7 @@ const Precision = () => {
         if (index < numSpansToChange) {
           span.style.opacity = 1;
         } else {
-          span.style.opacity = 0.2;
+          span.style.opacity = 0.1;
         }
       });
     }
@@ -47,9 +47,11 @@ const Precision = () => {
   }, []);
 
   return (
+    <div className="gradient_bg_reveal">
     <section id="precision-section" className="maxwidth-container section-gap">
       <p id="precision-paragraph" className="animatedparagraph"></p>
     </section>
+    </div>
   );
 }
 

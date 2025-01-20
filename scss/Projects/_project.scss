@@ -100,9 +100,11 @@
 
 .pieces-div-container{
     margin: auto;
-    width: 700px;
+    width: 100%;
+    border: 0px solid red;
    
 }
+
 
 
 .aside-sub {
@@ -206,11 +208,6 @@ aside {
     margin-left: 12rem;
 }
 
-.imageC{
-    width: 110%;
-    margin: auto;
-    transform: translate(-5%);
-}
 
 .quoteblocksfc{
     display: flex;

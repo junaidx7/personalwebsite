@@ -51,12 +51,12 @@ const ProjectGrid = () => {
     <section className="project-sections section-gap" id="mamamia">
       <div className="maxwidth-container">
         <div>
-          <h4 className=" bottom-2xl">Selected work</h4>
+          <h3 className=" bottom-2xl  top-2xl">Selected work</h3>
 
           <div className="grid-container">
 
             <div className=" glare project grow-rotate even-spacing-project">
-              <Link className="curse" to="/Digitalmenu">
+              <Link className="curse" to="/Du">
               
                 <img src={digitalmenucover} class="project-imgbox"></img>
 

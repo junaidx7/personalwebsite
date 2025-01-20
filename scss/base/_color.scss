@@ -1,18 +1,19 @@
 //BASE COLORS
-$grey25: #FCFCFD;
-$grey50: #F9FAFB;
-$grey100: #F2F4F7;
-$grey200: #EAECF0;
-$grey300: #D0D5DD;
-$grey400: #98A2B3;
-$grey500: #667085;
-$grey600: #475467;
-$grey700: #344054;
-$grey800: #1D2939;
-$grey900: #101828;
+$grey25: #F2F2F7;
+$grey50: #E5E5EA;
+$grey100: #D1D1D6;
+$grey200: #C7C7CC;
+$grey300: #AEAEB2;
+$grey400: #8E8E93;
+$grey500: #636366;
+$grey600: #48484A;
+$grey700: #3A3A3C;
+$grey800: #2C2C2E;
+$grey900: #1C1C1E;
+$blk : #000000;
 
 $primary:#936BFF;
-$primary-dark:#472f89;
+$primary-dark:#2a1665;
 $primary-light:#bba3ff;
 
 
@@ -22,7 +23,7 @@ $primary-light:#bba3ff;
 
     --primary: #{$primary};
     --bg:white;
-    --bg_opposite:#{black};
+    --bg_opposite:#E3E0ED;;
 
     --h1:#{$grey800};
     --h2:#{$grey800};
@@ -31,7 +32,7 @@ $primary-light:#bba3ff;
     --h5:#{$grey800};
     --h6:#{$grey800};
 
-    --text_light:#{$grey500};
+    --text_light:#{$grey700};
     --text:#{$grey500};
     --text_dark:#{$grey700};
 
@@ -64,9 +65,9 @@ $primary-light:#bba3ff;
     --h5:#{$grey100};
     --h6:#{$grey100};
 
-    --text_light:#{$grey400};
-    --text:#{$grey400};
-    --text_dark:#{$grey400};
+    --text_light:#{$grey100};
+    --text:#{$grey100};
+    --text_dark:#{$grey100};
 
     --border-subtle: #{$grey300};
     --border-moderate: #{$grey400};

@@ -4,7 +4,7 @@ const BlockText = ({ title, content }) => {
 
     return (
 
-        <section className="maxwidth-container-text sfc">
+        <section className="sfc pieces-div-text">
 
             
             <h5 className="gone">{title}</h5>

@@ -12,8 +12,9 @@ const TitlePara = ({
   alttext,
 }) => {
   return (
-    <section className="maxwidth-container-text sfc">
-      <div>
+    <section className="sfc fitisnide">
+      
+      <div className="pieces-div-text">
         {overline && <p className="sm bottom-lg">{overline}</p>}
 
         {heading && (
@@ -26,18 +27,28 @@ const TitlePara = ({
 
         {link && <a className="md" href={link}>{linktext}</a>}
 
-        <img className="img-fullwidth image-radius" src={ImageC} alt="" />
-        {alttext && <p className="alttext">{alttext}</p>}
+      </div>
 
+
+
+      <img className=" pieces-div-img image-radius" src={ImageC} alt="" />
+
+
+      {alttext && <p className="alttext">{alttext}</p>}
+
+      
+      <div className="pieces-div-text">
         {body1 && <p className="md subtext">{body1}</p>}
 
         {body2 && <p className="md subtext top-md">{body2}</p>}
-        
+
         {body3 && <p className="md subtext top-md">{body3}</p>}
 
         {body4 && <p className="md subtext top-md">{body4}</p>}
 
       </div>
+
+
     </section>
   );
 };

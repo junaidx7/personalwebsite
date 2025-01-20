@@ -50,7 +50,7 @@ const Casestudy = ({
   }, []);
 
   return (
-    <section className="hourglass-section">
+    <section className="hourglass-section pieces-div-coverimg">
 
 
       <HeaderProduct />
@@ -80,9 +80,6 @@ const Casestudy = ({
         </div>
 
        
-
-       
-        
 
 
 
