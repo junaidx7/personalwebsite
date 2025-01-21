@@ -1,7 +1,6 @@
 import Head2 from './Head2';
 import Precision from './precision';
 import ProjectGrid from './projectGrid'
-
 import { useEffect } from 'react';
 import Aboutme from "./aboutme"
 
@@ -33,7 +32,9 @@ const Home = () => {
 
     return (
         <section>
-           
+            
+
+              
             <Head2></Head2>
             <ProjectGrid></ProjectGrid>
             <Precision></Precision> 

@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 @import "./color";
 
@@ -10,10 +9,7 @@ $base-font-size: 16px; // Base font size
 $base: 1rem; // Base font size
 $scale-ratio: 1.3;    // Major third ratio
 
-@font-face {
-  font-family: 'Inter Tight';
 
-}
 
 
 
@@ -43,7 +39,7 @@ $h5-w: 500;
 $h6-w: 500;
 
 $p-large-w:300;
-$p-w:350;
+$p-w:360;
 $p-small-w: 350;
 
 $button-w: 600;
@@ -74,8 +70,8 @@ $h4-lh: 1.2;
 $h5-lh: 1.5;
 $h6-lh: 1.5;
 
-$p-large-lh:1.5;
-$p-lh:1.55;
+$p-large-lh:1.7;
+$p-lh:1.7;
 $p-small-lh: 1;
 
 $button-lh: 100%;
@@ -99,7 +95,7 @@ h1,h2,h3,h4,h5,h6{
 
 p,li{
   
-  font-family: 'geist',sans-serif,;
+  font-family: 'Inter Tight',sans-serif,;
 }
 
 
@@ -189,7 +185,7 @@ button {
 
 .bigtext {
 
-  font-family: 'Inter Tight';
+  font-family: 'Inter Tight', sans-serif;
   font-size: 6.22rem;
   font-weight: 400;
   letter-spacing: -0.2rem;
@@ -209,10 +205,8 @@ button {
 
 
 .junaid {
-  font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-size: 7.6rem;
-
   position: relative;
   overflow: hidden;
   letter-spacing: -0.3rem;

@@ -18,9 +18,9 @@ const Aboutme = () => {
           />
 
           <div className="abtme-p">
-            <p className="md white" > Who is this dude.   </p>
+            <h4 className="md bottom-lg" > Get to know me.  </h4>
 
-            <p className="md subtext">
+            <p className="md subtext bottom-xl">
               I am a generalist at heart, i got into product design because it
               allowed me to pursue my interest in creative, business and tech
               field. I’ve since worked on a range of problem for various industries including -
@@ -30,7 +30,7 @@ const Aboutme = () => {
             </p>
 
             <Link to="/Whoisthisdude" >
-              <button className="top-lg aboutmebtn" >
+              <button className=" aboutmebtn" >
                 Get to know me and my interests
               </button>
             </Link>

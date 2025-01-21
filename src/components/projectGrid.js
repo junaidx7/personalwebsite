@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import arr from "../image/images-home/arrow-svg.svg";
-import arrowSvg from "../image/images-home/arrow-svg.svg";
+import arrowSvg from "../image/images-home/arrowcursor.svg";
 import { Link } from "react-router-dom";
 
 import hourglassimg from "../image/images-home/cover/hourglasscover.jpg";
