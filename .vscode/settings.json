@@ -5,7 +5,18 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true
+        "**/Thumbs.db": true,
+        "README.md": true,
+        "package.json": true,
+        "package-lock.json": true,
+        "gulpfile.js": true,
+        ".gitignore": true,
+        "src/Scrolltotop.js": true,
+        "node_modules": true,
+        ".vscode": true,
+        "public": true,
+        "src/scss/animations/glare.scss": true,
+        "src/css": true
     },
     "hide-files.files": []
 }

@@ -1,20 +1,17 @@
 import './css/index.css';
-
-import FooterModern from './components/footer-modern'
-import Home from './components/Home/home'
+import Home from './components/home'
 import Demotextscale from './components/demotextscale'
-import Accounting from './components/Projects/Accounting'
-import Digitalmenu from './components/Projects/DigitalMenu'
-import Designsystem from './components/Projects/Designsystem'
-import Casestudy from './components/Projects/pieces/casestudy'
+import Accounting from './components/Accounting'
+import Digitalmenu from './components/DigitalMenu'
+import Designsystem from './components/Designsystem'
+import Casestudy from './piece-components/casestudy'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Hourglass from './components/Projects/Hourglass';
+import Hourglass from './components/Hourglass';
 import { useEffect } from 'react';
-import Whoisthisdude from './components/Projects/Whoisthisdude';
-import OtherCasestudy from './components/Projects/pieces/OtherCasestudy'
+import Whoisthisdude from './components/Whoisthisdude';
 import ScrollToTop from './Scrolltotop';
-import Du from './components/Projects/Du';
-import Footer from './components/Home/Footer'
+import Du from './components/Du';
+import Footer from './components/Footer'
 
 function App() {
 
@@ -44,7 +41,6 @@ function App() {
             <Route path="/Casestudy" element={<Casestudy />} />
             <Route path="/Whoisthisdude" element={<Whoisthisdude />} />
             <Route path="/Accounting" element={<Accounting />} />
-            <Route path="/OtherCasestudy" element={<OtherCasestudy />} />
             <Route path="/Du" element={<Du />} />
 
 
