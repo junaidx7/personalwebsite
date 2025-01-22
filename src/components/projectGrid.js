@@ -51,7 +51,7 @@ const ProjectGrid = () => {
     <section className="project-sections section-gap" id="mamamia">
       <div className="maxwidth-container">
         <div>
-          <h3 className=" bottom-2xl  top-2xl">Selected work</h3>
+          <h2  className=" bottom-2xl  top-3xl">Selected work</h2>
 
           <div className="grid-container">
 

@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import initReveal from '../js/reveal';
+import polo1 from "../image/images-home/polo1.svg"
+import polo2 from "../image/images-home/polo2.svg"
 
 
 const Precision = () => {
@@ -51,6 +53,7 @@ const Precision = () => {
     <div className="gradient_bg_reveal">
     <section id="precision-section" className="maxwidth-container section-gap">
       <p id="precision-paragraph" className="animatedparagraph"></p>
+      <img className="flyingpolo2" src={polo2} alt="Description" />
     </section>
     </div>
   );

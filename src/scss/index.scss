@@ -985,10 +985,6 @@ button:hover {
 
 
 
-
-
-
-
 .footer-section {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -1023,14 +1019,14 @@ button:hover {
 }
 
 .footer-text {
-  color: $grey800;
-
+  color: #1F1A33;
+  font-weight: 600;
+  font-size: 2.8rem !important;
 
 }
 
 .footer-text-link {
   @extend .footer-text;
-
 
 
   &:hover {
@@ -1044,7 +1040,7 @@ button:hover {
 
   height: 1px;
   /* Thickness of the line */
-  background-color: $grey100;
+  background-color: $grey200;
   /* Line color */
   margin-left: 4vw;
   margin-right: 4vw;
@@ -1057,4 +1053,13 @@ button:hover {
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem 5vw 2rem 5vw;
+}
+
+
+.flyingpolo2{
+
+  margin-top: 10rem;
+  padding-top: 200rem;
+  rotate: -5deg;
+  padding-left: -20rem;
 }

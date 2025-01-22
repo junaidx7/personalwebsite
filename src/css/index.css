@@ -1101,7 +1101,7 @@ aside {
   }
 }
 #precision-section {
-  height: 700vh;
+  height: 300vh;
 }
 
 .gradient_bg_reveal {
@@ -1893,7 +1893,9 @@ button:hover {
 }
 
 .footer-text, .footer-text-link {
-  color: #111827;
+  color: #1F1A33;
+  font-weight: 600;
+  font-size: 2.8rem !important;
 }
 
 .footer-text-link:hover {
@@ -1904,7 +1906,7 @@ button:hover {
 .line-border {
   height: 1px;
   /* Thickness of the line */
-  background-color: #E5E7EB;
+  background-color: #D2D5DB;
   /* Line color */
   margin-left: 4vw;
   margin-right: 4vw;
@@ -1915,4 +1917,11 @@ button:hover {
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem 5vw 2rem 5vw;
+}
+
+.flyingpolo2 {
+  margin-top: 10rem;
+  padding-top: 200rem;
+  rotate: -5deg;
+  padding-left: -20rem;
 }

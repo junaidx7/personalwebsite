@@ -17,6 +17,7 @@ function App() {
 
   useEffect(() => {
     document.title = "Junaid Portfolio";
+    document.documentElement.setAttribute("data-theme", 'light');
 
   }, []);
 

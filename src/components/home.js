@@ -3,6 +3,7 @@ import Precision from './precision';
 import ProjectGrid from './projectGrid'
 import { useEffect } from 'react';
 import Aboutme from "./aboutme"
+import ThemeToggle from '../js/ThemeToggle';
 
 const Home = () => {
 
@@ -34,7 +35,7 @@ const Home = () => {
         <section>
             
 
-              
+              <ThemeToggle></ThemeToggle>
             <Head2></Head2>
             <ProjectGrid></ProjectGrid>
             <Precision></Precision> 
