@@ -8,6 +8,7 @@ import coverright from "../image/images-casestudy/accounting/coverleftjpg.jpg";
 import Casestudy from "../piece-components/casestudy";
 import TitleBulletin from "../piece-components/TitleBulletin";
 import designhf from "../image/images-casestudy/accounting/designhf.jpg";
+import Casestudyv2 from "../components/casestudyv2";
 
 const Accounting = () => {
   const Content = () => {
@@ -54,7 +55,7 @@ const Accounting = () => {
 
   return (
     <section className="hourglass-section">
-      <Casestudy
+      <Casestudyv2
         casestudytitle="Smart simple online accounting for every business."
         content={<Content />}
         coverimg={cover}

@@ -1,6 +1,5 @@
-import Imagegrid4 from "./imagegrid4";
-import HeaderProduct from "../components/header-product";
-import Sidebar from "./sidebar";
+import Imagegrid4 from "../piece-components/imagegrid4";
+import HeaderProduct from "./header-product";
 import { useEffect } from "react";
 
 const Casestudy = ({
@@ -54,6 +53,14 @@ const Casestudy = ({
     <section className="hourglass-section pieces-div-coverimg">
 
 
+          <Imagegrid4
+            imgcover={coverimg}
+            halfleft={coverimgleft}
+            halfright={coverimgright}
+          />
+
+
+
       <HeaderProduct />
 
       <div className="product-title-container">
@@ -67,12 +74,6 @@ const Casestudy = ({
         <div className="project-content-section">
 
 
-
-          <Imagegrid4
-            imgcover={coverimg}
-            halfleft={coverimgleft}
-            halfright={coverimgright}
-          />
 
 
           <div className="pieces-div-container">{content}</div>
