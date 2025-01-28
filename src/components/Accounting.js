@@ -10,9 +10,14 @@ import TitleBulletin from "../piece-components/TitleBulletin";
 import designhf from "../image/images-casestudy/accounting/designhf.jpg";
 
 const Accounting = () => {
+
+
   const Content = () => {
     return (
       <div className="pieces-div">
+
+
+
         <BlockText
           title="Description"
           content="N1 Accounting is a cutting-edge accounting software that revolutionises accounting for businesses of all sizes.  its intuitive interface and powerful features, simplifies complex accounting tasks, allowing users to effortlessly track transactions, manage accounts receivable and accounts payable, generate comprehensive financial reports and more. "
@@ -45,12 +50,15 @@ const Accounting = () => {
 
         <ImageC ImageC={designhf} />
 
-      
+
 
         <div className="bottom-3xl"></div>
       </div>
     );
   };
+
+
+
 
   return (
     <section className="hourglass-section">
@@ -61,8 +69,12 @@ const Accounting = () => {
         coverimgleft={coverleft}
         coverimgright={coverright}
       />
+
+
+
     </section>
   );
+
 };
 
 export default Accounting;

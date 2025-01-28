@@ -6,7 +6,7 @@ const BlockText = ({ title, content }) => {
 
         <section className="sfc pieces-div-text">
 
-            
+
             <h5 className="gone">{title}</h5>
 
             <h4 className="blockpara top-xl">{content}</h4>

@@ -1,59 +1,61 @@
+const Content = ({
+    overline,
+    heading,
+    blockText,
+    body1,
+    body2,
+    bulletin,
+    body3,
+    body4,
+    ImageC,
+    alttext,
+   
+}) => {
 
-export const accountingContent = {
+    return (
 
-    intro_title: 'Introduction',
-    intro_paragraph: 'Nathan Digital Accounting is a cutting-edge accounting software that revolutionises accounting for businesses of all sizes. With its intuitive interface and powerful features, Nathan Digital Accounting simplifies complex tasks, allowing users to effortlessly track transactions, manage accounts receivable and accounts payable, and generate comprehensive financial reports. The software seamlessly integrates with Nathan digitals other products to make a system that is extremely simple & convenient to use.',
-    
-    myrole_title: 'My Role',
-    myrole_paragraph: 'As the sole designer for the NathanDigital Accounting software , I worked closely with stakeholders, and in-house accountants to understand the core requirement of the software and develop a design that was both user-friendly, intuitive, & efficient. I also collaborated closely with developers to ensure that my designs were feasible and implementable and also performed the visual QA for the front end to make sure everything was as per the design.',
+        <section className="sfc fitisnide">
 
-    goal_title: 'Setting the goal right',
-    goal_paragraph: 'The bar was set high; we aimed to compete with already-established industry giants such as QuickBooks and Xero. For this purpose, we sought to create software that not only accomplished users tasks efficiently but also proved to be more intuitive, user-friendly, powerful, and capable of seamless integration with Nathan-digitals ERPs.',
+            <div className="pieces-div-text">
 
-    competitor_title: 'Understanding competitor pain points',
-    competitor_paragraph: 'To comprehend <br> the pain points of users and refine our approach, I delved into various sources. Reddit : renowned as the holy grail of authentic user reviews, became a valuable platform. I scrolled through numerous user reviews, particularly those pertaining to competitor apps like QuickBooks and Xero. This allowed me to gain insights directly from users about their experiences and challenges with these applications. Talking to accountants : I engaged in discussions with internal accountants within our company. Through these discussions, I sought to uncover specific pain points associated with QuickBooks. By directly consulting with professionals utilizing the software, I aimed to identify missing features and areas for improvement to enhance our own softwares usability and effectiveness.',
-    
-};
+                {overline && <p className="sm bottom-lg">{overline}</p>}
 
+                {heading && (<h4 id="section1" className=" bottom-lg">  {heading}   </h4>)}
 
+                <h4 className="blockpara top-xl">{blockText}</h4>
 
-export const hourglassContent = {
+                {body1 && <p className="md subtext">{body1}</p>}
 
-    title: 'Description',
-    content: 'Hourglass is a software designed to help freelancers keep track of their billable hours and easily generate invoices from the tracked hours. it isnt just a tool; its a trusted ally for freelancers, empowering them to focus on their craft while effortlessly managing the administrative aspects of their business. With Hourglass by their side, freelancers can reclaim their time and optimize their productivity.',
+                {body2 && <p className="md subtext top-md">{body2}</p>}
 
-    title: 'My Role',
-    content: 'Please add this text',
+                <ul className="top-lg">
+                    {bulletin.map((item, i) => (
+                        <li className="md left-lg" key={i}>{item}</li>
+                    ))}
+                </ul>
 
-    title: 'Target Audience',
-    content: 'Freelancers who mostly works alone, and have to do time keeping, billing and accounting all by themselves. ',
+                {body3 && <p className="md subtext top-md">{body3}</p>}
 
-    title: 'text',
-    content: 'This is a long content for Page 2. It can also span multiple lines and contain any text or markup.',
+                {body4 && <p className="md subtext top-md">{body4}</p>}
 
-    title: 'text',
-    content: 'This is a long content for Page 2. It can also span multiple lines and contain any text or markup.',
+            </div>
 
-    title: 'text',
-    content: 'This is a long content for Page 2. It can also span multiple lines and contain any text or markup.',
+            <img className=" pieces-div-img image-radius" src={ImageC} alt="" />
 
-    title: 'text',
-    content: 'This is a long content for Page 2. It can also span multiple lines and contain any text or markup.',
-
-    title: 'text',
-    content: 'This is a long content for Page 2. It can also span multiple lines and contain any text or markup.',
-
-    title: 'text',
-    content: 'This is a long content for Page 2. It can also span multiple lines and contain any text or markup.',
+            {alttext && <p className="alttext">{alttext}</p>}
 
 
-    
-};
+            <div className="pieces-div-text">
+                {body5 && <p className="md subtext">{body5}</p>}
+
+                {body6 && <p className="md subtext top-md">{body6}</p>}
+
+            </div>
 
 
-export const page2Content = {
+        </section>
 
-    title: 'Page 2 Title',
-    content: 'This is a long content for Page 2. It can also span multiple lines and contain any text or markup.',
-    
-};
+    );
+}
+
+export default Content;

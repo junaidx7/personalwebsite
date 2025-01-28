@@ -14,6 +14,8 @@ const TitleBulletin = ({ heading, body, bulletin, overline }) => {
             <li className="md left-lg" key={i}>{item}</li>
           ))}
         </ul>
+
+        
       </div>
     </section>
   );
