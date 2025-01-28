@@ -1,15 +1,16 @@
 //BASE COLORS
 $grey25: #F9FAFB;
-$grey50: #F3F4F6;
-$grey100: #E5E7EB;
-$grey200: #D2D5DB;
-$grey300: #9CA3B0;
-$grey400: #6B7280;
-$grey500: #4C5563;
-$grey600: #384151;
-$grey700: #202937;
-$grey800: #111827;
-$grey900: #020712;
+$grey50: #F9FAFB;
+$grey100: #F3F4F6;
+$grey200: #E5E7EB;
+$grey300: #D2D5DB;
+$grey400: #9CA3B0;
+$grey500: #6B7280;
+$grey600: #4C5563;
+$grey700: #384151;
+$grey800: #202937;
+$grey900: #111827;
+$grey950: #020712;
 $blk : #000000;
 
 $primary:#936BFF;
@@ -22,19 +23,23 @@ $primary-light:#bba3ff;
     //LIGHT MODE COLORS - token not base
 
     --primary: #{$primary};
+    --primary-dark: #{$primary-dark};
+    --primary-light: #{$primary-light};
     --bg:white;
     --bg_opposite:#E3E0ED;;
 
-    --h1:#{$grey700};
+    --h1:#{$grey800};
     --h2:#{$grey700};
     --h3:#{$grey700};
-    --h4:#{$grey600};
+    --h4:#{$grey700}; //Content Title
     --h5:#{$grey700};
     --h6:#{$grey700};
 
-    --text_light:#{$grey700};
-    --text:#{$grey400};
-    --text_dark:#{$grey500};
+    --text_light:#{$grey500};
+    --text:#{$grey500};  //Body Text
+    --text_dark:#{$grey700};
+
+    --blockpara :#{$grey500};
 
     --border-subtle: #{$grey300};
     --border-moderate: #{$grey400};

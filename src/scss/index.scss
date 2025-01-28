@@ -952,8 +952,7 @@ hr {
 
 button {
   padding: 1rem 2.5rem;
-  font-size: 1.1rem;
-  font-weight: 400;
+  color: var(--grey700);
   border: 1px solid $grey300;
   cursor: pointer;
   font-family: 'Instrument Sans', 'sans-serif';
@@ -968,18 +967,20 @@ button {
   perspective: 100vmin;
   overflow: hidden;
   background-color: #ffffff00;
-}
 
-button:active {
-  scale: 1;
-}
 
-button:hover {
-  background-color: var(--primary);
-  color: white;
-  border: 1px solid $primary;
-  scale: 1.2;
-  rotate: 0deg;
+  &:active {
+    scale: 1;
+  }
+
+  &:hover {
+    background-color: var(--primary);
+    color: white;
+    border: 1px solid $primary;
+    scale: 1.2;
+    rotate: 0deg;
+  }
+
 }
 
 
@@ -1048,7 +1049,7 @@ button:hover {
 }
 
 
-.lowerbox{
+.lowerbox {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1056,7 +1057,7 @@ button:hover {
 }
 
 
-.flyingpolo2{
+.flyingpolo2 {
 
   margin-top: 10rem;
   padding-top: 200rem;

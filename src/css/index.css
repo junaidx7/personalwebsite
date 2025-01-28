@@ -21,20 +21,23 @@ body {
 }
 :root {
   --primary: #936BFF;
+  --primary-dark: #2a1665;
+  --primary-light: #bba3ff;
   --bg:white;
   --bg_opposite:#E3E0ED;
   --h1:#202937;
-  --h2:#202937;
-  --h3:#202937;
+  --h2:#384151;
+  --h3:#384151;
   --h4:#384151;
-  --h5:#202937;
-  --h6:#202937;
-  --text_light:#202937;
+  --h5:#384151;
+  --h6:#384151;
+  --text_light:#6B7280;
   --text:#6B7280;
-  --text_dark:#4C5563;
-  --border-subtle: #9CA3B0;
-  --border-moderate: #6B7280;
-  --border-bold: #F3F4F6;
+  --text_dark:#384151;
+  --blockpara:#6B7280;
+  --border-subtle: #D2D5DB;
+  --border-moderate: #9CA3B0;
+  --border-bold: #F9FAFB;
   --pscard_bg:#F9FAFB;
   --links:blue;
 }
@@ -42,19 +45,19 @@ body {
 [data-theme=dark] {
   --bg: black;
   --bg_opposite: white;
-  --pscard_bg:#202937;
-  --h1:#E5E7EB;
-  --h2:#E5E7EB;
-  --h3:#E5E7EB;
-  --h4:#E5E7EB;
-  --h5:#E5E7EB;
-  --h6:#E5E7EB;
-  --text_light:#E5E7EB;
-  --text:#E5E7EB;
-  --text_dark:#E5E7EB;
-  --border-subtle: #9CA3B0;
-  --border-moderate: #6B7280;
-  --border-bold: #F3F4F6;
+  --pscard_bg:#384151;
+  --h1:#F3F4F6;
+  --h2:#F3F4F6;
+  --h3:#F3F4F6;
+  --h4:#F3F4F6;
+  --h5:#F3F4F6;
+  --h6:#F3F4F6;
+  --text_light:#F3F4F6;
+  --text:#F3F4F6;
+  --text_dark:#F3F4F6;
+  --border-subtle: #D2D5DB;
+  --border-moderate: #9CA3B0;
+  --border-bold: #F9FAFB;
 }
 
 h1 {
@@ -108,20 +111,23 @@ html {
 
 :root {
   --primary: #936BFF;
+  --primary-dark: #2a1665;
+  --primary-light: #bba3ff;
   --bg:white;
   --bg_opposite:#E3E0ED;
   --h1:#202937;
-  --h2:#202937;
-  --h3:#202937;
+  --h2:#384151;
+  --h3:#384151;
   --h4:#384151;
-  --h5:#202937;
-  --h6:#202937;
-  --text_light:#202937;
+  --h5:#384151;
+  --h6:#384151;
+  --text_light:#6B7280;
   --text:#6B7280;
-  --text_dark:#4C5563;
-  --border-subtle: #9CA3B0;
-  --border-moderate: #6B7280;
-  --border-bold: #F3F4F6;
+  --text_dark:#384151;
+  --blockpara:#6B7280;
+  --border-subtle: #D2D5DB;
+  --border-moderate: #9CA3B0;
+  --border-bold: #F9FAFB;
   --pscard_bg:#F9FAFB;
   --links:blue;
 }
@@ -129,19 +135,19 @@ html {
 [data-theme=dark] {
   --bg: black;
   --bg_opposite: white;
-  --pscard_bg:#202937;
-  --h1:#E5E7EB;
-  --h2:#E5E7EB;
-  --h3:#E5E7EB;
-  --h4:#E5E7EB;
-  --h5:#E5E7EB;
-  --h6:#E5E7EB;
-  --text_light:#E5E7EB;
-  --text:#E5E7EB;
-  --text_dark:#E5E7EB;
-  --border-subtle: #9CA3B0;
-  --border-moderate: #6B7280;
-  --border-bold: #F3F4F6;
+  --pscard_bg:#384151;
+  --h1:#F3F4F6;
+  --h2:#F3F4F6;
+  --h3:#F3F4F6;
+  --h4:#F3F4F6;
+  --h5:#F3F4F6;
+  --h6:#F3F4F6;
+  --text_light:#F3F4F6;
+  --text:#F3F4F6;
+  --text_dark:#F3F4F6;
+  --border-subtle: #D2D5DB;
+  --border-moderate: #9CA3B0;
+  --border-bold: #F9FAFB;
 }
 
 h1 {
@@ -208,9 +214,10 @@ p, li {
 }
 
 h1 {
+  font-family: "Inter Tight", sans-serif !important;
   font-size: 59.40688px;
   font-weight: 600;
-  letter-spacing: -0.022em;
+  letter-spacing: 0em;
   line-height: 1;
 }
 
@@ -250,28 +257,28 @@ h6 {
 }
 
 p.lg {
-  font-size: 19.2px;
+  font-size: 20.8px;
   font-weight: 300;
   line-height: 1.7;
 }
 
 p {
-  font-size: 17.6px;
+  font-size: 20.8px;
   font-weight: 360;
-  letter-spacing: 0em;
+  letter-spacing: 0.015em;
   line-height: 1.7;
 }
 
 p.sm {
-  font-size: 12.8px;
+  font-size: 14.4px;
   font-weight: 350;
   line-height: 1;
   letter-spacing: 0.02em;
 }
 
 button {
-  font-size: 14.4px;
-  font-weight: 600;
+  font-size: 19.2px;
+  font-weight: 500;
   letter-spacing: 0em;
 }
 
@@ -338,15 +345,17 @@ button {
 }
 
 .blockpara {
-  font-weight: 100 !important;
+  font-family: "Inter Tight", sans-serif !important;
+  font-weight: 350 !important;
   line-height: 1.5 !important;
-  color: var(--h4);
+  color: var(--blockpara);
+  letter-spacing: 0.015em !important;
 }
 
 li {
-  font-size: 17.6px;
+  font-size: 20.8px;
   font-weight: 360;
-  letter-spacing: 0em;
+  letter-spacing: 0.015em;
   line-height: 1.7;
   padding-left: 0.5rem;
 }
@@ -589,20 +598,23 @@ li {
 
 :root {
   --primary: #936BFF;
+  --primary-dark: #2a1665;
+  --primary-light: #bba3ff;
   --bg:white;
   --bg_opposite:#E3E0ED;
   --h1:#202937;
-  --h2:#202937;
-  --h3:#202937;
+  --h2:#384151;
+  --h3:#384151;
   --h4:#384151;
-  --h5:#202937;
-  --h6:#202937;
-  --text_light:#202937;
+  --h5:#384151;
+  --h6:#384151;
+  --text_light:#6B7280;
   --text:#6B7280;
-  --text_dark:#4C5563;
-  --border-subtle: #9CA3B0;
-  --border-moderate: #6B7280;
-  --border-bold: #F3F4F6;
+  --text_dark:#384151;
+  --blockpara:#6B7280;
+  --border-subtle: #D2D5DB;
+  --border-moderate: #9CA3B0;
+  --border-bold: #F9FAFB;
   --pscard_bg:#F9FAFB;
   --links:blue;
 }
@@ -610,19 +622,19 @@ li {
 [data-theme=dark] {
   --bg: black;
   --bg_opposite: white;
-  --pscard_bg:#202937;
-  --h1:#E5E7EB;
-  --h2:#E5E7EB;
-  --h3:#E5E7EB;
-  --h4:#E5E7EB;
-  --h5:#E5E7EB;
-  --h6:#E5E7EB;
-  --text_light:#E5E7EB;
-  --text:#E5E7EB;
-  --text_dark:#E5E7EB;
-  --border-subtle: #9CA3B0;
-  --border-moderate: #6B7280;
-  --border-bold: #F3F4F6;
+  --pscard_bg:#384151;
+  --h1:#F3F4F6;
+  --h2:#F3F4F6;
+  --h3:#F3F4F6;
+  --h4:#F3F4F6;
+  --h5:#F3F4F6;
+  --h6:#F3F4F6;
+  --text_light:#F3F4F6;
+  --text:#F3F4F6;
+  --text_dark:#F3F4F6;
+  --border-subtle: #D2D5DB;
+  --border-moderate: #9CA3B0;
+  --border-bold: #F9FAFB;
 }
 
 h1 {
@@ -1024,7 +1036,7 @@ aside {
   color: var(--text);
   padding-top: 1rem;
   line-height: 1 !important;
-  font-size: 12.8px !important;
+  font-size: 14.4px !important;
   font-weight: 350 !important;
   letter-spacing: 0.02em !important;
 }
@@ -1819,7 +1831,7 @@ hr {
     font-weight: 350;
     line-height: 110%;
     letter-spacing: -0.08rem;
-    color: #111827;
+    color: #202937;
     position: sticky;
     top: 30%;
     padding-bottom: 20rem;
@@ -1834,9 +1846,8 @@ hr {
 
 button {
   padding: 1rem 2.5rem;
-  font-size: 1.1rem;
-  font-weight: 400;
-  border: 1px solid #9CA3B0;
+  color: var(--grey700);
+  border: 1px solid #D2D5DB;
   cursor: pointer;
   font-family: "Instrument Sans", "sans-serif";
   display: flex;
@@ -1851,11 +1862,9 @@ button {
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0);
 }
-
 button:active {
   scale: 1;
 }
-
 button:hover {
   background-color: var(--primary);
   color: white;
@@ -1906,7 +1915,7 @@ button:hover {
 .line-border {
   height: 1px;
   /* Thickness of the line */
-  background-color: #D2D5DB;
+  background-color: #E5E7EB;
   /* Line color */
   margin-left: 4vw;
   margin-right: 4vw;
