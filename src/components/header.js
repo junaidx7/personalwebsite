@@ -3,7 +3,8 @@ const Header = () => {
   return (
 
 
-    <header id="header1">
+    <header id="header1" className="border">
+      
       <div className="header-container">
 
 

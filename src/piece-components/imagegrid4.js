@@ -3,7 +3,7 @@ import accover from '../image/images-casestudy/accounting/accounting.jpg';
 const Imagegrid4 = ({ imgcover, halfleft, halfright }) => {
     return (
 
-        <section className="imagegrid4-section right-xl left-xl image-radius">
+        <section className="imagegrid4-section">
 
             <img
                 className="grid-fullwidth1 img-fullwidth image-radius"
@@ -18,7 +18,7 @@ const Imagegrid4 = ({ imgcover, halfleft, halfright }) => {
             />
 
             <img
-                className="grid-halfwidth2 img-fullwidth bottom-2xl image-radius"
+                className="grid-halfwidth2 img-fullwidth image-radius"
                 src={halfright || "https://placehold.co/1000x1000"}
             />
 

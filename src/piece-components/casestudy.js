@@ -49,57 +49,38 @@ const Casestudy = ({
   }, []);
 
   return (
-    <section className="hourglass-section pieces-div-coverimg">
 
+    <section className="product-header-imagegrid-box   pieces-div-coverimg ">
 
       <HeaderProduct />
 
       <div className="product-title-container">
-        <h1 className="product-title w500 top-3xl bottom-3xl left-2xl">
+        <h1 className="product-title w500left-2xl">
           {casestudytitle}
         </h1>
       </div>
 
-      <div className="flexforsidebarandcontent">
 
-        <div className="project-content-section">
-       
+      <Imagegrid4
+        imgcover={coverimg}
+        halfleft={coverimgleft}
+        halfright={coverimgright}
+      />
 
-
-          <Imagegrid4
-            imgcover={coverimg}
-            halfleft={coverimgleft}
-            halfright={coverimgright}
-          />
-         
-
-          <div className="pieces-div-container">{content}</div>
+      <div className="pieces-div-container">{content}</div>
 
 
-        </div>
-
-       
-
-
-
-
-
-        <a
-          href="#"
-          id="backToTop"
-          className="back-to-top"
-          style={{ display: 'none' }}
-        >
-          <svg className="icon__arrow-up" viewBox="0 0 24 24">
-            <title>Back to top</title>
-            <path d="M18.71,11.71a1,1,0,0,1-1.42,0L13,7.41V19a1,1,0,0,1-2,0V7.41l-4.29,4.3a1,1,0,0,1-1.42-1.42l6-6a1,1,0,0,1,1.42,0l6,6A1,1,0,0,1,18.71,11.71Z" />
-          </svg>
-        </a>
-
-      
-
-      </div>
-
+      <a
+        href="#"
+        id="backToTop"
+        className="back-to-top"
+        style={{ display: 'none' }}
+      >
+        <svg className="icon__arrow-up" viewBox="0 0 24 24">
+          <title>Back to top</title>
+          <path d="M18.71,11.71a1,1,0,0,1-1.42,0L13,7.41V19a1,1,0,0,1-2,0V7.41l-4.29,4.3a1,1,0,0,1-1.42-1.42l6-6a1,1,0,0,1,1.42,0l6,6A1,1,0,0,1,18.71,11.71Z" />
+        </svg>
+      </a>
 
 
 

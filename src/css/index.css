@@ -365,6 +365,18 @@ li {
   white-space: nowrap; /* Prevents line breaks */
 }
 
+.radius-lg {
+  border-radius: 1.5rem;
+}
+
+.radius-md {
+  border-radius: 1rem;
+}
+
+.radius-sm {
+  border-radius: 0.5rem;
+}
+
 .bottom-xs {
   margin-bottom: 0.125rem;
 }
@@ -510,7 +522,7 @@ li {
 }
 
 .image-radius {
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
 }
 
 .master-wrapper {
@@ -982,7 +994,7 @@ body .box .title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6rem;
+  gap: 4rem;
 }
 
 .project-content-section {
@@ -1102,10 +1114,6 @@ aside {
   .product-title-container {
     max-width: 100%;
     margin: 0;
-  }
-  .imagegrid4-section {
-    margin-left: 0px !important;
-    margin-right: 0px !important;
   }
   .product-title {
     font-size: 3rem;
@@ -1379,7 +1387,7 @@ a {
   gap: 2rem;
 }
 .demotextscale .border {
-  border: 0px solid red;
+  border: 0px solid red !important;
   background-color: 0;
   padding: 2rem;
 }
@@ -1395,6 +1403,7 @@ header {
 }
 
 .header-product {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1645,10 +1654,8 @@ hr {
 
 .pieces-div-coverimg {
   margin: auto;
-  width: 2440px;
   max-width: 100% !important;
-  border: 0px solid green;
-  padding: 5px;
+  padding: 1rem;
 }
 
 .fitisnide {
@@ -1933,4 +1940,17 @@ button:hover {
   padding-top: 200rem;
   rotate: -5deg;
   padding-left: -20rem;
+}
+
+.product-header-imagegrid-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.border {
+  border: 1px solid red !important;
+  background-color: 0;
+  padding: 2rem;
+  margin: 1rem;
 }

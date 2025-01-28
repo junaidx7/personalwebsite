@@ -66,7 +66,9 @@ const Du = () => {
   };
 
   return (
-    <section className="hourglass-section">
+    
+    <section className="">
+
       <Casestudy
         casestudytitle="Features for du Mobile App and Web"
         content={<Content />}

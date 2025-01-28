@@ -18,7 +18,7 @@ const ContentBox = ({
             <div className="pieces-div-text">
                 {overline && <p className="sm bottom-lg">{overline}</p>}
                 {heading && <h3 id="section1" className="bottom-lg">{heading}</h3>}
-                {blockText && <h4 className="blockpara top-xl">{blockText}</h4>}
+                {blockText && <h4 className="blockpara">{blockText}</h4>}
                 {body1 && <p className="md subtext">{body1}</p>}
                 {body2 && <p className="md subtext top-md">{body2}</p>}
                 {bulletin && bulletin.length > 0 && (

@@ -33,6 +33,8 @@
 //-----------------------------------
 
 
+
+
 :root {
   --transition: 0.2s;
 
@@ -142,7 +144,7 @@ a {
 .project-imgbox {
   width: 100%;
   height: auto;
-  border-radius: 1.5rem;
+  border-radius: $large-radius;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -354,12 +356,14 @@ a {
   }
 
   .border {
-    border: 0px solid red;
+    border: 0px solid red !important;
     background-color: green($color: #000000);
     padding: 2rem;
   }
 
 }
+
+
 
 //---HEADER---------------------------------------------------
 
@@ -376,6 +380,7 @@ header {
 //------Header Products---------------------------------------------------------
 
 .header-product {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -672,10 +677,9 @@ hr {
 
 .pieces-div-coverimg {
   margin: auto;
-  width: 2440px;
+  //width: 2440px;
   max-width: 100% !important;
-  border: 0px solid green;
-  padding: 5px;
+  padding: 1rem;
 
 }
 
@@ -1063,4 +1067,17 @@ button {
   padding-top: 200rem;
   rotate: -5deg;
   padding-left: -20rem;
+}
+
+.product-header-imagegrid-box{
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-between-content-blocks-in-header;
+}
+
+.border {
+  border: 1px solid red !important;
+  background-color: green($color: #000000);
+  padding: 2rem;
+  margin: 1rem;
 }
