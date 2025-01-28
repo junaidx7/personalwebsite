@@ -1,4 +1,3 @@
-
 $base-spacing: 0.25rem; //=4px when base font =16px
 
 $spacing-xs: $base-spacing * 0.5; //---2px
@@ -12,9 +11,9 @@ $spacing-4xl: $base-spacing * 64; //---256px
 $spacing-5xl: $base-spacing * 128; //--512px
 
 
-$large-radius: 1.5rem; 
-$medium-radius: 1rem; 
-$small-radius: 0.5rem; 
+$large-radius: 1.5rem;
+$medium-radius: 1rem;
+$small-radius: 0.5rem;
 
 
 $spacing-between-content-blocks: 4rem;
@@ -26,11 +25,11 @@ $spacing-between-content-blocks-in-header: 6rem;
 }
 
 .radius-md {
-    border-radius: $medium-radius;  
+    border-radius: $medium-radius;
 }
 
 .radius-sm {
-    border-radius: $small-radius;  
+    border-radius: $small-radius;
 }
 
 
@@ -196,7 +195,10 @@ $spacing-between-content-blocks-in-header: 6rem;
 
 //--- RADIUS ----------------------------
 
-.image-radius{
-   border-radius: $large-radius;
+.image-radius {
+    border-radius: $large-radius;
 }
 
+.inner-piecesdiv-spacing {
+    margin-bottom: $spacing-lg;
+}

@@ -4,6 +4,7 @@ import duicon from "../image/images-home/duicon.png"
 import openarrow from "../image/images-home/openarrow.svg"
 import polo2 from "../image/images-home/polo2.svg"
 import polo4 from "../image/images-home/polo1.svg"
+import Magnet from '../components/Magnet'
 
 
 const Head2 = () => {
@@ -12,21 +13,21 @@ const Head2 = () => {
         window.location.href = '/';
     };
 
-  const handleMouseEnter = () => {
-    const targetDiv = document.querySelector('.Head2container'); // Select the specific div
-    if (targetDiv) {
-      targetDiv.style.background = 
-        'radial-gradient(52.56% 68.18% at 50.05% 100%, #D5CDF5 0%, #F7F4FF 100%)';
-        
-    }
-  };
+    const handleMouseEnter = () => {
+        const targetDiv = document.querySelector('.Head2container'); // Select the specific div
+        if (targetDiv) {
+            targetDiv.style.background =
+                'radial-gradient(52.56% 68.18% at 50.05% 100%, #D5CDF5 0%, #F7F4FF 100%)';
 
-  const handleMouseLeave = () => {
-    const targetDiv = document.querySelector('.Head2container');
-    if (targetDiv) {
-      targetDiv.style.background = ''; // Reset to default
-    }
-  };
+        }
+    };
+
+    const handleMouseLeave = () => {
+        const targetDiv = document.querySelector('.Head2container');
+        if (targetDiv) {
+            targetDiv.style.background = ''; // Reset to default
+        }
+    };
 
 
     useEffect(() => {
@@ -50,11 +51,13 @@ const Head2 = () => {
 
 
             <div className='Head2container '>
+
                 <div className='bigbox2'>
 
                     <h1 className="bigtext2 " style={{ fontFamily: '"Inter Tight", sans-serif', textAlign: "center" }}> <span id="e1" className='pop'>Junaid</span> designs<br />intuitive products</h1>
 
                 </div>
+
 
 
                 <h5 className="subtext-under-bigtext2" id="bio">
@@ -78,27 +81,36 @@ const Head2 = () => {
                     alt="Decorative SVG"
                 />
 
-             
-        
+
+
                 <img
                     className="poloroid4"
                     src={polo4}
                     alt="Decorative SVG"
                 />
 
-                <button
-                    onClick={handleRedirect}
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
 
-                >
-                    View Resume
-                </button>
+
+                <Magnet padding={300} disabled={false} magnetStrength={7}>
+                    <button
+                        onClick={handleRedirect}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}
+
+                    >
+                        View Resume
+                    </button>
+                </Magnet>
 
 
 
 
             </div>
+
+
+
+
+
 
 
 

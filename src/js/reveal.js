@@ -1,6 +1,6 @@
 function initReveal() {
-    const text = "Precision-Driven Designs for Maximum Impact. I go beyond aesthetics, delving deep into consumer behavior and market research to craft websites that aren't just visually appealing but strategically engineered for usability & conversion.";
-
+    const text2 = "Precision-Driven Designs for Maximum Impact. I go beyond aesthetics, delving deep into consumer behavior and market research to craft websites that aren't just visually appealing but strategically engineered for usability & conversion.";
+    const text = "Designing with Purpose and Passion. I believe great product design goes beyond functionality—it's about creating meaningful, human-centered experiences that improve lives. My work reflects a commitment to excellence, empathy, and innovation."
 
     console.log('caled');
 

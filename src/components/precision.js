@@ -5,8 +5,10 @@ import polo2 from "../image/images-home/polo2.svg"
 
 
 const Precision = () => {
+
   useEffect(() => {
-    const text = "Precision-driven designs for maximum impact. I go beyond aesthetics, delving deep into consumer behavior and market research to craft products that aren't just visually appealing but strategically engineered for usability & conversion.";
+    const text2 = "Precision-driven designs for maximum impact. I go beyond aesthetics, delving deep into consumer behavior and market research to craft products that aren't just visually appealing but strategically engineered for usability & conversion.";
+    const text ="Designing with purpose and passion. I believe great product design goes beyond design and functionality—it's about creating meaningful, human-centered experiences that improve lives. My work reflects a commitment to excellence, empathy, and innovation."
     console.log('caled');
     const words = text.split(' ');
     const parentElement = document.getElementById('precision-paragraph');
@@ -53,7 +55,7 @@ const Precision = () => {
     <div className="gradient_bg_reveal">
     <section id="precision-section" className="maxwidth-container section-gap">
       <p id="precision-paragraph" className="animatedparagraph"></p>
-      <img className="flyingpolo2" src={polo2} alt="Description" />
+     
     </section>
     </div>
   );

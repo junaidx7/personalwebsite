@@ -253,6 +253,15 @@ button {
   line-height: 1.5 !important;
   color: var(--blockpara);
   letter-spacing: 0.015em !important;
+
+
+}
+
+.blockparaBlack{
+  @extend .blockpara;
+  color: var(--grey700) !important;
+
+
 }
 
 

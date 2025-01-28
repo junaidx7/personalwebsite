@@ -35,7 +35,7 @@ const Home = () => {
         <section>
             
 
-              <ThemeToggle></ThemeToggle>
+           { /* <ThemeToggle></ThemeToggle> */}
             <Head2></Head2>
             <ProjectGrid></ProjectGrid>
             <Precision></Precision> 
