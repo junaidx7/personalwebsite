@@ -19,7 +19,7 @@ $h5-s: $base-font-size * $scale-ratio; // H5 - 1 step up
 $h6-s: $base-font-size;
 
 $p-large-s: $base-font-size* 1.3; //paragraph large
-$p-s: $base-font-size* 1.3; //paragraph 
+$p-s: $base-font-size* 1.2; //paragraph 
 $p-small-s: $base-font-size * 0.9; //paragraph small - used as alttext,
 $button-s: $base-font-size * 1.2;
 
@@ -27,7 +27,7 @@ $button-s: $base-font-size * 1.2;
 
 
 // FONT WEIGHT
-$h1-w: 600;
+$h1-w: 550;
 $h2-w: 500;
 $h3-w: 500;
 $h4-w: 500;
@@ -71,20 +71,6 @@ $p-small-lh: 1;
 
 $button-lh: 100%;
 
-
-@media screen and (max-width: 500px) {
-
-  $base-font-size: 16px; // Base font size
-  $base: 1rem; // Base font size
-  $scale-ratio: 1; // Major third ratio
-
-
-
-
-
-
-
-}
 
 
 //________________________________________________________________________________________________________________________
@@ -198,6 +184,23 @@ button {
 }
 
 
+@media screen and (max-width: 1000px) {
+
+
+  
+
+
+$base-font-size: 16px; // Base font size
+$base: 1rem; // Base font size
+$scale-ratio: 1.3; // Major third ratio
+
+
+
+}
+
+
+
+
 
 //________________________________________________________________________________________________________________________
 
@@ -309,26 +312,3 @@ li {
 }
 
 
-
-
-//--MEDIA QUERIES-----------------------------------------------------------------------------------------
-
-@media screen and (max-width: 1000px) {}
-
-@media screen and (min-width: 1280px) {
-  //1280px and above
-
-}
-
-@media screen and (min-width: 1400px) {
-  //1400px and above
-
-}
-
-@media screen and (min-width: 2000px) {
-  //3000px and above (4k)
-
-}
-
-//------------------------------------------------------------------------------------------
-//------------------------------------------------------------------------------------------

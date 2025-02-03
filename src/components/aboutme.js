@@ -30,19 +30,23 @@ const Aboutme = () => {
             </p>
 
             <Link to="/Whoisthisdude" >
-              <button className=" aboutmebtn" >
-                Get to know me and my interests
-              </button>
+
+
+              <button>Get to know me and my interests</button>
+
+
+
+
             </Link>
           </div>
         </div>
 
         <div className="grid12px">
-          <img
-            className="abtme-img2 nointeraction"
-            src={dubai}
-            alt=""
-          />
+          {/* <img
+              className="abtme-img2 nointeraction"
+              src={dubai}
+              alt=""
+            /> */}
 
           <img
             className="abtme-img3 nointeraction"

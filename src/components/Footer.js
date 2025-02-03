@@ -4,8 +4,11 @@ const Footer = () => {
         <div>
             <section className="footer-section">
 
-                <div className="box1_footer">
-                    <h2 className="footer-text">creating design<br></br>that feels natural.</h2>
+
+
+                <div className="box3_footer" style={{ textAlign: 'left' }}>
+                    <h2 className="bottom-xl footer-text" style={{ textAlign: 'left' }}>junaid79x@gmail.com</h2>
+                    <button style={{ float: 'left' }}>Copy email</button>
                 </div>
 
 
@@ -20,10 +23,6 @@ const Footer = () => {
 
 
 
-                <div className="box3_footer">
-                    <h2 className="bottom-xl footer-text">junaid79x@gmail.com</h2>
-                    <button>Copy email</button>
-                </div>
 
 
 
@@ -33,7 +32,7 @@ const Footer = () => {
 
             <div className="lowerbox">
 
-              
+
                 <p className="sm">2024</p>
 
                 <p className="sm">designed in dubai with peer pressure</p>

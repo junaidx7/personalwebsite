@@ -69,8 +69,8 @@ const Head2 = () => {
                 <div className='designingfordiv'>
                     <h5 className='subtext-under-bigtext2'> Currently designing for</h5>
                     <img src={duicon} alt="Description" className='duiconbigbox' />
-                    <h5 className='subtext-under-bigtext2'>telecom</h5>
-                    <img src={openarrow} alt="Description" />
+                    <h5 className='subtext-under-bigtext2 telecomtext'>telecom</h5>
+                    <img className='openarrow' src={openarrow} alt="Description" />
                 </div>
 
 
@@ -92,14 +92,13 @@ const Head2 = () => {
 
 
                 <Magnet padding={300} disabled={false} magnetStrength={7}>
+
                     <button
                         onClick={handleRedirect}
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}
+                    >View Resume </button>
 
-                    >
-                        View Resume
-                    </button>
                 </Magnet>
 
 

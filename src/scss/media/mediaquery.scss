@@ -9,6 +9,22 @@
 
     //1000 and below
 
+    .designingfordiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .telecomtext {
+        display: none;
+    }
+
+    .openarrow {
+        display: none;
+    }
+
+
+
 
 
     .tiltedvid {
@@ -137,11 +153,6 @@
 
 }
 
-
-
-
-
-
 @media screen and (min-width: 1010px) {
     //1280px and above
 
@@ -158,14 +169,14 @@
     //1400px and above
 
     .maxwidth-container {
-        max-width: 1300px;
+        max-width: 1200px;
         margin: auto;
         padding: 1rem;
     }
 
     .animatedparagraph {
         font-family: 'Instrument Sans';
-        font-size: 3.5rem;
+        font-size: 3rem;
         font-weight: 350;
         line-height: 110%;
         letter-spacing: -0.08rem;

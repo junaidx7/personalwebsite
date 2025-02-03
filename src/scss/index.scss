@@ -370,12 +370,12 @@ a {
 
 header {
   background-color: var(--bg);
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
 .header-back {
-  margin: 0rem 2rem 0rem 2rem;
-  padding: 1rem 0rem 1rem 0rem;
+  margin: 0rem 2rem ;
+  padding: 1rem 0rem ;
 }
 
 //------Header Products---------------------------------------------------------
@@ -385,14 +385,14 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 90%;
+  max-width: 95%;
   margin: auto;
 }
 
 .header-product-links {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .gone {
@@ -769,7 +769,7 @@ hr {
 
 button {
   padding: 1rem 2.5rem;
-  color: var(--grey700);
+  color: $grey700;
   border: 1px solid $grey300;
   cursor: pointer;
   font-family: 'Instrument Sans', 'sans-serif';
@@ -785,7 +785,6 @@ button {
   overflow: hidden;
   background-color: #ffffff00;
 
-
   &:active {
     scale: 1;
   }
@@ -800,81 +799,6 @@ button {
 
 }
 
-
-
-
-.footer-section {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 1rem;
-  padding: 3vw 5vw 10vw 5vw;
-
-
-}
-
-.footer_innerbox {
-  display: flex;
-  flex-direction: row;
-}
-
-.box1_footer {
-  grid-column: 1/span 6;
- // border: 1px solid navy;
-
-}
-
-
-.box2_footer {
-  color: var(--primary) !important;
-  grid-column: 8/span 2;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-
-.box3_footer {
-
-  grid-column: 12/span 1;
-}
-
-.footer-text {
-  color: #1F1A33;
-  font-weight: 600;
-
- 
-
-}
-
-.footer-text-link {
-  @extend .footer-text;
-
-
-  &:hover {
-    color: $primary;
-    text-decoration: underline;
-  }
-}
-
-
-.line-border {
-
-  height: 1px;
-  /* Thickness of the line */
-  background-color: $grey200;
-  /* Line color */
-  margin-left: 4vw;
-  margin-right: 4vw;
-
-}
-
-
-.lowerbox {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 1rem 5vw 2rem 5vw;
-}
 
 
 .flyingpolo2 {
