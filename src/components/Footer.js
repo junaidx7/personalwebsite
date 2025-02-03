@@ -5,17 +5,17 @@ const Footer = () => {
             <section className="footer-section">
 
                 <div className="box1_footer">
-                    <h1 className="footer-text">creating design<br></br>that feels natural.</h1>
+                    <h2 className="footer-text">creating design<br></br>that feels natural.</h2>
                 </div>
 
 
 
 
                 <div className="box2_footer">
-                    <h1 className="footer-text-link bottom-lg">Linkedin</h1>
-                    <h1 className="footer-text-link bottom-lg">Resume</h1>
-                    <h1 className="footer-text-link bottom-lg">About me</h1>
-                    <h1 className="footer-text-link bottom-lg">Whatsapp</h1>
+                    <h2 className="footer-text-link bottom-lg">Linkedin</h2>
+                    <h2 className="footer-text-link bottom-lg">Resume</h2>
+                    <h2 className="footer-text-link bottom-lg">About me</h2>
+                    <h2 className="footer-text-link bottom-lg">Whatsapp</h2>
                 </div>
 
 

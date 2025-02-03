@@ -35,6 +35,7 @@
 
 
 
+
 :root {
   --transition: 0.2s;
 
@@ -706,9 +707,9 @@ hr {
 .bigtext2 {
 
   font-family: 'Inter Tight';
-  font-size: 6.8rem;
-  font-weight: 400;
-  letter-spacing: -0.2rem;
+  font-size: 8rem;
+  font-weight: 450;
+  letter-spacing: -0.4rem;
   line-height: 94%;
   color: var(--h1);
 
@@ -754,194 +755,6 @@ hr {
 }
 
 
-
-
-//--MEDIA QUERIES-----------------------------------------------------------------------------------------
-
-@media screen and (max-width: 1000px) {
-  //1000 and below
-
-  .tiltedvid {
-    transform: scale(0);
-    display: none !important;
-  }
-
-  .letsmakeithappen {
-    max-width: 20rem;
-  }
-
-  .footer-maxwidth-container-withflex {
-    max-width: 90%;
-    margin: auto;
-    padding-bottom: $spacing-2xl;
-    padding-top: $spacing-md;
-    display: flex;
-    flex-direction: column;
-    gap: 6rem;
-  }
-
-  .contact-container {
-
-    column-gap: $spacing-md;
-    row-gap: $spacing-2xl;
-    flex-wrap: wrap;
-    margin: 1rem;
-  }
-
-  .even-spacing-project {
-    margin-top: 2rem;
-  }
-
-  .grow-rotate-reverse {
-    transform: scale(1) rotate(0deg) !important;
-  }
-
-  .grow-rotate-reverse:hover {
-    transform: scale(1) rotate(0deg) !important;
-  }
-
-
-
-
-
-  .grow-rotate {
-    transform: scale(1) rotate(0deg) !important;
-  }
-
-  .grow-rotate:hover {
-    transform: scale(1) rotate(0deg) !important;
-  }
-
-
-
-  .project-margintop {
-    margin-top: 3rem;
-  }
-
-  .grid-container {
-    display: block;
-  }
-
-  .new-skills-section,
-  .aboutme-section,
-  #precision-section,
-  .new-skills-section {
-    display: none !important;
-  }
-
-  .wrapper {
-    padding: 2rem;
-  }
-
-
-
-  .footer-maxwidth-container-withflex {
-    display: flex;
-    flex-direction: column;
-    max-width: 1200px;
-    margin: auto;
-    justify-content: flex-start;
-    padding: 4rem 0rem;
-
-  }
-
-
-  .letsmakeithappen {
-    display: none;
-  }
-
-  .stickynote {
-    display: none;
-  }
-
-  .inner-contact-container {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    row-gap: 4rem;
-    justify-content: center;
-
-    p {
-      text-align: center;
-    }
-  }
-
-
-
-}
-
-@media screen and (min-width: 1280px) {
-  //1280px and above
-
-  .maxwidth-container {
-    max-width: 1100px;
-    margin: auto;
-    padding: 1rem;
-  }
-
-
-}
-
-@media screen and (min-width: 1400px) {
-  //1400px and above
-
-  .maxwidth-container {
-    max-width: 1100px;
-    margin: auto;
-    padding: 1rem;
-  }
-
-
-}
-
-@media screen and (min-width: 2000px) {
-  //3000px and above (4k)
-
-  .maxwidth-container {
-    max-width: 1440px;
-    margin: auto;
-    padding: 1rem;
-  }
-
-  .bigbox2 {
-    margin-top: 0rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-  }
-
-  .bigtext2 {
-
-    font-family: 'Inter Tight';
-    font-size: 8rem;
-    font-weight: 450;
-    letter-spacing: -0.4rem;
-    line-height: 94%;
-    color: var(--h1);
-
-  }
-
-  .animatedparagraph {
-    font-family: 'Instrument Sans';
-    font-size: 4rem;
-    font-weight: 350;
-    line-height: 110%;
-    letter-spacing: -0.08rem;
-    color: $grey800;
-    position: sticky;
-    top: 30%;
-    padding-bottom: 20rem;
-    text-align: left;
-  }
-
-
-
-
-}
-
-//------------------------------------------------------------------------------------------
-//------------------------------------------------------------------------------------------
 
 
 
@@ -1005,7 +818,9 @@ button {
 }
 
 .box1_footer {
-  grid-column: 1/span 3;
+  grid-column: 1/span 6;
+ // border: 1px solid navy;
+
 }
 
 
@@ -1026,7 +841,8 @@ button {
 .footer-text {
   color: #1F1A33;
   font-weight: 600;
-  font-size: 2.8rem !important;
+
+ 
 
 }
 
@@ -1069,15 +885,35 @@ button {
   padding-left: -20rem;
 }
 
-.product-header-imagegrid-box{
+.product-header-imagegrid-box {
   display: flex;
   flex-direction: column;
   gap: $spacing-between-content-blocks-in-header;
 }
 
 .border {
-  border: 1px solid red !important;
   background-color: green($color: #000000);
   padding: 2rem;
   margin: 1rem;
 }
+
+
+.animatedparagraph {
+  font-family: 'Instrument Sans';
+  font-size: 4rem;
+  font-weight: 350;
+  line-height: 120% !important;
+  letter-spacing: -0.08rem;
+  color: $grey800;
+  position: sticky;
+  top: 30%;
+  padding-bottom: 20rem;
+  text-align: left;
+}
+
+
+
+//-----Keep at bottom
+
+@import "./media/mediaquery.scss";
+@import "./media/footermedia.scss"

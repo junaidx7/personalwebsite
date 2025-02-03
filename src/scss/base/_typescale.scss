@@ -7,20 +7,20 @@
 
 $base-font-size: 16px; // Base font size
 $base: 1rem; // Base font size
-$scale-ratio: 1.3;    // Major third ratio
+$scale-ratio: 1.3; // Major third ratio
 
 
 // FONT SIZEE
 $h1-s: $base-font-size * $scale-ratio * $scale-ratio * $scale-ratio * $scale-ratio * $scale-ratio; // H1 - 5 steps up
-$h2-s: $base-font-size * $scale-ratio * $scale-ratio * $scale-ratio * $scale-ratio;                // H2 - 4 steps up
-$h3-s: $base-font-size * $scale-ratio * $scale-ratio * $scale-ratio;                               // H3 - 3 steps up
-$h4-s: $base-font-size * $scale-ratio * $scale-ratio;                                              // H4 - 2 steps up
-$h5-s: $base-font-size * $scale-ratio;                                                             // H5 - 1 step up
-$h6-s: $base-font-size; 
+$h2-s: $base-font-size * $scale-ratio * $scale-ratio * $scale-ratio * $scale-ratio; // H2 - 4 steps up
+$h3-s: $base-font-size * $scale-ratio * $scale-ratio * $scale-ratio; // H3 - 3 steps up
+$h4-s: $base-font-size * $scale-ratio * $scale-ratio; // H4 - 2 steps up
+$h5-s: $base-font-size * $scale-ratio; // H5 - 1 step up
+$h6-s: $base-font-size;
 
-$p-large-s: $base-font-size* 1.3;    //paragraph large
-$p-s: $base-font-size* 1.3;            //paragraph 
-$p-small-s:  $base-font-size * 0.9; //paragraph small - used as alttext,
+$p-large-s: $base-font-size* 1.3; //paragraph large
+$p-s: $base-font-size* 1.3; //paragraph 
+$p-small-s: $base-font-size * 0.9; //paragraph small - used as alttext,
 $button-s: $base-font-size * 1.2;
 
 
@@ -34,8 +34,8 @@ $h4-w: 500;
 $h5-w: 500;
 $h6-w: 500;
 
-$p-large-w:300;
-$p-w:360;
+$p-large-w: 300;
+$p-w: 360;
 $p-small-w: 350;
 $button-w: 500;
 
@@ -48,8 +48,8 @@ $h4-ls: -0.022em;
 $h5-ls: -0.022em;
 $h6-ls: -0.022em;
 
-$p-large-ls:0em;
-$p-ls:0.015em;
+$p-large-ls: 0em;
+$p-ls: 0.015em;
 $p-small-ls: 0.02em;
 
 $button-ls: 0em;
@@ -65,11 +65,26 @@ $h4-lh: 1.2;
 $h5-lh: 1.5;
 $h6-lh: 1.5;
 
-$p-large-lh:1.7;
-$p-lh:1.7;
+$p-large-lh: 1.7;
+$p-lh: 1.7;
 $p-small-lh: 1;
 
 $button-lh: 100%;
+
+
+@media screen and (max-width: 500px) {
+
+  $base-font-size: 16px; // Base font size
+  $base: 1rem; // Base font size
+  $scale-ratio: 1; // Major third ratio
+
+
+
+
+
+
+
+}
 
 
 //________________________________________________________________________________________________________________________
@@ -79,18 +94,27 @@ html {
   font-size: $base;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 
-  font-family: "Instrument Sans", serif; /* Set the font family */
-  font-optical-sizing: auto; /* Enable automatic optical sizing */
-  font-variation-settings: "wdth" 100; /* Adjust the width axis of the variable font */
-  
+  font-family: "Instrument Sans", serif;
+  /* Set the font family */
+  font-optical-sizing: auto;
+  /* Enable automatic optical sizing */
+  font-variation-settings: "wdth" 100;
+  /* Adjust the width axis of the variable font */
+
 
 }
 
-p,li{
-  
-  font-family: 'Inter Tight',sans-serif;
+p,
+li {
+
+  font-family: 'Inter Tight', sans-serif;
 }
 
 
@@ -169,7 +193,7 @@ button {
   font-size: $button-s;
   font-weight: $button-w;
   letter-spacing: $button-ls;
-  
+
 
 }
 
@@ -191,9 +215,9 @@ button {
 
 }
 
-.subtext-under-bigtext{
+.subtext-under-bigtext {
   font-family: 'Inter Tight', sans-serif;
-  font-size: 1.5rem;  
+  font-size: 1.5rem;
   max-width: 50% !important;
   font-weight: 320 !important;
   letter-spacing: 0rem !important;
@@ -247,9 +271,9 @@ button {
   font-weight: 900;
 }
 
-.blockpara{
+.blockpara {
   font-family: 'Inter Tight', sans-serif !important;
-  font-weight: 350 !important; 
+  font-weight: 350 !important;
   line-height: 1.5 !important;
   color: var(--blockpara);
   letter-spacing: 0.015em !important;
@@ -257,7 +281,7 @@ button {
 
 }
 
-.blockparaBlack{
+.blockparaBlack {
   @extend .blockpara;
   color: var(--grey700) !important;
 
@@ -279,8 +303,9 @@ li {
 .currenlydesigningtext {
   @extend .subtext-under-bigtext;
   max-width: 100% !important;
-  white-space: nowrap; /* Prevents line breaks */
-  
+  white-space: nowrap;
+  /* Prevents line breaks */
+
 }
 
 
@@ -288,22 +313,22 @@ li {
 
 //--MEDIA QUERIES-----------------------------------------------------------------------------------------
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {}
+
+@media screen and (min-width: 1280px) {
+  //1280px and above
 
 }
 
-@media screen and (min-width: 1280px) { //1280px and above
+@media screen and (min-width: 1400px) {
+  //1400px and above
 
 }
 
-@media screen and (min-width: 1400px) { //1400px and above
-  
-}
+@media screen and (min-width: 2000px) {
+  //3000px and above (4k)
 
-@media screen and (min-width: 2000px) { //3000px and above (4k)
-   
 }
 
 //------------------------------------------------------------------------------------------
 //------------------------------------------------------------------------------------------
-

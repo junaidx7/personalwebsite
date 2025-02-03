@@ -75,19 +75,19 @@ const Head2 = () => {
 
 
 
-                <img
+                {/* <img
                     className="poloroid1"
                     src={polo2}
                     alt="Decorative SVG"
                 />
+ */}
 
 
-
-                <img
+                {/* <img
                     className="poloroid4"
                     src={polo4}
                     alt="Decorative SVG"
-                />
+                /> */}
 
 
 
