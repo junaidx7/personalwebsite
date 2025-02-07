@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import hourglassimg from "../image/images-home/cover/hourglasscover.jpg";
 import digitalmenucover from "../image/images-home/cover/digitalmenucover.jpg";
 import designsystemcover from "../image/images-home/cover/designsystemcover.jpg";
-import accountingcover from "../image/images-home/cover/accountingcover.jpg"; 
+import accountingcover from "../image/images-home/cover/accountingcover.jpg";
 
 
 const ProjectGrid = () => {
@@ -49,14 +49,35 @@ const ProjectGrid = () => {
 
   return (
     <section className="project-sections section-gap" id="mamamia">
+
+
       <div className="maxwidth-container">
+
+
         <div>
-          <h2  className=" bottom-2xl  top-3xl">Selected work</h2>
+          <h2 className=" bottom-2xl  top-3xl">Selected work</h2>
 
           <div className="grid-container">
 
-            <div className=" glare project grow-rotate even-spacing-project">
+            <div className=" project grow-rotate even-spacing-project">
               <Link className="curse" to="/Du">
+
+                <img src={digitalmenucover} class="project-imgbox"></img>
+
+                <div className="infobox">
+                  <p className="lg project_title ">
+                    du telecom app and website (contributions)
+                  </p>
+                  <img className="arr" src={arr} alt="" />
+                </div>
+              </Link>
+            </div>
+
+
+
+
+            <div className="  project grow-rotate even-spacing-project">
+              <Link className="curse" to="/Digitalmenu">
 
                 <img src={digitalmenucover} class="project-imgbox"></img>
 
@@ -69,7 +90,8 @@ const ProjectGrid = () => {
               </Link>
             </div>
 
-            <div className="project grow-rotate project-margintop even-spacing-project">
+
+            {/* <div className="project grow-rotate project-margintop even-spacing-project">
               <Link className="curse" to="/hourglass">
                 <img src={hourglassimg} class="project-imgbox"></img>
 
@@ -80,7 +102,7 @@ const ProjectGrid = () => {
                   <img className="arr" src={arr} alt="" />
                 </div>
               </Link>
-            </div>
+            </div> */}
 
             <div className="project grow-rotate even-spacing-project">
               <Link className="curse" to="/Designsystem">
