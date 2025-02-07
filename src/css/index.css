@@ -1810,7 +1810,7 @@ button:hover {
   text-align: left;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 601px) and (max-width: 1000px) {
   body {
     overflow-x: hidden !important;
   }
@@ -1909,7 +1909,7 @@ button:hover {
     scale: 1;
   }
 }
-@media screen and (min-width: 1010px) {
+@media screen and (min-width: 1001px) and (max-width: 1400px) {
   .maxwidth-container, .header-container, .maxwidth-container-withflex {
     max-width: 1100px;
     margin: auto;
@@ -1928,7 +1928,7 @@ button:hover {
     text-align: left;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1001px) and (max-width: 1400px) {
   .maxwidth-container, .header-container, .maxwidth-container-withflex {
     max-width: 1200px;
     margin: auto;
@@ -1947,7 +1947,7 @@ button:hover {
     text-align: left;
   }
 }
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1401px) {
   .maxwidth-container, .header-container, .maxwidth-container-withflex {
     max-width: 1440px;
     margin: auto;

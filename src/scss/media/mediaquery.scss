@@ -1,7 +1,11 @@
 //--MEDIA QUERIES-----------------------------------------------------------------------------------------
 
 
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 600px) { // zone mobile
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {  // zone Tablet
 
     body {
         overflow-x: hidden !important;
@@ -153,7 +157,7 @@
 
 }
 
-@media screen and (min-width: 1010px) {
+@media screen and (min-width: 1001px) and (max-width: 1400px) {// zone small screens
     //1280px and above
 
     .maxwidth-container {
@@ -179,7 +183,7 @@
 
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1001px) and (max-width: 1400px) { // zone medium screens
     //1400px and above
 
     .maxwidth-container {
@@ -204,7 +208,7 @@
 
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1401px) {// zone large screens
     //3000px and above (4k)
 
     .maxwidth-container {
