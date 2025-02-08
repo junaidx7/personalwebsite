@@ -301,7 +301,6 @@ button {
 }
 
 .subtext-under-bigtext, .currenlydesigningtext {
-  font-family: "Inter Tight", sans-serif;
   font-size: 1.5rem;
   max-width: 50% !important;
   font-weight: 320 !important;
@@ -1735,7 +1734,7 @@ hr {
   text-align: center;
 }
 
-.subtext-under-bigtext2 {
+.subtext-under-bigtext2, .currenlydesigningtext {
   font-size: 1.5rem;
   max-width: 55rem !important;
   font-weight: 320 !important;
@@ -1744,6 +1743,7 @@ hr {
 }
 
 .currenlydesigningtext {
+  max-width: 100% !important;
   text-wrap: nowrap !important;
 }
 

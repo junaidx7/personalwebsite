@@ -757,7 +757,8 @@ hr {
 }
 
 .currenlydesigningtext {
-
+  @extend .subtext-under-bigtext2;
+  max-width: 100%!important;
   text-wrap: nowrap !important;
 
 }

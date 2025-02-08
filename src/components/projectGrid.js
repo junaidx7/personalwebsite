@@ -76,7 +76,7 @@ const ProjectGrid = () => {
 
 
 
-            <div className="  project grow-rotate even-spacing-project">
+            <div className="project grow-rotate project-margintop even-spacing-project">
               <Link className="curse" to="/Digitalmenu">
 
                 <img src={digitalmenucover} class="project-imgbox"></img>
