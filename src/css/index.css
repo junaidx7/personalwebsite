@@ -392,39 +392,39 @@ li {
 }
 
 .bottom-xs {
-  margin-bottom: 0.125rem;
+  margin-bottom: 0.125rem !important;
 }
 
 .bottom-sm {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.25rem !important;
 }
 
 .bottom-md {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem !important;
 }
 
 .bottom-lg {
-  margin-bottom: 1rem;
+  margin-bottom: 1rem !important;
 }
 
 .bottom-xl {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem !important;
 }
 
 .bottom-2xl {
-  margin-bottom: 4rem;
+  margin-bottom: 4rem !important;
 }
 
 .bottom-3xl {
-  margin-bottom: 8rem;
+  margin-bottom: 8rem !important;
 }
 
 .bottom-4xl {
-  margin-bottom: 16rem;
+  margin-bottom: 16rem !important;
 }
 
 .bottom-5xl {
-  margin-bottom: 32rem;
+  margin-bottom: 32rem !important;
 }
 
 .top-xs {
@@ -1144,7 +1144,7 @@ aside {
   }
 }
 #precision-section {
-  height: 300vh;
+  height: 250vh;
 }
 
 .gradient_bg_reveal {
@@ -1731,7 +1731,7 @@ hr {
   text-align: center;
 }
 
-.subtext-under-bigtext2, .currenlydesigningtext {
+.subtext-under-bigtext2 {
   font-size: 1.5rem;
   max-width: 55rem !important;
   font-weight: 320 !important;
@@ -1740,7 +1740,7 @@ hr {
 }
 
 .currenlydesigningtext {
-  color: var(--text);
+  text-wrap: nowrap !important;
 }
 
 *,
@@ -1808,6 +1808,10 @@ button:hover {
   top: 30%;
   padding-bottom: 20rem;
   text-align: left;
+}
+
+.border-red {
+  border: 1px solid red !important;
 }
 
 @media screen and (max-width: 1000px) {

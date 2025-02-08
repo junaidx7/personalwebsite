@@ -750,10 +750,10 @@ hr {
 }
 
 .currenlydesigningtext {
-  @extend .subtext-under-bigtext2;
-  color: var(--text);
-}
 
+  text-wrap: nowrap !important;
+
+}
 
 
 
@@ -836,8 +836,16 @@ button {
 }
 
 
+.border-red{
+  border: 1px solid red !important;
+}
+
+
+
 
 //-----Keep at bottom
+
+
 
 @import "./media/mediaquery.scss";
 @import "./media/footermedia.scss"

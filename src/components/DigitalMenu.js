@@ -22,7 +22,8 @@ import earlydesignflaw4 from "../image/images-casestudy/menu/earlyflaw4.jpg";
 import earlydesignflaw5 from "../image/images-casestudy/menu/earlyflaw5.jpg";
 import font from "../image/images-casestudy/menu/font.jpg";
 import color from "../image/images-casestudy/menu/color.jpg";
-import obserresult from "../image/images-casestudy/menu/obserresult.jpg" 
+import obserresult from "../image/images-casestudy/menu/obserresult.jpg"
+import ContentBox from "../components/ContentBox";
 
 
 const Digitalmenu = () => {
@@ -46,24 +47,28 @@ const Digitalmenu = () => {
   const Content = () => {
     return (
       <div className="pieces-div">
-        
-        <BlockText
-          title="What is Digital Menu"
-          content="Digital menu is a web app designed to replace the conventional paper menu in a restaurants during the pandemic as they apart from being dirty could also be affected by the corona virus."
+
+        <ContentBox
+          blockText="Digital menu is a web app designed to replace the conventional paper menu in a restaurants during the pandemic as they apart from being dirty could also be affected by the corona virus."
         />
- 
-        <BlockPara
+
+        <ContentBox
+
           heading="The truth about paper menus"
-          largetext="Menus are among the most unsanitary surfaces in a restaurant. The bacteria count on menus can be as high as 185,000 per square centimeter – far more than found on a toilet seat, according to a study published by Cleaning & Maintenance Management in 2014."
-          body="Upwards of 95% of people fail to properly wash their hands after restroom use, according to statistics. That makes handling a restaurant menu before eating a health gamble. After COVID-19 broke out menus apart from being dirty could now have the covid virus. This is why digital menu was not a want but a need."
+          body1="Menus are among the most unsanitary surfaces in a restaurant. The bacteria count on menus can be as high as 185,000 per square centimeter – far more than found on a toilet seat, according to a study published by Cleaning & Maintenance Management in 2014."
+          body2="Upwards of 95% of people fail to properly wash their hands after restroom use, according to statistics. That makes handling a restaurant menu before eating a health gamble. After COVID-19 broke out menus apart from being dirty could now have the covid virus. This is why digital menu was not a want but a need."
+
         />
-        <TitlePara
+
+        <ContentBox
           heading="My Role"
-          body="As the sole designer for this project, my task was to design a web app to replace the paper menus, aiming to reduce the contact between restaurant staff and customers. i was involved in this project from 0→1 . To design this app successfully, I had to be involved in all phases from research to design, iteration and testing."
+          body1="As the sole designer for this project, my task was to design a web app to replace the paper menus, aiming to reduce the contact between restaurant staff and customers. i was involved in this project from 0→1 . To design this app successfully, I had to be involved in all phases from research to design, iteration and testing."
         />
-        <TitleBulletin
+
+
+        <ContentBox
           heading="Achievements"
-          body="Digital menu stands as one of the most impactful projects ive designed."
+          body1="Digital menu stands as one of the most impactful projects ive designed."
           bulletin={[
             "Helped provide a safer dining experience to hundreds of customers and potentially shielded them from the corona virus by minimising direct contact between customers and staff.",
             "Adoption of the digital menu concept by 14 other restaurants, showcasing its success, scalability and adaptability.",
@@ -72,33 +77,37 @@ const Digitalmenu = () => {
           ]}
         />
 
-        <TitlePara
+        <ContentBox
           heading="Primary Goal"
-          body=" My primary objective was to comprehend the fundamental challenges at a restaurant posed by the pandemic and devise a ‘digital menu’ solution that minimised direct interactions of customers with the restaurant staff. "
+          body1=" My primary objective was to comprehend the fundamental challenges at a restaurant posed by the pandemic and devise a ‘digital menu’ solution that minimised direct interactions of customers with the restaurant staff. "
         />
 
-        <div className="crumbs ">
-          
-          <TitlePara
+
+
+        <ContentBox
           overline="Interviews and surveys"
-            heading="Finding out why restaurant saw a dip in customers in the early phase of covid"
-            body="This app wasn't aimed at bring people out from their safe homes to the unsafe restaurants, but rather to keep safe the customers who were coming out to eat anyway. The reason the restaurant experienced a dip in number of customers was clearly because of the fear of the pandemic, but i wanted to learn what they feared - was it coming in contact with the staff? or the indoor experience? and how many felt this way."
-            body1=" To understand this i conducted interviews with a few regular customer that agreed to volunteer, i also had detailed discussions with the restaurant staff to understand their issues and how we could minimize the contact between restaurant staff and customers. "
-          />
-          <ImageC ImageC={onlinemeet} alttext="just a image to keep things interesting" />
+          heading="Finding out why restaurant saw a dip in customers in the early phase of covid"
+          body1="This app wasn't aimed at bring people out from their safe homes to the unsafe restaurants, but rather to keep safe the customers who were coming out to eat anyway. The reason the restaurant experienced a dip in number of customers was clearly because of the fear of the pandemic, but i wanted to learn what they feared - was it coming in contact with the staff? or the indoor experience? and how many felt this way."
+          body2=" To understand this i conducted interviews with a few regular customer that agreed to volunteer, i also had detailed discussions with the restaurant staff to understand their issues and how we could minimize the contact between restaurant staff and customers. "
+        />
+        {/* <ImageC ImageC={onlinemeet} alttext="just a image to keep things interesting" /> */}
 
-          <ImageCexplanation
-          title="Getting some poll data"
-          explanation="Apart from conducting interviews, I also posted polls in Telegram groups to understand people's main concerns. My goal was to gather statistics on the top five fears people have about coming to the restaurant during this time."
-           image={telegrampoll}
-           alttext="Image of telegram poll from one of the group out of several posted." />
+        <ContentBox
+          ImageC={telegrampoll}
 
-          <ImageC
-            ImageC={overalllinsight}
-            alttext="Chart of reasons why people preferred not to come to the restaurant "
-          />
-         
-        </div>
+          body5="Apart from conducting interviews, I also posted polls in Telegram groups to understand people's main concerns. My goal was to gather statistics on the top five fears people have about coming to the restaurant during this time."
+
+          alttext="Image of telegram poll from one of the group out of several posted."
+          showborder={true}
+        />
+
+
+
+        <ImageC
+          ImageC={overalllinsight}
+          alttext="Chart of reasons why people preferred not to come to the restaurant "
+        />
+
 
         <BlockPara largetext="The interviews made it clear that customers feared coming in contact with the staff and touching surfaces the most. This lit a light bulb that there was indeed a gap in the market that was not filled. Restaurant with minimized contact with staff and properly sanitized would see a influx of customers, This later proved to be true. - See Achievements at end of case study" />
 
@@ -115,9 +124,9 @@ const Digitalmenu = () => {
           />
 
           <ImageCexplanation
-         
-          image={obserresult}
-          explanation="After i understood this concept, i implemented in design by giving the categories first on the home page under search, this would help user jump to exactly where they need without searching a list of all food."
+
+            image={obserresult}
+            explanation="After i understood this concept, i implemented in design by giving the categories first on the home page under search, this would help user jump to exactly where they need without searching a list of all food."
           />
 
 
@@ -148,50 +157,50 @@ const Digitalmenu = () => {
         </div>
 
         <div className="crumbs ">
-        <TitlePara
-          overline="High Fidelity design"
-          heading="Creating Pixel Perfect Designs"
-          body="I converted the wireframes to high fidelity design, I choose colors based on color psycology and that would match a restaurant related application. 8pt grid system and 3 column grid system were used."
-        />
+          <TitlePara
+            overline="High Fidelity design"
+            heading="Creating Pixel Perfect Designs"
+            body="I converted the wireframes to high fidelity design, I choose colors based on color psycology and that would match a restaurant related application. 8pt grid system and 3 column grid system were used."
+          />
 
-        <ImageC ImageC={cover} />
+          <ImageC ImageC={cover} />
 
-        <ImageC ImageC={font} />
+          <ImageC ImageC={font} />
 
-        <ImageC ImageC={color} />
+          <ImageC ImageC={color} />
         </div>
 
         <div className="crumbs ">
-        <TitlePara
-          overline="Fixing Issues"
-          heading="Fixing User Experience Issues"
-          body="I self tested the design to find some early design flaws, this iteration involed fixing these issues. some of the major flaws are mentioned below."
-        />
-        <ImageCexplanation
-          title="Cannot call the waiter"
-          explanation="Missed the button to ping the waiter, this button would help ping the waiter asking for help or if the user gets stuck. The waiter would be notifed on his side of the application"
-          image={earlydesignflaw1}
-          alttext="before and after fixing the problem"
-        />
-        <ImageCexplanation
-          title="Difficult navigating to order page."
-          explanation="After the user added a item to order and wants to confirm and place the order, the user must go to 'orders page' -  currently he had to go through multiple clicks to reach there. I realized with showing a floating button when the user adds first product to order the clicks was reduced from multiple to just one click"
-          image={earlydesignflaw2}
-          alttext="before and after fixing the problem"
-        />
-        <ImageCexplanation
-          title="Missing quantity button"
-          explanation="Added missing quantity button on the order page"
-          image={earlydesignflaw4}
-          alttext="before and after fixing the problem"
-        />
-        <ImageCexplanation
-          title="Switching category from inside a category page"
-          explanation="After a user opens a category, switching to another category required going back, which disrupted the flow. To improve the experience, a way to switch categories was added at the end of every category page."
-          image={earlydesignflaw5}
-          alttext="before and after fixing the problem"
-        />
-        
+          <TitlePara
+            overline="Fixing Issues"
+            heading="Fixing User Experience Issues"
+            body="I self tested the design to find some early design flaws, this iteration involed fixing these issues. some of the major flaws are mentioned below."
+          />
+          <ImageCexplanation
+            title="Cannot call the waiter"
+            explanation="Missed the button to ping the waiter, this button would help ping the waiter asking for help or if the user gets stuck. The waiter would be notifed on his side of the application"
+            image={earlydesignflaw1}
+            alttext="before and after fixing the problem"
+          />
+          <ImageCexplanation
+            title="Difficult navigating to order page."
+            explanation="After the user added a item to order and wants to confirm and place the order, the user must go to 'orders page' -  currently he had to go through multiple clicks to reach there. I realized with showing a floating button when the user adds first product to order the clicks was reduced from multiple to just one click"
+            image={earlydesignflaw2}
+            alttext="before and after fixing the problem"
+          />
+          <ImageCexplanation
+            title="Missing quantity button"
+            explanation="Added missing quantity button on the order page"
+            image={earlydesignflaw4}
+            alttext="before and after fixing the problem"
+          />
+          <ImageCexplanation
+            title="Switching category from inside a category page"
+            explanation="After a user opens a category, switching to another category required going back, which disrupted the flow. To improve the experience, a way to switch categories was added at the end of every category page."
+            image={earlydesignflaw5}
+            alttext="before and after fixing the problem"
+          />
+
         </div>
 
 
@@ -205,7 +214,7 @@ const Digitalmenu = () => {
             "Positioned the project as a benchmark solution within nearby restaurants, influencing how eateries approached their menus and customer interactions.",
           ]}
         />
-       
+
 
         <div className="bottom-3xl"></div>
       </div>

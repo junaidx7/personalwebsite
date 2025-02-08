@@ -48,13 +48,13 @@ const ProjectGrid = () => {
   }, []);
 
   return (
-    <section className="project-sections section-gap" id="mamamia">
+    <section className="project-sections  section-gap" id="mamamia">
 
 
-      <div className="maxwidth-container">
+      <div className="maxwidth-container ">
 
 
-        <div>
+        <div className="bottom-4xl">
           <h2 className=" bottom-2xl  top-3xl">Selected work</h2>
 
           <div className="grid-container">

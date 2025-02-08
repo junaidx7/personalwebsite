@@ -57,7 +57,7 @@ const Head = () => {
 
 
                 <div className='designingfordiv'>
-                    <h5 className='subtext-under-bigtext'>Currently designing for</h5>
+                    <h5 className='subtext-under-bigtext currenlydesigningtext'>Currently designing for</h5>
                     <img src={duicon} alt="Description" className='duiconbigbox' />
                     <h5 className='subtext-under-bigtext'>telecom</h5>
                     <img src={openarrow} alt="Description" />
