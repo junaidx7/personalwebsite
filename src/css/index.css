@@ -1660,24 +1660,28 @@ hr {
   transform: rotate(5deg);
 }
 
+.contentbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
 .pieces-div-text {
   margin: auto;
   width: 700px;
   max-width: 100%;
-  border: 0px solid green;
 }
 
 .pieces-div-img {
   margin: auto;
   width: 1440px;
   max-width: 100%;
-  border: 0px solid orange;
   padding: 5px;
 }
 
 .pieces-div-coverimg {
   margin: auto;
-  max-width: 100% !important;
+  width: 2440px;
   padding: 1rem;
 }
 

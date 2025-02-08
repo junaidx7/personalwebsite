@@ -29,19 +29,21 @@ const Du = () => {
     return (
       <div className="pieces-div">
 
+        <h1>Adding Features to du web and mobile</h1>
+
 
 
         <ContentBox
           blockText="du is a major telecommunications provider in UAE. it offers a wide range of services. These include mobile services such as prepaid and postpaid plans, 5G services for faster connectivity, and international roaming packages. It also provides internet services like high-speed home broadband and Wi-Fi solutions for residential and business use. In addition, du delivers TV services, including IPTV with access to regional and international channels, as well as on-demand streaming and entertainment bundles."
         />
 
-     
+
 
         <ContentBox
           overline="Work Impact"
           heading="Finding where we stand in the market"
           body1="du serves nine million individual customers with its mobile, fixed line, broadband internet, and home services over its 4G LTE network. du also caters to over 100,000 UAE businesses with its vast range of ICT and managed services. Since its launch in 2007, du has many UAE firsts to its credit, including introduction of Pay by the Second® billing system, IPTV and self-service portal."
-       
+
         />
 
 
@@ -66,11 +68,11 @@ const Du = () => {
   };
 
   return (
-    
+
     <section className="">
 
       <Casestudy
-        casestudytitle="Features for du Mobile App and Web"
+        casestudytitle2="Features for du Mobile App and Web"
         content={<Content />}
         coverimg={""}
         coverimgleft={""}

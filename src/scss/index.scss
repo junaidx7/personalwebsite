@@ -374,8 +374,8 @@ header {
 }
 
 .header-back {
-  margin: 0rem 2rem ;
-  padding: 1rem 0rem ;
+  margin: 0rem 2rem;
+  padding: 1rem 0rem;
 }
 
 //------Header Products---------------------------------------------------------
@@ -657,12 +657,19 @@ hr {
 
 .project-sections {}
 
+.contentbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+ // border: 1px solid blue !important;
+}
+
 
 .pieces-div-text {
   margin: auto;
   width: 700px;
   max-width: 100%;
-  border: 0px solid green;
+//  border: 0px solid green;
 }
 
 
@@ -671,15 +678,15 @@ hr {
   margin: auto;
   width: 1440px;
   max-width: 100%;
-  border: 0px solid orange;
+  //border: 0px solid orange;
   padding: 5px;
 }
 
 
 .pieces-div-coverimg {
   margin: auto;
-  //width: 2440px;
-  max-width: 100% !important;
+  width: 2440px;
+  //max-width: 90% !important;
   padding: 1rem;
 
 }
@@ -836,7 +843,7 @@ button {
 }
 
 
-.border-red{
+.border-red {
   border: 1px solid red !important;
 }
 

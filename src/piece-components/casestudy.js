@@ -5,6 +5,7 @@ import { useEffect } from "react";
 
 const Casestudy = ({
   casestudytitle,
+  casestudytitle2,
   content,
   coverimg,
   coverimgleft,
@@ -54,18 +55,28 @@ const Casestudy = ({
 
       <HeaderProduct />
 
-      <div className="product-title-container">
-        <h1 className="product-title">
-          {casestudytitle}
-        </h1>
+      {casestudytitle && (
+        <div className="product-title-container">
+          <h1 className="product-title">
+            {casestudytitle}
+          </h1>
+        </div>
+      )}
+
+      <div className="pieces-div-coverimg">
+
+
+        <Imagegrid4
+          imgcover={coverimg}
+          halfleft={coverimgleft}
+          halfright={coverimgright}
+        />
+
       </div>
 
-
-      <Imagegrid4
-        imgcover={coverimg}
-        halfleft={coverimgleft}
-        halfright={coverimgright}
-      />
+      <div className="pieces-div-text">
+        <h1>{casestudytitle2}</h1>
+      </div>
 
       <div className="pieces-div-container">{content}</div>
 
