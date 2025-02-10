@@ -848,6 +848,19 @@ button {
   border: 1px solid red !important;
 }
 
+.copy-success{
+  font-family: 'Instrument Sans';
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  color: $primary
+}
+
+.button-div{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
 
 
 

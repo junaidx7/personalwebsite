@@ -3,7 +3,8 @@ import arr from "../image/images-home/arrow-svg.svg";
 import arrowSvg from "../image/images-home/arrowcursor.svg";
 import { Link } from "react-router-dom";
 
-import hourglassimg from "../image/images-home/cover/hourglasscover.jpg";
+
+import ducover from "../image/images-home/cover/ducover.jpg";
 import digitalmenucover from "../image/images-home/cover/digitalmenucover.jpg";
 import designsystemcover from "../image/images-home/cover/designsystemcover.jpg";
 import accountingcover from "../image/images-home/cover/accountingcover.jpg";
@@ -62,11 +63,11 @@ const ProjectGrid = () => {
             <div className=" project grow-rotate even-spacing-project">
               <Link className="curse" to="/Du">
 
-                <img src={digitalmenucover} class="project-imgbox"></img>
+                <img src={ducover} class="project-imgbox"></img>
 
                 <div className="infobox">
                   <p className="lg project_title ">
-                    du telecom app and website (contributions)
+                  du Telecom - Digtal Transformation
                   </p>
                   <img className="arr" src={arr} alt="" />
                 </div>

@@ -33,14 +33,13 @@ const Home = () => {
 
     return (
         <section>
-            
 
-           { /* <ThemeToggle></ThemeToggle> */}
+            { /* <ThemeToggle></ThemeToggle> */}
             <Head2></Head2>
             <ProjectGrid></ProjectGrid>
-            <Precision></Precision> 
-             <Aboutme></Aboutme>
-         
+            <Precision></Precision>
+            <Aboutme></Aboutme>
+            
             {/* <Skillsnew></Skillsnew> */}
 
         </section>

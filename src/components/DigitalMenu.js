@@ -237,7 +237,7 @@ const Digitalmenu = () => {
   return (
     <section className="hourglass-section">
       <Casestudy
-        casestudytitle2="Digital Menu, Paperless menu to fight the pandemic."
+        casestudytitle="Digital Menu, Paperless menu to fight the pandemic."
         content={<Content />}
         coverimg={restcover}
         coverimgleft={coverleft}

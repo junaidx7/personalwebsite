@@ -5,6 +5,7 @@ import openarrow from "../image/images-home/openarrow.svg"
 import polo2 from "../image/images-home/polo2.svg"
 import polo4 from "../image/images-home/polo1.svg"
 import Magnet from '../components/Magnet'
+import config from "../components/Config"
 
 
 const Head2 = () => {
@@ -91,10 +92,10 @@ const Head2 = () => {
 
 
 
-                <Magnet padding={300} disabled={false} magnetStrength={7}>
+                <Magnet padding={200} disabled={false} magnetStrength={10}>
 
                     <button
-                        onClick={handleRedirect}
+                        onClick={() => window.open(config.resumeLink, '_blank')}
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}
                     >View Resume </button>

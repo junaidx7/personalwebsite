@@ -7,7 +7,7 @@ import dubai from "../image/images-home/dubai.jpg"
 
 const Aboutme = () => {
   return (
-    <div className="aboutme_bg ">
+    <div className="aboutme_bg bottom-xl ">
       <section className="aboutme-section">
 
         <div className="grid12px">

@@ -65,18 +65,18 @@ const Whoisthisdude = () => {
           </div>
         </div>
 
-        <div className="bottom-3xl">
+        <div className="bottom-4xl">
           <div>
-            <p className="md bottom-md">
+            {/* <p className="md bottom-md">
               Me as a Lead Designer, and my work history
-            </p>
+            </p> */}
 
-            <p className="lg mystrengthtext subtextlight">
+            {/* <p className="lg mystrengthtext subtextlight">
               I previously worked as a Lead Designer at Nathan Digital and
               designed ERPs and mobile apps. I had the chance to design for some
               prominent clients in dubai - like HRMS system for porsche middle
               east and IKEA. also ATS system for mumzworld etc.
-            </p>
+            </p> */}
 
             <p className="md subtextlight mystrengthtext top-lg ">
               Since I’ve started working as a UI UX Designer 7 years ago, I‘ve
@@ -97,6 +97,10 @@ const Whoisthisdude = () => {
               <a href={config.linkedinLink} target="_blank">
                 {" "}
                 <button>Linkedin</button>{" "}
+              </a>
+
+              <a href="/">
+                <button>Home</button>
               </a>
             </div>
           </div>

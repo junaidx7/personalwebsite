@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import cover from "../image/images-casestudy/menu/cover.jpg";
+import cover from "../image/images-casestudy/du/dumaincover.jpg";
 
 
 import TitlePara from "../piece-components/Title-para";
@@ -29,34 +29,28 @@ const Du = () => {
     return (
       <div className="pieces-div">
 
-        <h1>Adding Features to du web and mobile</h1>
-
-
 
         <ContentBox
           blockText="du is a major telecommunications provider in UAE. it offers a wide range of services. These include mobile services such as prepaid and postpaid plans, 5G services for faster connectivity, and international roaming packages. It also provides internet services like high-speed home broadband and Wi-Fi solutions for residential and business use. In addition, du delivers TV services, including IPTV with access to regional and international channels, as well as on-demand streaming and entertainment bundles."
         />
 
-
-
-        <ContentBox
-          overline="Work Impact"
-          heading="Finding where we stand in the market"
-          body1="du serves nine million individual customers with its mobile, fixed line, broadband internet, and home services over its 4G LTE network. du also caters to over 100,000 UAE businesses with its vast range of ICT and managed services. Since its launch in 2007, du has many UAE firsts to its credit, including introduction of Pay by the Second® billing system, IPTV and self-service portal."
-
-        />
-
-
-
         <TitlePara
-          heading="Who my work impacted"
+          heading="Customer Base and Target Audience"
           body="du serves nine million individual customers with its mobile, fixed line, broadband internet, and home services over its 4G LTE network. du also caters to over 100,000 UAE businesses with its vast range of ICT and managed services. Since its launch in 2007, du has many UAE firsts to its credit, including introduction of Pay by the Second® billing system, IPTV and self-service portal."
         />
+
+
 
         <TitlePara
           heading="My Role And Scope of Work"
-          body="du serves nine million individual customers with its mobile, fixed line, broadband internet, and home services over its 4G LTE network. du also caters to over 100,000 UAE businesses with its vast range of ICT and managed services. Since its launch in 2007, du has many UAE firsts to its credit, including introduction of Pay by the Second® billing system, IPTV and self-service portal."
+          body="As a member of the Experience Design team at du, I contributed to the digital transformation of the du mobile application and website. My role involved translating business requirements into intuitive user experiences, enhancing the UI to improve both usability and aesthetics, conducting A/B testing to find the most optimal user flow, and actively participating in workshops and strategic discussions. "
         />
+
+
+        <TitlePara
+          heading="Comming soon..."
+          body="Detailed work responsibilities will be written soon. This project is NDA-restricted, so extended details cannot be shared.  "
+        />Í
 
 
 
@@ -72,9 +66,9 @@ const Du = () => {
     <section className="">
 
       <Casestudy
-        casestudytitle2="Features for du Mobile App and Web"
+        casestudytitle="Du Telecom - Digtal Transformation"
         content={<Content />}
-        coverimg={""}
+        coverimg={cover}
         coverimgleft={""}
         coverimgright={""}
       />

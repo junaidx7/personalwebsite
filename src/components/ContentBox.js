@@ -14,7 +14,7 @@ const ContentBox = ({
     showborder,
 }) => {
 
-    showborder = true;
+    showborder = false;
 
 
     return (
