@@ -62,7 +62,7 @@ const Head2 = () => {
 
 
                 <h5 className="subtext-under-bigtext2" id="bio">
-                    Hello, I am a <span id='e2'>  Lead UI UX designer based in dubai with 7 years of experience</span> in crafting
+                    Hello, I am a <span id='e2'>  Senior Product Designer based in dubai with 7 years of experience</span> in crafting
                     user-centric web and mobile solutions across diverse industries and others.
                 </h5>
 
