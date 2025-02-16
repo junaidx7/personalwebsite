@@ -1680,7 +1680,7 @@ hr {
 
 .pieces-div-coverimg {
   margin: auto;
-  width: 2440px;
+  max-width: 2440px !important;
   padding: 1rem;
 }
 
