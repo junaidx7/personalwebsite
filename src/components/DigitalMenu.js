@@ -1,21 +1,14 @@
 import { useEffect } from "react";
 import cover from "../image/images-casestudy/menu/cover.jpg";
-
 import restcover from "../image/images-casestudy/menu/restcover.jpg";
-import BlockPara from "../piece-components/BlockPara";
 import ImageC from "../piece-components/Image-constricted";
-import TitlePara from "../piece-components/Title-para";
-import BlockText from "../piece-components/BlockText";
-import TitleBulletin from "../piece-components/TitleBulletin";
 import Casestudy from "../piece-components/casestudy";
 import coverright from "../image/images-casestudy/menu/coverright.jpg";
 import coverleft from "../image/images-casestudy/menu/cover2.jpg";
 import telegrampoll from "../image/images-casestudy/menu/telegrampoll.jpg";
-import onlinemeet from "../image/images-casestudy/menu/onlinemeet.jpg";
 import overalllinsight from "../image/images-casestudy/menu/overalllinsight.jpg";
 import howyouorderillustration from "../image/images-casestudy/menu/howyouorderillustration.jpg";
 import userjourney from "../image/images-casestudy/menu/userjourney.jpg";
-import ImageCexplanation from "../piece-components/imageCexplanation";
 import earlydesignflaw1 from "../image/images-casestudy/menu/earlyflaw1.jpg";
 import earlydesignflaw2 from "../image/images-casestudy/menu/earlyflaw2.jpg";
 import earlydesignflaw4 from "../image/images-casestudy/menu/earlyflaw4.jpg";
@@ -110,10 +103,6 @@ const Digitalmenu = () => {
           alttext="Chart of reasons why people preferred not to come to the restaurant "
         />
 
-        <ImageC
-          ImageC={overalllinsight}
-          alttext="Chart of reasons why people preferred not to come to the restaurant "
-        />
 
         <ContentBox
           blockText="The interviews made it clear that customers feared coming in contact with the staff and touching surfaces the most. This lit a light bulb that there was indeed a gap in the market that was not filled. Restaurant with minimized contact with staff and properly sanitized would see a influx of customers, This later proved to be true. - See Achievements at end of case study"
@@ -170,14 +159,14 @@ const Digitalmenu = () => {
           ImageC={cover}
         />
 
-        <ContentBox
+        {/* <ContentBox
           ImageC={font}
         />
 
 
         <ContentBox
           ImageC={color}
-        />
+        /> */}
 
         <ContentBox
 

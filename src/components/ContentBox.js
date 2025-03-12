@@ -43,7 +43,7 @@ const ContentBox = ({
                 {(ImageC || alttext) && (
                     <div>
                         {ImageC && <img className="pieces-div-img image-radius" src={ImageC} alt="" />}
-                        {alttext && <p className="alttext">{alttext}</p>}
+                        {alttext && <p className="sm top-md">{alttext}</p>}
                     </div>
                 )}
 

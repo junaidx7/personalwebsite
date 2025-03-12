@@ -1,19 +1,23 @@
 .footer-section {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+   // justify-content: space-between;
     gap: 1rem;
-    padding: 3vw 5vw 10vw 5vw;
+    padding: 6rem 5rem;
+
+    //border: 1px solid red;
 
 }
 
 .footer_innerbox {
     display: flex;
     flex-direction: row;
+     //border: 1px solid red;
 }
 
 .box1_footer {
     grid-column: 1/span 6;
+   // border: 1px solid red;
 
 }
 
@@ -28,15 +32,52 @@
 
 
 .box3_footer {
-    // border: 1px solid red;
+    display: flex;
+    min-width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+
+    //border: 1px solid red;
+
+}
+
+.text-cover{
+    padding: 2rem 6rem ;
+    border-radius: 100rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #E9E8F0;
+    
+}
+
+.copyemailbutton{
+    background-color: #FEDF6F;
+    color: #443500 !important;
+    border: none!important ;
+    transform: rotate(-4deg) translate(-0rem, -1.5rem);
+    font-family: "Permanent Marker", cursive !important;
+    padding: 0.8rem 2rem !important;
+
+    &:hover{
+        background-color: #F8DA6E !important;
+        border: none!important;
+        color: #443500 !important;
+    }
+}
+
+.copyemailbutton{
 
 }
 
 .footer-text {
-    color: #1F1A33;
-    font-weight: 550;
-
-
+    color: #6a638c;
+    font-weight: 450;  
+    
+    font-size: 5rem !important;  
 }
 
 .footer-text-link {
@@ -63,45 +104,15 @@
 
 
 .lowerbox {
+
+    max-width: 2500px;
     display: flex;
+    margin: auto;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1rem 5vw 2rem 5vw;
+    padding: 5rem 10vw;
 }
 
 
 //--------------------------------------------------------------------
 
-
-@media screen and (max-width: 1000px) {
-
-    .box3_footer {
-        display: none;
-
-    }
-
-    .footer-text {
-        color: #1F1A33;
-        font-weight: 600;
-        font-size: 2rem;
-
-
-    }
-
-
-    .box2_footer {
-        padding: 2rem 0.5rem;
-        color: var(--primary) !important;
-        grid-column: 8/span 2;
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    .lowerbox {
-        display: none;
-    }
-
-
-
-}

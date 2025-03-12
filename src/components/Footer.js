@@ -19,23 +19,32 @@ const Footer = () => {
     return (
         <div>
             <section className="footer-section">
+
                 <div className="box3_footer" style={{ textAlign: 'left' }}>
-                    <h2 className="bottom-xl footer-text" style={{ textAlign: 'left' }}>junaid79x@gmail.com</h2>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                        <button style={{ float: 'left' }} onClick={handleCopyEmail}>Copy email</button>
-                        {copySuccess && <span className="copy-success">{copySuccess}</span>}
+
+                    <div className="text-cover">
+
+
+                        <h1 className="footer-text">junaid79x@gmail.com</h1>
                     </div>
+
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+
+                        <button className="copyemailbutton" onClick={handleCopyEmail}>copy email</button>
+
+
+
+
+
+                    </div>
+
+                    {copySuccess && <span className="copy-success">{copySuccess}</span>}
+
+
                 </div>
 
 
 
-
-                <div className="box2_footer">
-                    <h2 className=" bottom-lg" ><a className="footer-text-link" href={config.linkedinLink}>Linkedin</a></h2>
-                    <h2 className="bottom-lg"><a className="footer-text-link" href={config.resumeLink}>Resume</a></h2>
-                    <h2 className="bottom-lg"><a className="footer-text-link" href={config.aboutme}>About Me</a></h2>
-                    <h2 className="bottom-lg"><a className="footer-text-link" href={config.whatsapp}>Whatsapp</a></h2>
-                </div>
 
 
 
@@ -44,16 +53,30 @@ const Footer = () => {
 
 
             </section>
+
+
             <div className="line-border"></div>
 
             <div className="lowerbox">
 
+               <h5>Junaid Mohamed</h5>
 
-                <p className="sm">2024</p>
 
-                {/* <p className="sm">designed in dubai with peer pressure</p> */}
-                <p className="sm">designed and coded by me in dubai.</p>
-                <p className="sm">time @uae: 12.34pm</p>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
+
+                <h5>Home</h5>
+
+                <h5>About</h5>
+
+                <h5>Work</h5>
+
+                <h5>Contact</h5>
+
+                    
+                </div>
+
+
+            
             </div>
 
         </div>
