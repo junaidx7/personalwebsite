@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import cover from "../image/images-casestudy/menu/cover.jpg";
 import restcover from "../image/images-casestudy/menu/restcover.jpg";
-import ImageC from "../piece-components/Image-constricted";
 import Casestudy from "../piece-components/casestudy";
 import coverright from "../image/images-casestudy/menu/coverright.jpg";
 import coverleft from "../image/images-casestudy/menu/cover2.jpg";
@@ -13,8 +12,6 @@ import earlydesignflaw1 from "../image/images-casestudy/menu/earlyflaw1.jpg";
 import earlydesignflaw2 from "../image/images-casestudy/menu/earlyflaw2.jpg";
 import earlydesignflaw4 from "../image/images-casestudy/menu/earlyflaw4.jpg";
 import earlydesignflaw5 from "../image/images-casestudy/menu/earlyflaw5.jpg";
-import font from "../image/images-casestudy/menu/font.jpg";
-import color from "../image/images-casestudy/menu/color.jpg";
 import obserresult from "../image/images-casestudy/menu/obserresult.jpg"
 import ContentBox from "../components/ContentBox";
 
