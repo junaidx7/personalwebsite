@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import config from "./Config";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     const [copySuccess, setCopySuccess] = useState('');
@@ -59,24 +60,26 @@ const Footer = () => {
 
             <div className="lowerbox">
 
-               <h5>Junaid Mohamed</h5>
+                <h5>Junaid Mohamed</h5>
 
 
                 <div style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
 
-                <h5>Home</h5>
+                    <Link to='/'>    <h5>Home</h5>  </Link>
 
-                <h5>About</h5>
 
-                <h5>Work</h5>
 
-                <h5>Contact</h5>
+                    <h5>About</h5>
 
-                    
+                    {/* <h5>Work</h5>
+
+                <h5>Contact</h5> */}
+
+
                 </div>
 
 
-            
+
             </div>
 
         </div>

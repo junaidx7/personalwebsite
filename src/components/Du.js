@@ -52,9 +52,7 @@ const Du = () => {
         <TitlePara
           heading="Non disclosure."
           body="I can't disclose further details about du project, but I'd be happy to discuss my role at du during an interview."
-        />Í
-
-
+        />
 
 
 
@@ -68,7 +66,7 @@ const Du = () => {
     <section className="">
 
       <Casestudy
-        casestudytitle="Du Telecom - Digtal Transformation"
+        casestudytitle="Digital Transformation du Telecom, enhancing user Experience and Innovation."
         content={<Content />}
         coverimg={cover}
         coverimgleft={""}

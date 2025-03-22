@@ -67,7 +67,7 @@ const ProjectGrid = () => {
 
                 <div className="infobox">
                   <p className="lg project_title ">
-                  du Telecom - Digtal Transformation
+                    Digital Transformation at du Telecom
                   </p>
                   <img className="arr" src={arr} alt="" />
                 </div>

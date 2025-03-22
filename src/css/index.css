@@ -1829,7 +1829,7 @@ button:hover {
   letter-spacing: 0rem;
   color: #384151 !important;
   position: sticky;
-  top: 30%;
+  top: 20% !important;
   padding-bottom: 20rem;
   text-align: left;
 }

@@ -7,7 +7,7 @@ const HeaderProduct = () => {
 
     <header className="header-product">
 
-      <Link to='/'> <p className="junaidheadersize  w600 grow-rotate  ">Junaid.</p> </Link>
+      <Link to='/'> <h5 className="junaidheadersize  w500 grow-rotate  ">Junaid.</h5> </Link>
 
 
 
