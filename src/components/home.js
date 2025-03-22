@@ -4,6 +4,7 @@ import ProjectGrid from './projectGrid'
 import { useEffect } from 'react';
 import Aboutme from "./aboutme"
 import ThemeToggle from '../js/ThemeToggle';
+import Head3 from './Head3';
 
 const Home = () => {
 
@@ -36,11 +37,10 @@ const Home = () => {
 
             { /* <ThemeToggle></ThemeToggle> */}
             <Head2></Head2>
+            {/* <Head3></Head3> */}
             <ProjectGrid></ProjectGrid>
             <Precision></Precision>
             <Aboutme></Aboutme>
-            
-            {/* <Skillsnew></Skillsnew> */}
 
         </section>
     );

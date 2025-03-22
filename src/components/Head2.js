@@ -35,7 +35,7 @@ const Head2 = () => {
 
         const timer = setTimeout(() => {
             const primaryColor = getComputedStyle(document.documentElement).getPropertyValue('--primary');
-            const a1 = annotate(document.querySelector('#e1'), { type: 'circle', color: '#936BFF', iterations: 5 });
+            const a1 = annotate(document.querySelector('#e1'), { type: 'circle', color: '#936BFF', iterations: 4 });
             const a2 = annotate(document.querySelector('#e2'), { type: 'highlight', color: '#FFCA59', iterations: 1, multiline: true });
             const ag = annotationGroup([a1, a2]);
             ag.show();

@@ -68,6 +68,15 @@
   gap: 3.5rem;
 }
 
+.maxwidth-container-head3 {
+  @extend .maxwidth-container;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  width: 1440px;
+  align-items: flex-start;
+}
+
 
 
 
@@ -150,7 +159,7 @@ a {
   justify-content: center;
   align-items: center;
   //box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.10), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
- // border: 1px solid white;
+  // border: 1px solid white;
 
 }
 
@@ -216,7 +225,8 @@ a {
   transform-origin: center bottom 0px;
   transition: all 0.2s ease 0s;
   box-shadow: 0px 0px 113.4px 3px rgba(13, 4, 49, 0.08);
-  border-radius: 0rem 0rem 2rem 2rem;
+  border-radius: 0rem 0rem 6rem 6rem;
+  padding-bottom: 6rem;
 
 }
 
@@ -661,7 +671,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 4rem;
- // border: 1px solid blue !important;
+  // border: 1px solid blue !important;
 }
 
 
@@ -669,7 +679,7 @@ hr {
   margin: auto;
   width: 700px;
   max-width: 100%;
-//  border: 0px solid green;
+  //  border: 0px solid green;
 }
 
 
@@ -724,7 +734,7 @@ hr {
 
 
 .Head2container {
-  background: radial-gradient(52.56% 68.18% at 50.05% 100%, #e6e5ec 0%, #FFF 100%);
+  background: radial-gradient(52.56% 68.18% at 50.05% 100%, #e6e5ec93 0%, #FFF 100%);
   padding: 5% 0rem 5% 0rem;
   display: flex;
   flex-direction: column;
@@ -754,11 +764,12 @@ hr {
   font-weight: 320 !important;
   letter-spacing: 0rem !important;
   color: var(--text);
+
 }
 
 .currenlydesigningtext {
   @extend .subtext-under-bigtext2;
-  max-width: 100%!important;
+  max-width: 100% !important;
   text-wrap: nowrap !important;
 
 }
@@ -831,12 +842,12 @@ button {
 
 
 .animatedparagraph {
-  font-family: 'Instrument Sans';
-  font-size: 4rem;
-  font-weight: 350;
+
+  font-size: 3.5rem !important;
+  font-weight: 350 !important;
   line-height: 130% !important;
-  letter-spacing: -0.08rem;
-  color: $grey800;
+  letter-spacing: -0rem;
+  color: $grey700 !important;
   position: sticky;
   top: 30%;
   padding-bottom: 20rem;
@@ -848,17 +859,25 @@ button {
   border: 1px solid red !important;
 }
 
-.copy-success{
+.copy-success {
   font-family: 'Instrument Sans';
   font-size: 1rem;
   padding-left: 0.5rem;
   color: $primary
 }
 
-.button-div{
+.button-div {
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
+}
+
+.head3container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5rem 0rem 5rem 0rem;
+  gap: 1rem;
 }
 
 
