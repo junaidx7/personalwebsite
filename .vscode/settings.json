@@ -9,7 +9,6 @@
         "README.md": true,
         "package.json": true,
         "package-lock.json": true,
-        "gulpfile.js": true,
         ".gitignore": true,
         "src/Scrolltotop.js": true,
         "node_modules": true,
