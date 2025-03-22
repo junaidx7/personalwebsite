@@ -149,7 +149,7 @@ const Digitalmenu = () => {
         <ContentBox
           overline="High Fidelity design"
           heading="Creating Pixel Perfect Designs"
-          body1="I converted the wireframes to high fidelity design, I choose colors based on color psycology and that would match a restaurant related application. 8pt grid system and 3 column grid system were used."
+          body1="I converted the wireframes to high fidelity design, I choose colors based on color psychology and that would match a restaurant related application. 8pt grid system and 3 column grid system were used."
         />
 
         <ContentBox
