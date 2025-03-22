@@ -35,7 +35,7 @@ const Du = () => {
         />
 
         <ContentBox
-          heading="My Role in du digital transformation"
+          heading="My Role in — du digital transformation"
           body1="As a team member of Experience Design team at du, I contributed to the digital transformation of the du mobile application and website. My work involved translating business requirements into intuitive user experiences, enhancing the UI to improve both usability and aesthetics, conducting A/B testing to find the most optimal user flow, and actively participating in workshops and strategic discussions. "
 
         />
