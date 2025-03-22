@@ -48,7 +48,7 @@ const Du = () => {
 
 
         <TitlePara
-          heading="Comming soon..."
+          heading="Coming soon..."
           body="Detailed work responsibilities will be written soon. This project is NDA-restricted, so extended details cannot be shared.  "
         />Í
 
