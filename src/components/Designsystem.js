@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import BlockPara from "../piece-components/BlockPara";
 import Quote from "../piece-components/Quote";
 import Casestudy from "../piece-components/casestudy";
-import cover from "../image/images-casestudy/designsystem/cover.png";
+import cover from "../image/images-casestudy/designsystem/cover.jpg";
 import coverleft from "../image/images-casestudy/designsystem/coverleft.jpg";
 import coverright from "../image/images-casestudy/designsystem/coverright.jpg";
 import principles from "../image/images-casestudy/designsystem/principles.png";
