@@ -4,7 +4,7 @@ import ProjectGrid from './projectGrid'
 import { useEffect } from 'react';
 import Aboutme from "./aboutme"
 import ThemeToggle from '../js/ThemeToggle';
-import Head3 from './Head3';
+
 
 const Home = () => {
 
