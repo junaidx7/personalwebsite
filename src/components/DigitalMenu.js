@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import cover from "../image/images-casestudy/menu/cover.jpg";
-import restcover from "../image/images-casestudy/menu/restcover.jpg";
 import Casestudy from "../piece-components/casestudy";
 import coverright from "../image/images-casestudy/menu/coverright.jpg";
 import coverleft from "../image/images-casestudy/menu/cover2.jpg";
@@ -156,14 +155,7 @@ const Digitalmenu = () => {
           ImageC={cover}
         />
 
-        {/* <ContentBox
-          ImageC={font}
-        />
 
-
-        <ContentBox
-          ImageC={color}
-        /> */}
 
         <ContentBox
 
@@ -225,7 +217,7 @@ const Digitalmenu = () => {
       <Casestudy
         casestudytitle="Digital Menu, Paperless menu to fight the pandemic."
         content={<Content />}
-        coverimg={restcover}
+        coverimg={cover}
         coverimgleft={coverleft}
         coverimgright={coverright}
       />
