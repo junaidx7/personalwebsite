@@ -12,7 +12,6 @@ import grid from "../image/images-casestudy/designsystem/grid.jpg";
 import typography from "../image/images-casestudy/designsystem/typography.jpg";
 import quoteimg from "../image/images-casestudy/Quote.svg";
 import atomicsystem from "../image/images-casestudy/designsystem/atomicsystem.jpg";
-import designpreview from "../image/images-casestudy/designsystem/designpreview.jpg";
 import ContentBox from "./ContentBox";
 
 
