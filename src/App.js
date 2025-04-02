@@ -6,13 +6,11 @@ import Digitalmenu from './components/DigitalMenu'
 import Designsystem from './components/Designsystem'
 import Casestudy from './piece-components/casestudy'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
 import { useEffect } from 'react';
 import Whoisthisdude from './components/Whoisthisdude';
 import ScrollToTop from './Scrolltotop';
 import Du from './components/Du';
 import Footer from './components/Footer'
-
 function App() {
 
   useEffect(() => {
