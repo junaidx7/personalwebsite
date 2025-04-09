@@ -15,7 +15,8 @@
         ".vscode": true,
         "public": true,
         "src/scss/animations/glare.scss": true,
-        "src/css": true
+        "src/css": true,
+        "src/core": true
     },
     "hide-files.files": []
 }

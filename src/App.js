@@ -1,16 +1,25 @@
-import './css/index.css';
-import Home from './components/home'
-import Demotextscale from './components/demotextscale'
-import Accounting from './components/Accounting'
-import Digitalmenu from './components/DigitalMenu'
-import Designsystem from './components/Designsystem'
-import Casestudy from './piece-components/casestudy'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// React and Routing
 import { useEffect } from 'react';
-import Whoisthisdude from './components/Whoisthisdude';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+// Pages
+import Home from './Components/Pages/Home/Home';
+import Demotextscale from './Components/Pages/TextScale/demotextscale';
+import Accounting from './Components/Pages/Accounting/Accounting';
+import Digitalmenu from './Components/Pages/DigitalMenu/DigitalMenu';
+import Designsystem from './Components/Pages/N1/Designsystem';
+import Whoisthisdude from './Components/Pages/Home/Whoisthisdude';
+import Du from './Components/Pages/Du/Du';
+
+// Components
+import Footer from './Components/Footer/Footer';
+
+// Utilities
 import ScrollToTop from './Scrolltotop';
-import Du from './components/Du';
-import Footer from './components/Footer'
+
+
+// Styles
+import './css/index.css';
 function App() {
 
   useEffect(() => {
@@ -34,12 +43,11 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/textscale" element={<Demotextscale />} />
             <Route path="/accounting" element={<Accounting />} />
-            <Route path="/Digitalmenu" element={<Digitalmenu />} />
-            <Route path="/Designsystem" element={<Designsystem />} />
-            <Route path="/Casestudy" element={<Casestudy />} />
-            <Route path="/Whoisthisdude" element={<Whoisthisdude />} />
-            <Route path="/Accounting" element={<Accounting />} />
-            <Route path="/Du" element={<Du />} />
+            <Route path="/digitalmenu" element={<Digitalmenu />} />
+            <Route path="/designsystem" element={<Designsystem />} />
+            {/* <Route path="/casestudy" element={<Casestudy />} /> */}
+            <Route path="/whoisthisdude" element={<Whoisthisdude />} />
+            <Route path="/du" element={<Du />} />
 
 
           </Routes>
