@@ -1,889 +1,107 @@
-//----------base----------------
+//----------base-----------------------------------------------------
 
-@import "../scss/base/shimmer";
 @import "../scss/base/color";
 @import "../scss/base/typescale";
 @import "../scss/base/spacing";
 
-@import "../scss/base/footer_modern.scss";
-@import "../scss/base/header.scss";
-@import "../scss/base/backtop.scss";
 
+//----------UI Components-------------------------------------------
 
-//----------Home---------------------
-
-@import "../scss/home/skills.scss";
-@import "../scss/home/aboutme.scss";
-
-//----------Projectss----------------
-
-@import "../scss/Projects/project";
-
-//----------Animations---------------
-
-@import "../scss/animations/reval-animation.scss";
-
-
-
-//---------FOOTER--------------------------
-
-@import "../scss/home/footer.scss";
-
-
-//-----------------------------------
+@import "../Components/UI/Footer/Footer.scss";
+@import "../Components/UI/Header/header.scss";
+@import "../Components/UI/Back-to-top/backtop.scss";
+@import "../Components//UI/Button/ButtonPrimary/ButtonPrimary.scss";
 
 
 
 
 
-:root {
-  --transition: 0.2s;
+//----------Pages ------------------------------------------------
 
-}
+@import "../Components/Pages/Home/home-scss//home.scss";
+@import "../Components/Pages/Aboutme/aboutme.scss";
+@import "../Components/Pages/CaseStudy/casestudy-styling/casestudy.scss";
+// @import "../Components/Pages/CaseStudy/";
+
+@import "../Components/Pages/Du/du-ai/duai.scss";
 
 
+
+
+//----------Animations------------------------------------------
+
+@import "../Animations/reval-animation.scss";
+
+
+
+
+//--------------------------------------------------------------
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-
-
-.maxwidth-container-text {
-  width: 680px;
-}
-
-.text-container {
-  width: 750px;
-  margin: auto;
-}
-
-
-.maxwidth-container-withflex {
-  @extend .maxwidth-container;
-  display: flex;
-  flex-direction: column;
-  gap: 3.5rem;
-}
-
-.maxwidth-container-head3 {
-  @extend .maxwidth-container;
-  display: flex;
-  flex-direction: column;
-  gap: 3.5rem;
-  width: 1440px;
-  align-items: flex-start;
-}
-
-
-
-
-.section-gap {
-  margin-bottom: 5rem;
-}
-
-
-/* Pop */
-@keyframes pop {
-  50% {
-    transform: scale(1.1);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-.pop {
-  display: inline-block;
-
-  &:hover {
-    animation-name: pop;
-    animation-duration: 0.3s;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;
-
-  }
-}
-
-
-//_______PROJECTS___________________________________________________
-
-.arr {
-  max-width: 1.5rem;
-  aspect-ratio: 1/1;
-}
-
-.infobox {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-  margin-top: 1rem;
-  margin-left: 1rem;
-}
-
-//__________________________________________________________
-
-
-a {
-  color: green;
-}
-
-
-//____NEW PROJECT______________________________________________________
-
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: 40px;
-  //padding: 3rem;
-}
-
-.project {
-  aspect-ratio: 1/1;
-  grid-column: span 6 / span 6;
-}
-
-.project-margintop {
-  margin-top: 6rem;
-}
-
-.project-imgbox {
-  width: 100%;
-  height: auto;
-  border-radius: $large-radius;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  //box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.10), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
-  // border: 1px solid white;
+body {
 
 }
 
-.grow-rotate {
-  transition-duration: var(--transition);
-  transition-property: transform;
 
-  &:hover {
-    transform: scale(1.04) rotate(1deg);
-
-  }
-}
-
-.grow-rotate-opposite {
-  transition-duration: 0.1s;
-  transition-property: transform;
-
-  &:hover {
-    transform: scale(1.04) rotate(-2deg);
-    box-shadow: 0px 24px 48px -12px rgba(16, 24, 40, 0.18);
-  }
-}
-
-
-.grow-rotate-reverse {
-  transition-duration: 0.1s;
-  transition-property: transform;
-  transform: scale(1.04) rotate(2deg);
-
-  &:hover {
-    transform: scale(1.3) rotate(0deg);
-  }
-}
-
-.grow-rotate-small {
-  transition-duration: 0.1s;
-  transition-property: transform;
-  transform: scale(1) rotate(2deg);
-
-  &:hover {
-    transform: scale(1) rotate(0deg);
-  }
-}
-
-
-
-
-.maxwidth-container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 1rem;
-}
-
-
-
-
-//_______Footer animation___________________________________________________
-
-.wrapper {
-
-  border: 0px solid red;
-
-  transform-origin: center bottom 0px;
-  transition: all 0.2s ease 0s;
-  box-shadow: 0px 0px 113.4px 3px rgba(13, 4, 49, 0.08);
-  border-radius: 0rem 0rem 6rem 6rem;
-  padding-bottom: 6rem;
-
-}
-
-body.tight .wrapper {
-  transform: translateY(0px) scale(0.8);
-  cursor: pointer;
-}
-
-@keyframes bounce {
-
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-
-  40% {
-    -moz-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-
-  60% {
-    -moz-transform: translateY(-15px);
-    -ms-transform: translateY(-15px);
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
-}
-
-//___GRIDD___________________________________________________________________________
-
-.even-spacing-project {}
-
-.grid12 {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(3rem, 1fr));
-  gap: 1rem;
-  border: 1px solid wheat;
-}
-
-.project1 {
-  grid-column: span 6;
-  height: 30px;
-  background-color: #5c5c5c;
-}
-
-.project2 {
-  grid-column: span 6;
-  height: 30px;
-  background-color: #5c5c5c;
-}
-
-.project3 {
-  grid-column: span 6;
-  height: 30px;
-  background-color: #5c5c5c;
-}
-
-.project4 {
-  grid-column: span 6;
-  height: 30px;
-  background-color: #5c5c5c;
-}
-
-.tiltedvid {
-  width: 10rem;
-  display: flex;
-  pointer-events: none !important;
-  aspect-ratio: 4/3;
-  rotate: 3deg;
-  border-radius: 12px;
-  position: relative;
-  overflow: hidden;
-  justify-content: center;
-  align-items: center;
-}
-
-.vidinside {
-  width: 100%;
-  height: auto;
-  display: block;
-  pointer-events: none !important;
-}
-
-.bigbox {
-  margin-top: 5rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-}
-
-.bigbox {
-  margin-top: 5rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-}
-
-
-
-#see-section {
-  background: $primary;
-  height: 300vh;
-  width: 100%;
-  border-radius: 0rem 0rem 0rem 0rem;
-}
-
-.mgb5 {
-  margin-bottom: 5rem;
-}
 
 a {
   text-decoration: none;
 }
 
-//DEMO TEXT SCALE STUFF
 
-.demotextscale {
-  padding-top: 5rem;
-  padding-bottom: 10rem;
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
 
-  div {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
+.wrapper {
 
-  .border {
-    border: 0px solid red !important;
-    background-color: green($color: #000000);
-    padding: 2rem;
-  }
+  transform-origin: center bottom 0px;
+  transition: all 0.2s ease-in-out 0s;
+  border-radius: 0rem 0rem 4rem 4rem;
+ 
 
 }
 
+body.tight.wrapper {
 
-
-//---HEADER---------------------------------------------------
-
-header {
-  background-color: var(--bg);
-  padding-top: 1rem;
-}
-
-.header-back {
-  margin: 0rem 2rem;
-  padding: 1rem 0rem;
-}
-
-//------Header Products---------------------------------------------------------
-
-.header-product {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 95%;
-  margin: auto;
-}
-
-.header-product-links {
-  display: flex;
-  flex-direction: row;
-  gap: 1.5rem;
-}
-
-.gone {
-  visibility: hidden;
-  font-size: 0.001rem;
-}
-
-.tobedelted {
-  height: 1000px;
-}
-
-.flexforsidebarandcontent {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-}
-
-//------Who is this dude---------------------------------------------------------
-
-.mypic {
-  max-width: 23rem;
-  max-height: 100%;
-  /* Set a maximum height */
-  height: auto;
-  /* Allow the image to resize proportionally */
-  object-fit: contain;
-}
-
-.aboutme-whoisthisdude {
-  max-width: 900px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 8rem;
-}
-
-.aboutme-div {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 5rem;
-}
-
-.aboutme-text {
-  max-width: 25rem;
-}
-
-.mystrengthtext {
-  max-width: 50rem;
-}
-
-
-
-
-//-----------------------------------------------------------
-
-.NDA-sections {
-  display: flex;
-  flex-direction: row;
-  padding: 0.8rem;
-  border-radius: 0.5rem;
-  background-color: #32240b;
-  gap: 1rem;
-  justify-content: flex-start;
-  align-items: flex-start;
-
-  p {
-    color: #c8902a;
-    font-weight: 400;
-  }
-
-  img {
-    padding-top: 0.2rem;
-  }
-}
-
-//------Other case study-----------------------------
-
-.othercasestudy-section {
-  max-width: 800px;
-  margin: auto;
-  padding-bottom: 10rem;
-}
-
-.othercasestudy-div {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-}
-
-.othercasestudy-img {
-  width: 100%;
-  border-radius: 1rem;
-}
-
-.othercasestudy-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.infobox-othercasestudy {
-  max-width: 25rem;
-  padding-top: 0.5rem;
-}
-
-//-----------------------------------
-
-hr {
-  border: 0.3px solid rgb(39, 39, 39);
-  /* Line color */
-  margin: 20px 0px 4rem 0px;
-  /* Space around the line */
-}
-
-.showborder {
-  border: 1px solid red;
-  padding: 4px;
-}
-
-
-.chipsskills {
-  @extend .grow-rotate;
-
-  border: 1px solid rgb(66, 66, 66);
-  padding: 1rem 1.5rem 1rem 1.5rem;
-  border-radius: 30rem;
-  display: inline-block;
-  color: grey;
-  margin: 0.3rem;
-
-
-  &:hover {
-    background-color: var(--bg);
-    color: palegoldenrod;
-    border: 0px;
-  }
-
-
-}
-
-.chipsskills-reverse {
-  @extend .grow-rotate-opposite;
-
-  border: 1px solid rgb(66, 66, 66);
-  padding: 1rem 1.5rem 1rem 1.5rem;
-  border-radius: 30rem;
-  display: inline-block;
-  color: grey;
-  margin: 0.3rem;
-
-
-  &:hover {
-    background-color: rgb(184, 150, 87);
-    color: rgb(105, 68, 0);
-    border: 0px;
-  }
-
-
-}
-
-
-/* WebKit Browsers */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #1e1e1e;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #4a4a4a;
-  border-radius: 6px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #5e5e5e;
-}
-
-
-
-.nointeraction {
-  pointer-events: none;
-}
-
-
-.designingfordiv {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-}
-
-
-.center {
-  margin: auto;
-}
-
-.duiconbigbox {
-
-  width: 2.3rem;
-  height: 2.3rem;
-}
-
-
-.poloroid1 {
-  position: absolute;
-  left: -11rem;
-  top: 10%;
-  transform: rotate(10deg);
-  transition: all 0.3s ease; // Smooth animation on hover
-
-  &:hover {
-    left: 6rem; // Moves it to the right
-    scale: 1.2;
-    transform: rotate(-3deg); // Optional: adjust rotation
-  }
-}
-
-.poloroid2 {
-  position: absolute;
-  left: -10rem;
-  top: 30%;
-  transform: rotate(-8deg);
-  transition: all 0.3s ease; // Smooth animation on hover
-
-  &:hover {
-    left: 2rem; // Moves it to the right
-    transform: rotate(2deg); // Optional: adjust rotation
-  }
-}
-
-.poloroid3 {
-  position: absolute;
-  right: -11rem;
-  top: 10%;
-  transform: rotate(-6deg);
-  transition: all 0.3s ease; // Smooth animation on hover
-
-  &:hover {
-    right: 3rem; // Moves it to the left (relative to its initial right position)
-    transform: rotate(0deg); // Optional: adjust rotation
-  }
-}
-
-.poloroid4 {
-  position: absolute;
-  right: -10rem;
-  top: 30%;
-  transform: rotate(8deg);
-  transition: all 0.3s ease; // Smooth animation on hover
-
-  &:hover {
-    right: 2rem; // Moves it to the left (relative to its initial right position)
-    transform: rotate(5deg); // Optional: adjust rotation
-  }
-}
-
-
-
-
-.project-sections {}
-
-.contentbox-container {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  // border: 1px solid blue !important;
-}
-
-
-.pieces-div-text {
-  margin: auto;
-  width: 700px;
-  max-width: 100%;
-  //  border: 0px solid green;
-}
-
-
-
-.pieces-div-img {
-  margin: auto;
-  width: 1000px;
-  max-width: 100%;
-  //border: 0px solid orange;
-  padding: 5px;
-}
-
-
-.pieces-div-coverimg {
-  margin: auto;
-  max-width: 2440px !important;
-  //max-width: 90% !important;
-  padding: 1rem;
-
-}
-
-.fitisnide {
-  margin: auto;
-  max-width: 100%;
-
-}
-
-.padding-img {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin: auto;
-}
-
-.bigbox2 {
-  margin-top: 0rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-}
-
-.bigtext2 {
-
-  font-family: 'Inter Tight';
-  font-size: 7.5rem;
-  font-weight: 450;
-  letter-spacing: -0.4rem;
-  line-height: 94%;
-  color: var(--h1);
-
-}
-
-
-.Head2container {
-  background: radial-gradient(52.56% 68.18% at 50.05% 100%, #e6e5ec93 0%, #FFF 100%);
-  padding: 5% 0rem 5% 0rem;
-  display: flex;
-  flex-direction: column;
-  gap: 3.5rem;
-  border: 0px solid grey;
-  align-items: center;
-  justify-content: center;
-  min-height: 60vh;
-  transition: 'background 4s ease'; // Add transition for smooth animation
-}
-
-.designingfordiv2 {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-
-}
-
-
-#bio {
-  text-align: center;
-}
-
-.subtext-under-bigtext2 {
-  font-size: 1.5rem;
-  max-width: 55rem !important;
-  font-weight: 320 !important;
-  letter-spacing: 0rem !important;
-  color: var(--text);
-
-}
-
-.currenlydesigningtext {
-  @extend .subtext-under-bigtext2;
-  max-width: 100% !important;
-  text-wrap: nowrap !important;
-
-}
-
-
-
-
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-}
-
-
-
-
-button {
-  padding: 1rem 2.5rem;
-  color: $grey700;
-  border: 1px solid $grey300;
+  transform: translateY(0px) scale(0.8);
   cursor: pointer;
-  font-family: 'Instrument Sans', 'sans-serif';
-  display: flex;
-  align-items: center;
-  gap: 0.25em;
-  white-space: nowrap;
-  border-radius: 2rem;
-  position: relative;
-  transition: scale var(--transition);
-  transform-style: preserve-3d;
-  perspective: 100vmin;
-  overflow: hidden;
-  background-color: #ffffff00;
 
-  &:active {
-    scale: 1;
-  }
+}
 
-  &:hover {
-    background-color: var(--primary);
-    color: white;
-    border: 1px solid $primary;
-    scale: 1.2;
-    rotate: 0deg;
-  }
+.tight {
+
+  transform: translateY(0px) scale(0.8);
+  cursor: pointer;
+
+}
+
+
+.redborder {
+  border: 1.5px solid red !important;
+}
+
+
+
+//--------SHARED------------------------------------------------------
+
+.links {
+
+  text-decoration: underline;
+
+
 
 }
 
 
 
-.flyingpolo2 {
-
-  margin-top: 10rem;
-  padding-top: 200rem;
-  rotate: -5deg;
-  padding-left: -20rem;
-}
-
-.product-header-imagegrid-box {
-  display: flex;
-  flex-direction: column;
-  gap: $spacing-between-content-blocks-in-header;
-}
-
-.border {
-  background-color: green($color: #000000);
-  padding: 2rem;
-  margin: 1rem;
-}
-
-
-.animatedparagraph {
-
-  font-size: 3.5rem !important;
-  font-weight: 350 !important;
-  line-height: 130% !important;
-  letter-spacing: -0rem;
-  color: $grey700 !important;
-  position: sticky;
-  top: 20% !important;
-  padding-bottom: 20rem;
-  text-align: left;
-}
-
-
-.border-red {
-  border: 1px solid red !important;
-}
-
-.copy-success {
-  font-family: 'Instrument Sans';
-  font-size: 1rem;
-  padding-left: 0.5rem;
-  color: $primary
-}
-
-.button-div {
-  display: flex;
-  flex-direction: row;
-  gap: 1.5rem;
-}
-
-.head3container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 5rem 0rem 5rem 0rem;
-  gap: 1rem;
-}
-
-
-//-----Keep at bottom
 
 
 
-@import "./media/mediaquery.scss";
-@import "./media/footermedia.scss"
+
+
+
+@import "../scss/media/mediaquery.scss";
+// @import "./media/footermedia.scss"

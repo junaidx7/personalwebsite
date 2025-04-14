@@ -8,11 +8,11 @@ import Demotextscale from './Components/Pages/TextScale/demotextscale';
 import Accounting from './Components/Pages/Accounting/Accounting';
 import Digitalmenu from './Components/Pages/DigitalMenu/DigitalMenu';
 import Designsystem from './Components/Pages/N1/Designsystem';
-import Whoisthisdude from './Components/Pages/Home/Whoisthisdude';
+import Whoisthisdude from './Components/Pages/Home/Aboutme/Whoisthisdude';
 import Du from './Components/Pages/Du/Du';
 
 // Components
-import Footer from './Components/Footer/Footer';
+import Footer from './Components/UI/Footer/Footer';
 
 // Utilities
 import ScrollToTop from './Scrolltotop';
@@ -23,15 +23,52 @@ import './css/index.css';
 function App() {
 
   useEffect(() => {
-    document.title = "Junaid Portfolio";
-    document.documentElement.setAttribute("data-theme", 'light');
+
+
+    window.addEventListener('scroll', handleScroll);
+
+
+
+
+
+
+
+
 
   }, []);
+
+  function handleScroll() {
+    const wrapper = document.querySelector(".wrapper");
+    if (window.scrollY + window.innerHeight > wrapper.offsetHeight) {
+      wrapper.classList.add("tight");
+    }
+
+    else {
+      wrapper.classList.remove("tight");
+    }
+
+
+    // BACK TO PRESENTATION MODE
+    document.body.addEventListener("click", function (event) {
+      if (event.target.classList.contains("wrapper")) {
+        const scrollPosition = wrapper.offsetHeight - window.innerHeight;
+        window.scrollTo({
+          top: scrollPosition,
+          behavior: "smooth",
+        });
+      }
+    });
+
+
+
+
+
+  }
+
 
   return (
 
     <Router>
-
 
       <div className='master-wrapper'>
         <ScrollToTop />
@@ -49,17 +86,12 @@ function App() {
             <Route path="/whoisthisdude" element={<Whoisthisdude />} />
             <Route path="/du" element={<Du />} />
 
-
           </Routes>
-
 
         </div>
 
-
         <Footer></Footer>
 
-
-        {/*  <FooterModern></FooterModern>   */}
 
       </div>
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import "./color";
 
@@ -47,22 +47,22 @@ $h6-w: 500;
 $p-large-w: 300;
 $p-w: 360;
 $p-small-w: 350;
-$button-w: 500;
+$button-w: 450;
 
 
 // LETTER SPACING
 $h1-ls: -0em;
-$h2-ls: -0.022em;
-$h3-ls: -0.022em;
-$h4-ls: -0.022em;
-$h5-ls: -0.022em;
-$h6-ls: -0.022em;
+$h2-ls: -0.01em;
+$h3-ls: -0.01em;
+$h4-ls: -0.01em;
+$h5-ls: -0.01em;
+$h6-ls: -0.01em;
 
 $p-large-ls: 0em;
 $p-ls: 0.015em;
 $p-small-ls: 0.02em;
 
-$button-ls: 0em;
+$button-ls: 0.05em;
 
 
 
@@ -97,18 +97,15 @@ h4,
 h5,
 h6 {
 
-  font-family: "Instrument Sans", serif;
-  /* Set the font family */
+  font-family: "Inter Tight", sans-serif;
   font-optical-sizing: auto;
-  /* Enable automatic optical sizing */
-  font-variation-settings: "wdth" 100;
-  /* Adjust the width axis of the variable font */
-
-
+  font-style: normal;
 }
 
 p,
-li {
+li,
+a,
+button {
 
   font-family: 'Inter Tight', sans-serif;
 }

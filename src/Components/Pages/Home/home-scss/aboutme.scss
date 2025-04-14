@@ -1,0 +1,41 @@
+
+//------About Me -----------------------------------------------------------------
+
+.aboutme-section{
+
+}
+
+
+.mypic {
+    max-width: 23rem;
+    max-height: 100%;
+    /* Set a maximum height */
+    height: auto;
+    /* Allow the image to resize proportionally */
+    object-fit: contain;
+}
+
+.aboutme-whoisthisdude {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.aboutme-div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.aboutme-text {
+    max-width: 25rem;
+}
+
+.mystrengthtext {
+    max-width: 50rem;
+}

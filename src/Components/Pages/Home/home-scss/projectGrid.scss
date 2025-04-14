@@ -1,0 +1,99 @@
+.project-sections {
+
+  background-color: #F5F5F7;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 40px;
+  //padding: 3rem;
+}
+
+.project {
+  aspect-ratio: 1/1;
+  grid-column: span 6 / span 6;
+}
+
+.project-margintop {
+  margin-top: 6rem;
+}
+
+.project-imgbox {
+  width: 100%;
+  height: auto;
+  border-radius: $large-radius;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.10), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+  // border: 1px solid white;
+
+}
+
+.grow-rotate {
+  transition-duration: var(--transition);
+  transition-property: transform;
+
+  &:hover {
+    transform: scale(1.04) rotate(1deg);
+
+  }
+}
+
+.grow-rotate-opposite {
+  transition-duration: 0.1s;
+  transition-property: transform;
+
+  &:hover {
+    transform: scale(1.04) rotate(-2deg);
+    box-shadow: 0px 24px 48px -12px rgba(16, 24, 40, 0.18);
+  }
+}
+
+
+.grow-rotate-reverse {
+  transition-duration: 0.1s;
+  transition-property: transform;
+  transform: scale(1.04) rotate(2deg);
+
+  &:hover {
+    transform: scale(1.3) rotate(0deg);
+  }
+}
+
+.grow-rotate-small {
+  transition-duration: 0.1s;
+  transition-property: transform;
+  transform: scale(1) rotate(2deg);
+
+  &:hover {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+
+
+
+.maxwidth-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 1rem;
+}
+
+
+//_______INDIVIDUAL PROJECT GRID CARD___________________________________________________
+
+.arr {
+  max-width: 1.5rem;
+  aspect-ratio: 1/1;
+}
+
+.infobox {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}

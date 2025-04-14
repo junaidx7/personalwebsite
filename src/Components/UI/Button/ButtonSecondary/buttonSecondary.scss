@@ -1,0 +1,31 @@
+
+.button-secondary {
+    padding: 1rem 2.5rem;
+    color: $grey700;
+    border: 1px solid $grey300;
+    cursor: pointer;
+    font-family: 'Instrument Sans', 'sans-serif';
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+    white-space: nowrap;
+    border-radius: 2rem;
+    position: relative;
+    transition: scale var(--transition);
+    transform-style: preserve-3d;
+    perspective: 100vmin;
+    overflow: hidden;
+    background-color: #ffffff00;
+  
+    &:active {
+      scale: 1;
+    }
+  
+    &:hover {
+      background-color: var(--primary);
+      color: white;
+      border: 1px solid $primary;
+     
+    }
+  
+  }

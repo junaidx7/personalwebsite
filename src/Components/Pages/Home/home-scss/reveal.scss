@@ -1,0 +1,24 @@
+.animatedparagraph {
+  font-family: 'Inter Tight', sans-serif !important;
+  font-size: 3rem !important;
+  font-weight: 350 !important;
+  line-height: 130% !important;
+  letter-spacing: 0.0rem !important;
+  color: $grey700 !important;
+  position: sticky;
+  top: 25% !important;
+  text-align: left;
+  max-width: 90% !important;
+}
+
+
+#precision-section {
+  height: 350vh;
+
+
+}
+
+.gradient_bg_reveal {
+  background-color: #F5F5F7;
+  background: linear-gradient(180deg, #F5F5F7 0%, #BEDBFF 20%, #C7D2FF 40%, #DED6FF 60%, #E9D5FF 80%, #FFF 100%);
+}

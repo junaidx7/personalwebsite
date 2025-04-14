@@ -1,0 +1,102 @@
+.footer-section {
+
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    gap: 3rem;
+    padding: 6rem 5rem 2rem 5rem;
+    //border: 1px solid red;
+
+}
+
+
+.box3_footer {
+    display: flex;
+    min-width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+
+    //border: 1px solid red;
+
+}
+
+.text-cover {
+    padding: 3rem 5rem;
+    border-radius: 100rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #EFEFF2;
+
+}
+
+.copyemailbutton {
+
+    transform: rotate(-4deg) translate(-0rem, -1.5rem);
+    font-family: "Permanent Marker", cursive !important;
+    padding: 0.8rem 2rem !important;
+    font-weight: 300 !important;
+
+
+}
+
+
+.footer-text {
+    color: #89899D;
+    font-weight: 400;
+    font-size: 5rem !important;
+    letter-spacing: 0.03rem;
+}
+
+.footer-text-link {
+    @extend .footer-text;
+
+
+    &:hover {
+        color: $primary;
+        text-decoration: underline;
+    }
+}
+
+
+.line-border {
+
+    height: 1px;
+    /* Thickness of the line */
+    background-color: $grey200;
+    /* Line color */
+    margin-left: 4vw;
+    margin-right: 4vw;
+
+}
+
+
+.lowerbox {
+
+    max-width: 1440px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+    padding: 2rem;
+}
+
+
+
+
+
+.copy-success {
+    font-family: 'Inter Tight';
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    color: $primary
+}
+
+
+
+
+//--------------------------------------------------------------------

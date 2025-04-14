@@ -13,52 +13,18 @@ const Casestudy = ({
   coverimgright,
 }) => {
 
-  useEffect(() => {
-    const backToTop = document.getElementById('backToTop');
-    const amountScrolled = 300;
 
-    const handleScroll = () => {
-      if (window.scrollY >= amountScrolled) {
-        backToTop.style.display = 'block';
-        backToTop.style.opacity = 1;
-        backToTop.style.transition = 'opacity 0.2s';
-      } else {
-        backToTop.style.opacity = 0;
-        backToTop.style.transition = 'opacity 0.2s';
-        setTimeout(() => {
-          if (backToTop.style.opacity == 0) {
-            backToTop.style.display = 'none';
-          }
-        }, 200);
-      }
-    };
 
-    const handleClick = (event) => {
-      event.preventDefault();
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    backToTop.addEventListener('click', handleClick);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      backToTop.removeEventListener('click', handleClick);
-    };
-  }, []);
 
   return (
 
-    <section className="product-header-imagegrid-box   pieces-div-coverimg ">
+    <section className="product-header-imagegrid-box    ">
 
       <HeaderProduct />
 
       {casestudytitle && (
         <div className="product-title-container">
-          <h1 className="product-title">
+          <h1 className="bigtext">
             {casestudytitle}
           </h1>
         </div>

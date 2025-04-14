@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Config from "../../../../core/Config";
+import Config from "../../../../Config";
 
 const HeaderProduct = () => {
 

@@ -16,23 +16,9 @@ import ContentBox from "../CaseStudy/sub-components/ContentBox";
 
 
 const Digitalmenu = () => {
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
-  function handleScroll() {
-    const wrapper = document.querySelector(".wrapper");
-    if (window.scrollY + window.innerHeight > wrapper.offsetHeight) {
-      document.body.classList.add("tight");
-    } else {
-      document.body.classList.remove("tight");
-    }
-  }
-
+  
   const Content = () => {
     return (
       <div className="pieces-div">

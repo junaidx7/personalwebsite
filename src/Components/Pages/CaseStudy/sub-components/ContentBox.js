@@ -19,7 +19,7 @@ const ContentBox = ({
     return (
         <section className="sfc fitisnide">
 
-            <div className={showborder ? "border-red" : "" + "contentbox-container"}>
+            <div className={ "contentbox-container"}>
 
 
                 {(overline || heading || blockText || body1 || body2 || bulletin || body3 || body4) && (<div className="pieces-div-text">

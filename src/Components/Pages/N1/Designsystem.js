@@ -16,22 +16,10 @@ import ContentBox from "../CaseStudy/sub-components/ContentBox";
 
 
 const Designsystem = () => {
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
-  function handleScroll() {
-    const wrapper = document.querySelector(".wrapper");
-    if (window.scrollY + window.innerHeight > wrapper.offsetHeight) {
-      document.body.classList.add("tight");
-    } else {
-      document.body.classList.remove("tight");
-    }
-  }
+
+
 
   const Content = () => {
     return (
@@ -49,7 +37,7 @@ const Designsystem = () => {
 
         <ContentBox
           blockText="In a study by Nielsen Norman Group, organisations reported up to a 75% increase in development efficiency with the use of design systems."
-         
+
         />
 
 

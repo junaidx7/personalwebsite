@@ -1,0 +1,37 @@
+
+.contentbox-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    // border: 1px solid blue !important;
+  }
+
+
+
+
+
+.pieces-div-text {
+  margin: auto;
+  width: 700px;
+  max-width: 100%;
+  //  border: 0px solid green;
+}
+
+
+
+.pieces-div-img {
+  margin: auto;
+  width: 1000px;
+  max-width: 100%;
+  //border: 0px solid orange;
+  padding: 5px;
+}
+
+
+.pieces-div-coverimg {
+  margin: auto;
+  max-width: 2440px !important;
+  //max-width: 90% !important;
+  padding: 1rem;
+
+}

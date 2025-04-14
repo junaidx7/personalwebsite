@@ -1,0 +1,18 @@
+button {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+  white-space: nowrap;
+  border-radius: 2rem;
+  color: white;
+  background-color: var(--primary);
+  border: none;
+
+  &:hover {
+    background-color: var(--primary-dark);
+    // border: 1px solid $primary;
+
+  }
+
+}

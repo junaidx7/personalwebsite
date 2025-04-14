@@ -1,0 +1,81 @@
+//------Head-----------------------------------------------------------------
+
+
+
+.head-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.head-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+
+//bigbox
+
+.bigbox2 {
+  margin-top: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.bigtext {
+
+  font-size: 7.2rem;
+  font-weight: 430;
+  letter-spacing: -0.3rem;
+  color: var(--h1);
+  text-align: center;
+
+}
+
+
+
+
+
+//designing for div
+.designingfordiv {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+
+.duiconbigbox {
+
+  width: 2.2rem;
+  height: 2.2rem;
+
+  aspect-ratio: 1/1;
+}
+
+
+#bio {
+  text-align: center;
+}
+
+
+.subtext-under-bigtext2 {
+  font-size: 1.5rem;
+  max-width: 55rem !important;
+  font-weight: 320 !important;
+  letter-spacing: 0rem !important;
+  color: var(--text);
+
+}
+
+.currenlydesigningtext {
+  @extend .subtext-under-bigtext2;
+  max-width: 100% !important;
+  text-wrap: nowrap !important;
+
+}

@@ -13,8 +13,8 @@ $grey900: #111827;
 $grey950: #020712;
 $blk : #000000;
 
-$primary:#936BFF;
-$primary-dark:#2a1665;
+$primary:#0171E3;
+$primary-dark:rgb(0, 99.57, 201.8);
 $primary-light:#bba3ff;
 
 
@@ -26,7 +26,7 @@ $primary-light:#bba3ff;
     --primary-dark: #{$primary-dark};
     --primary-light: #{$primary-light};
     --bg:white;
-    --bg_opposite:#E3E0ED;;
+    --bg_opposite:#E8E8ED;;
 
     --h1:#{$grey800};
     --h2:#{$grey700};

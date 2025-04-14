@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import config from "../../../Config";
+// import config from "../../../core/Config";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -26,15 +26,12 @@ const Footer = () => {
                     <div className="text-cover">
 
 
-                        <h1 className="footer-text">junaid79x@gmail.com</h1>
+                        <h1 className="footer-text">Junaid79x@gmail.com</h1>
                     </div>
 
                     <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
 
                         <button className="copyemailbutton" onClick={handleCopyEmail}>copy email</button>
-
-
-
 
 
                     </div>
@@ -44,10 +41,14 @@ const Footer = () => {
 
                 </div>
 
+                <div className="lowerbox">
+
+                    <p className="sm">This portfolio is designed, coded, and written by me.</p>
 
 
 
 
+                </div>
 
 
 
@@ -56,31 +57,8 @@ const Footer = () => {
             </section>
 
 
-            <div className="line-border"></div>
-
-            <div className="lowerbox">
-
-                <h5>Junaid Mohamed</h5>
 
 
-                <div style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
-
-                    <Link to='/'>    <h5>Home</h5>  </Link>
-
-
-
-                    <h5>About</h5>
-
-                    {/* <h5>Work</h5>
-
-                <h5>Contact</h5> */}
-
-
-                </div>
-
-
-
-            </div>
 
         </div>
     );

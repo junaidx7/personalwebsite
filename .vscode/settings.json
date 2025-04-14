@@ -16,7 +16,10 @@
         "public": true,
         "src/scss/animations/glare.scss": true,
         "src/css": true,
-        "src/core": true
+        "src/index.js": true,
+        "src/App.js": false,
+        "src/gulpfile.js": false,
+        "src/Config.js": false
     },
     "hide-files.files": []
 }
