@@ -48,7 +48,7 @@ const Hero = () => {
                 </h5>
 
 
-                <div className='designingfordiv'>
+                <div className='designing-for-container'>
                     <h5 className='subtext-under-bigtext2 currenlydesigningtext'> currently designing for</h5>
                     <img src={duicon} alt="Description" className='duiconbigbox' />
 
