@@ -1,4 +1,4 @@
-import mypic from "./aboutme-img/bathselfie.jpg"
+import mypic from "./aboutme-img/bathselfie.jpeg"
 import HeaderProduct from "../../../UI/Header/header";
 import { useEffect } from "react";
 

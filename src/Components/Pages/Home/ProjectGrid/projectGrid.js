@@ -95,7 +95,7 @@ const ProjectGrid = () => {
               <img src={designsystemcover} class="project-imgbox"></img>
 
               <div className="infobox">
-                <p className="lg project_title white">
+                <p className="lg project_title">
                   N1 : Design System for Suite of ERPs
                 </p>
                 {/* <img className="arr" src={arr} alt="" /> */}
@@ -109,7 +109,7 @@ const ProjectGrid = () => {
 
               <div className="infobox">
                 <p className="lg project_title ">
-                  Accounting for every business
+                  ERP and Accounting for premium clients
                 </p>
                 {/* <img className="arr" src={arr} alt="" /> */}
               </div>

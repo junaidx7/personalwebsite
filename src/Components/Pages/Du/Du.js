@@ -32,7 +32,7 @@ const Du = () => {
 
           <ContentBox
             heading="Non disclosure."
-            body1="I can't disclose further details about du project, but I'd be happy to discuss my role at du during an interview."
+            body1=" Due to non disclosure nature of this project, I can't disclose further details about this project, but I'd be happy to discuss my role at du during an interview."
 
           />
 
@@ -54,7 +54,7 @@ const Du = () => {
 
           </div >
 
-          <img className="du-ai-img" src={mergemind} alt="" />
+          <img className="du-ai-img" src={mergemind} />
 
         </div >
 

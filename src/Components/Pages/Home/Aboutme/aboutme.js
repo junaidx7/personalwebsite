@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import bathselfie from "./aboutme-img/bathselfie.jpg"
+import bathselfie from "./aboutme-img/bathselfie.jpeg"
 import office from "./aboutme-img/office.webp"
 
 
