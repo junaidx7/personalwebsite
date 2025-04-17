@@ -9,7 +9,7 @@ const Aboutme = () => {
   return (
 
 
-    <div className="aboutme-section  ">
+    <div className="aboutme-section">
 
 
       <div className="grid12px">
@@ -24,18 +24,18 @@ const Aboutme = () => {
 
           <p className="md subtext bottom-xl">
             I am a generalist at heart, i got into product design because it
-            allowed me to pursue my interest in creative, business and tech
+            allowed me to pursue my interest in creative, tech and business
             field. I’ve since worked on a range of problem for various industries including -
-            finance, education, property, and social. i am looking
+            telecom, finance, education, ERPs etc. i am looking
             for impactful, purposeful work with a diverse team of talented
             people.
           </p>
 
-          <Link to="/Whoisthisdude" >
+          {/* <Link to="/Whoisthisdude" > */}
 
-            <button>Get to know me and my interests</button>
+          <button>Get to know me and my interests - coming soon</button>
 
-          </Link>
+          {/* </Link> */}
         </div>
       </div>
 
