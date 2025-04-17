@@ -2,6 +2,7 @@
 import Imagegrid4 from "./sub-components/Imagegrid4";
 import HeaderProduct from "./sub-components/header-product";
 import { useEffect } from "react";
+import TitleBox from '../CaseStudy/sub-components/TitleBox/TitleBox';
 
 
 const Casestudy = ({
@@ -22,16 +23,10 @@ const Casestudy = ({
 
       <HeaderProduct />
 
-      {casestudytitle && (
-        <div className="product-title-container">
-          <h1 className="bigtext">
-            {casestudytitle}
-          </h1>
-        </div>
-      )}
+      <TitleBox projecttitle={casestudytitle} />
 
-      <div className="pieces-div-coverimg">
 
+      <div className="pieces-div-coverimg bottom-2xl">
 
         <Imagegrid4
           imgcover={coverimg}
@@ -41,7 +36,7 @@ const Casestudy = ({
 
       </div>
 
-      <div className="pieces-div-text">
+      <div className="pieces-div-text  bottom-2xl">
         <h1>{casestudytitle2}</h1>
       </div>
 

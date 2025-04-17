@@ -147,7 +147,7 @@ const Designsystem = () => {
   return (
     <section className="hourglass-section">
       <Casestudy
-        casestudytitle="N1 : Scalable & Efficient Design system for ERPs."
+        casestudytitle="Building scalable & efficient design system for ERPs."
         content={<Content />}
         coverimg={cover}
         coverimgleft={coverleft}

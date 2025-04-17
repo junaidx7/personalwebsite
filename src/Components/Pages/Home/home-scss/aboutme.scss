@@ -1,8 +1,8 @@
-
 //------About Me -----------------------------------------------------------------
 
-.aboutme-section{
-
+.aboutme-section {
+    overflow-x: hidden;
+    display: none;
 }
 
 
@@ -39,3 +39,34 @@
 .mystrengthtext {
     max-width: 50rem;
 }
+
+
+
+
+
+//------
+
+
+@media screen and (min-width: 640px) {}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1024px) {
+
+    .aboutme-section {
+        overflow-x: hidden;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .aboutme-section {
+        overflow-x: visible;
+
+    }
+
+
+}
+
+@media screen and (min-width: 1536px) {}

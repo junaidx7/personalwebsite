@@ -41,14 +41,14 @@ const Footer = () => {
 
                 </div>
 
-                <div className="lowerbox">
-
-                    <p className="sm">This portfolio is designed, coded, and written by me.</p>
 
 
+                <p className="sm copyright">This portfolio is designed, coded, and written by me.</p>
 
 
-                </div>
+
+
+
 
 
 

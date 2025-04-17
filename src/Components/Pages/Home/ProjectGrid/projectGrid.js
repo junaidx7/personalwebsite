@@ -53,7 +53,7 @@ const ProjectGrid = () => {
 
 
 
-        <h2 className=" bottom-2xl  top-3xl">Selected work</h2>
+        <h2 className=" bottom-2xl  top-2xl">Selected work</h2>
 
         <div className="grid-container">
 

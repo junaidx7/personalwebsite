@@ -3,6 +3,7 @@
 @import "../scss/base/color";
 @import "../scss/base/typescale";
 @import "../scss/base/spacing";
+@import "../Components/Pages/TextScale/demotextscale.scss";
 
 
 //----------UI Components-------------------------------------------
@@ -14,8 +15,6 @@
 
 
 
-
-
 //----------Pages ------------------------------------------------
 
 @import "../Components/Pages/Home/home-scss//home.scss";
@@ -24,6 +23,8 @@
 // @import "../Components/Pages/CaseStudy/";
 
 @import "../Components/Pages/Du/du-ai/duai.scss";
+@import "../Components/Pages/CaseStudy/sub-components/TitleBox/TitleBox.scss";
+@import "../Components/Pages/CaseStudy/casestudy-styling/contentbox.scss";
 
 
 
@@ -41,8 +42,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
-  overflow-y: auto;
+
 }
 
 body {
@@ -61,22 +61,18 @@ a {
 
   transform-origin: center bottom 0px;
   transition: all 0.2s ease-in-out 0s;
-  border-radius: 0rem 0rem 4rem 4rem;
+  border-radius: 0rem 0rem 4rem 4rem !important;
  
 
 }
 
-body.tight.wrapper {
 
-  transform: translateY(0px) scale(0.8);
-  cursor: pointer;
-
-}
 
 .tight {
 
   transform: translateY(0px) scale(0.8);
   cursor: pointer;
+  border-radius: 0rem 0rem 4rem 4rem !important;
 
 }
 
@@ -93,7 +89,12 @@ body.tight.wrapper {
 
   text-decoration: underline;
 
+}
 
+.maxwidth-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 1.5rem;
 
 }
 
@@ -103,9 +104,3 @@ body.tight.wrapper {
 
 
 
-
-
-
-
-@import "../scss/media/mediaquery.scss";
-// @import "./media/footermedia.scss"

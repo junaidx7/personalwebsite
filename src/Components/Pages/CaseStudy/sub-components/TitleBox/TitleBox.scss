@@ -1,0 +1,76 @@
+.Project-title {
+    font-size: 2.5rem;
+    max-width: 90%;
+    text-align: left;
+
+}
+
+.TitleBox-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+@media screen and (min-width: 640px) {}
+
+@media screen and (min-width: 768px) {
+
+    .Project-title {
+        font-size: 3.5rem;
+        max-width:70%;
+        text-align: center;
+
+    }
+
+    .TitleBox-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+
+    .Project-title {
+        font-size: 4rem;
+        max-width: 70%;
+        text-align: center;
+
+    }
+
+    .TitleBox-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+
+    .Project-title {
+        font-size: 4rem;
+        max-width: 60%;
+        text-align: center;
+
+    }
+
+    .TitleBox-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1536px) {}
