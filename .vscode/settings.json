@@ -13,10 +13,10 @@
         "src/Scrolltotop.js": true,
         "node_modules": true,
         ".vscode": true,
-        "public": true,
+        "public": false,
         "src/scss/animations/glare.scss": true,
         "src/css": true,
-        "src/index.js": true,
+        "src/index.js": false,
         "src/App.js": false,
         "src/gulpfile.js": false,
         "src/Config.js": false
