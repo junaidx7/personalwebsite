@@ -109,7 +109,7 @@ const ProjectGrid = () => {
 
               <div className="infobox">
                 <p className="lg project_title ">
-                  ERP and Accounting for premium clients
+                  The accounting and tax software for the UAE market.
                 </p>
                 {/* <img className="arr" src={arr} alt="" /> */}
               </div>

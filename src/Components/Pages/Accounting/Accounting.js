@@ -18,10 +18,10 @@ const Accounting = () => {
         />
 
 
-        <ContentBox
+        {/* <ContentBox
           heading="The need for building the design system"
           body1="The decision to build the N1 design system stemmed from my initial experience in designing the first ERP without a standardised system. I encountered numerous inconsistencies in the user interface, causing a lack of cohesion and a weakened brand identity especially when the team grew in number. As Nathan digital company evolved, the necessity for a design system became even more evident. without a design system, maintaining a consistent look and feel across these diverse products would have been next to impossible, "
-        />
+        /> */}
 
 
         <ContentBox
@@ -46,7 +46,8 @@ const Accounting = () => {
         <ContentBox
           heading="Acheivements"
           bulletin={[
-            "Became the second top selling software in the company.",
+            "Integrated with other ERP's and sold to major brands like porsche, channel, dnata, mumzworld etc.",
+            "Second top selling software in the company.",
             "Avg 22.4% less time to do the same task than on competitor software when testing",
             "Achieved a 43% sales target within the first 3 months of launch.",
           ]}
@@ -69,7 +70,7 @@ const Accounting = () => {
   return (
     <section className="hourglass-section">
       <Casestudy
-        casestudytitle="Accounting and EPRs for premium clients."
+        casestudytitle="N1 : The accounting and tax software for the UAE market."
         content={<Content />}
         coverimg={cover}
       // coverimgleft={coverleft}
