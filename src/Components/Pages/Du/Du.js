@@ -50,7 +50,7 @@ const Du = () => {
 
             <h4 id="section1" className="bottom-lg white">{"My Role in — du AI Suite"}</h4>
 
-            <p className="md subtext-dark">{"du AI Suite is a collection of AI-powered tools designed to enhance workflows and boost productivity for in-house developers and designers. I was responsible for designing multiple tools end-to-end. Due to the confidential nature of this project, more cannot be revealed here. feel free to reach out to learn more about my role in this project."}</p>
+            <p className="md subtext-dark">{"du AI Suite is a collection of AI-powered tools designed to enhance workflows and boost productivity for in-house developers and designers. I contributed to designing multiple tools end-to-end. Due to the confidential nature of this project, more cannot be revealed here. feel free to reach out to learn more about my role in this project."}</p>
 
           </div >
 
