@@ -36,6 +36,10 @@ const Du = () => {
 
           />
 
+          <div className="bottom-2xl">
+
+          </div>
+
 
 
 
@@ -43,7 +47,7 @@ const Du = () => {
 
 
 
-        <div className=" du-ai-section top-3xl ">
+        {/* <div className=" du-ai-section top-3xl ">
 
           <div className="pieces-div-text du-ai-contentbox-dark">
 
@@ -56,7 +60,7 @@ const Du = () => {
 
           <img className="du-ai-img" src={mergemind} />
 
-        </div >
+        </div > */}
 
 
 
